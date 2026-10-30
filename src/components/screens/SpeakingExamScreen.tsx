@@ -203,7 +203,7 @@ function SpeakingExam({ presetId, prompt, part }: { presetId: string; prompt: Ta
     if (i === null) return finish();
     stepRef.current = i;
     setStepIndex(i);
-    setStepStartedAt(Date.now());
+    setStepStartedAt(timestamp());
     setRecording(steps[i]!.kind === 'speak' && recorder.start());
   };
 
@@ -259,14 +259,21 @@ function SpeakingExam({ presetId, prompt, part }: { presetId: string; prompt: Ta
     setPhase('ready');
   };
 
-  // 質問を読み上げ、終わったら話す時間へ。終わりが知らされない端末のために、目安の時間でも進める
+  // 効果の中からは、いつも最新の advanceFrom を呼ぶ
+  const advanceRef = useRef(advanceFrom);
   useEffect(() => {
-    if (phase !== 'running' || step.kind !== 'listen') return;
+    advanceRef.current = advanceFrom;
+  });
+
+  // 質問を読み上げ、終わったら話す時間へ。終わりが知らされない端末のために、目安の時間でも進める
+  const listening = phase === 'running' && step.kind === 'listen';
+  useEffect(() => {
+    if (!listening) return;
     let done = false;
     const next = () => {
       if (done) return;
       done = true;
-      void advanceFrom(stepIndex);
+      void advanceRef.current(stepIndex);
     };
     if (!voice) {
       const t = window.setTimeout(next, 0);
@@ -279,13 +286,15 @@ function SpeakingExam({ presetId, prompt, part }: { presetId: string; prompt: Ta
       stop();
       window.clearTimeout(fallback);
     };
-    // advanceFrom は毎回作り直すので、段階が変わったときだけ動かす
-  }, [phase, stepIndex, voice]);
+  }, [listening, stepIndex, voice, question]);
 
   // 時間切れで次へ
+  const limit = phase === 'running' ? step.seconds : 0;
   useEffect(() => {
-    if (phase === 'running' && step.seconds > 0 && remaining === 0) void advanceFrom(stepIndex);
-  }, [phase, stepIndex, remaining]);
+    if (limit === 0) return;
+    const t = window.setTimeout(() => void advanceRef.current(stepIndex), Math.max(0, stepStartedAt + limit * 1000 - Date.now()));
+    return () => window.clearTimeout(t);
+  }, [limit, stepIndex, stepStartedAt]);
 
   const title = `Speaking Part ${part}`;
 
@@ -632,6 +641,11 @@ function ReviewView({
       </div>
     </div>
   );
+}
+
+/** 今の時刻(ミリ秒)。押したときや時間切れのときに呼ぶ */
+function timestamp(): number {
+  return Date.now();
 }
 
 /** 動いている間、今の時刻を短い間隔で返す */
