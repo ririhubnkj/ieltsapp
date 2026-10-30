@@ -1,0 +1,59 @@
+**1. 表｜医療センターの評価**
+
+The table shows how patients rated five services at three health centres, on a scale from 1 to 10.
+
+Overall, it is clear that the Brookside Centre {{got the highest scores}} in every category, while the Ashford Centre {{had the lowest ratings}}. However, doctors' service {{got similar scores}} at all three centres.
+
+Looking first at the Brookside Centre, its average score was 8.4, which was {{the highest of the three}}. Response to concerns and booking appointments {{got very high scores}}, at 9.5 and 9.3. In contrast, Ashford's average was {{only}} 5.6, and its score for response to concerns was 4.5. This was {{less than half}} of Brookside's score.
+
+Turning to the other services, doctors' service got {{almost the same}} scores at all centres, {{from}} 7.9 {{+to}} 8.6. Care of children was rated 6.0 at Ashford, 7.8 at Brookside and 7.1 at Carlton. However, pharmacy {{had the lowest scores}} at every centre, at 4.0, 6.6 and 5.6. The Carlton Centre {{was in the middle}}, with an average of 7.1.
+
+**4. 折れ線｜3つのベーカリーの年間収入**
+
+The line graph shows the yearly income of three bakeries in Halifax from 2002 to 2012.
+
+Overall, it is clear that the income of Golden Crust and Maple Sweets {{went up}}, while that of Sunrise Ovens {{went down a lot}}. However, Golden Crust's income {{did not change}} at first.
+
+Looking first at Golden Crust, its income {{stayed at}} 50,000 dollars from 2002 to 2006. After that, it {{rose quickly}} and {{became higher than}} Sunrise Ovens in 2009. In 2012, it {{reached a peak of}} 112,000 dollars. Maple Sweets started at 25,000 dollars, which was {{the lowest figure}}. However, its income went up every year to 80,000 dollars in 2012.
+
+Turning to Sunrise Ovens, it {{had the highest income}} in 2002, at 80,000 dollars, and its income rose to 95,000 dollars in 2004. After that, it {{went down slowly}} until 2008, and then it {{dropped sharply}} to 52,000 dollars in 2009. It continued to fall to 38,000 dollars in 2012, and it {{became the lowest}} of the three.
+
+**5. 棒｜旅行者の余暇の過ごし方**
+
+The bar chart shows how many hours per day tourists from four countries spent on three activities in Spain in July 2022.
+
+Overall, it is clear that Japanese tourists {{spent the most time}} reading books, while shopping {{was the least popular activity}} for all groups. However, beach time {{was very different}} for each country.
+
+Looking first at Japanese tourists, they spent 7 hours a day reading books, which was {{the highest figure}}. But they spent {{only}} 2 hours at the beach and 1 hour shopping. Mexican tourists, on the other hand, {{liked the beach the most}} and spent 6 hours there. Canadians and Germans spent 5 and 3 hours there.
+
+Turning to other activities, other groups spent {{much less time}} reading {{+than}} the Japanese, with 4 hours for Canadians, 3 for Germans and 2 for Mexicans. Shopping was {{not very popular}} with any group, and the time {{ranged from}} 1 {{+to}} 2 hours. German and Canadian tourists {{spent the same amount of time}} on it, 2 hours each.
+
+**8. 円｜オーストラリアの雇用形態**
+
+The pie charts show the percentage of full-time and part-time workers by gender in Australia in 1990 and 2015.
+
+Overall, it is clear that the share of women working full-time {{increased the most}}, while that of men working full-time {{decreased}}. However, the percentages of part-time workers {{did not change much}} for both men and women.
+
+Looking first at full-time workers, men {{had the largest share}} in 1990, at 55%, which was 4,290 thousand people. This figure {{fell}} to 48% in 2015, but it was still {{the largest group}}. In contrast, the share of women working full-time {{rose}} from 18% to 27%. Their number {{more than doubled}}, from 1,404 thousand to 3,159 thousand.
+
+Turning to part-time workers, women {{made up}} 23% of workers in 1990, and this {{went down slightly}} to 19% in 2015. Men working part-time {{rose a little}} from 4% to 6%. The total number of workers {{went up}} from 7,800 thousand to 11,700 thousand over the period.
+
+**9. 地図｜リバーサイド駅の変化**
+
+The maps show the changes at Riverside Railway Station between 2005 and now.
+
+Overall, it is clear that the station {{has been modernised}} with better transport links, while the platform and the toilets {{have stayed in the same place}}. However, the car park {{is no longer there}}.
+
+Looking first at the north side of the station, the car park {{has been removed}}, and a bus station {{has been built}} in its place. A bicycle park has also been built next to the bus station. In addition, a new footbridge {{connects}} the north side {{+to}} the south side. The platform {{has become longer}}, and it now goes almost to the eastern end of the station.
+
+Turning to the south side, the toilets and the main entrance {{have not changed}}. However, the ticket office {{has been replaced by}} ticket machines in the same place, and the cafe {{has moved}} closer to the main entrance. Finally, a new waiting room {{has been added}} where the cafe {{used to be}}.
+
+**11. 図解｜ハチミツができるまで**
+
+The diagram shows how bees make honey.
+
+Overall, it is clear that there are eight main stages in this natural process, {{starting with}} bees leaving the hive and {{ending with}} the cells being sealed with wax. The first three stages happen outside the hive, while the last five take place inside it.
+
+Looking first at the early stages, worker bees {{fly out of}} the hive and {{look for}} flowers. When they find flowers, they {{collect}} nectar from them. Then they carry the nectar back to the hive in a special honey stomach. After that, they {{pass}} the nectar {{+to}} house bees, which is the fourth stage.
+
+Turning to the final stages, the house bees {{put}} the nectar {{+into}} the cells of the honeycomb. Then they {{fan their wings}} to move air over the cells. Because of this, the water in the nectar {{evaporates}}, and the nectar {{becomes thicker}}. In this way, it slowly {{turns into}} honey. Finally, the cells {{are sealed with}} wax, and the process is complete.

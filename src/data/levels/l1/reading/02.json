@@ -1,0 +1,155 @@
+{
+  "id": "l1-r02",
+  "title": "A Market on the Square",
+  "titleJa": "広場のマーケット：小さな町が毎週の朝市を始めた話",
+  "minutes": 20,
+  "paragraphs": [
+    {
+      "label": "A",
+      "text": "Ten years ago, the small town of Elmbrook had a problem. Its main street was quiet, and several shops had closed. Most people drove twenty minutes to a large supermarket outside the town to do their weekly shopping. At the same time, farmers in the hills around Elmbrook found it hard to sell their vegetables, eggs and meat. The big supermarkets paid them very low prices, and some farmers were thinking of giving up."
+    },
+    {
+      "label": "B",
+      "text": "A local teacher, Sarah Doyle, had an idea. While she was on holiday in another part of the country, she had visited a farmers' market, where farmers sold their food directly to customers. She thought that Elmbrook could do the same. In the spring of 2016, she invited farmers, shop owners and members of the town council to a meeting in the school hall. More than sixty people came, and they agreed to try a market for one summer."
+    },
+    {
+      "label": "C",
+      "text": "Starting the market was not easy. The group needed permission from the town council to close the main square to cars every Saturday morning. They also had to buy insurance and find tables and tents. To pay for these things, each farmer paid a small fee of ten pounds a week for a stall. Some shop owners were worried at first. They thought the market would take customers away from their shops."
+    },
+    {
+      "label": "D",
+      "text": "The first market opened on a rainy Saturday in June with only nine stalls. Even so, about 400 people came, and most of the farmers sold everything before noon. News of the market spread quickly. By the end of the summer, there were twenty-five stalls, selling bread, cheese, honey, fruit and flowers as well as vegetables. Because the market was so popular, the council decided to let it continue all year."
+    },
+    {
+      "label": "E",
+      "text": "The shop owners' worries turned out to be wrong. The market brought crowds of people to the town centre, so cafés and other shops became busier on Saturdays. According to the council, the café next to the square doubled its Saturday sales in the first year. Two empty shops on the main street also reopened. One became a bakery, and the other started selling garden tools and plants."
+    },
+    {
+      "label": "F",
+      "text": "Today, the Elmbrook market is a normal part of town life. Once a month, children from the local school run their own stall, and they give the money they make to charity. Some farmers say that the market is now their most important place to sell. \"I finally meet the people who eat my food,\" says Tom Hale, who keeps chickens. Not everything is perfect. In winter, there are fewer stalls and fewer visitors. But most people in Elmbrook agree that the market has made their town a friendlier place."
+    }
+  ],
+  "groups": [
+    {
+      "type": "paragraph",
+      "instructions": "Questions 1–5. The reading passage has six paragraphs, A–F. Which paragraph contains the following information? Write the correct letter, A–F. NB You may use any letter more than once.",
+      "questions": [
+        {
+          "num": 1,
+          "text": "the number of people who visited the market on its first day",
+          "answer": "D",
+          "evidence": "D",
+          "explanation": "D段落に \"The first market opened on a rainy Saturday in June\" とあり、続けて \"about 400 people came\" と書かれています。初日に来た人の数なので D です。"
+        },
+        {
+          "num": 2,
+          "text": "a reason why some farmers were thinking of stopping their work",
+          "answer": "A",
+          "evidence": "A",
+          "explanation": "A段落に \"The big supermarkets paid them very low prices, and some farmers were thinking of giving up\" とあります。スーパーの買い取り価格が低いことが、農家がやめようと考えた理由なので A です。"
+        },
+        {
+          "num": 3,
+          "text": "a list of things the group needed before the market could open",
+          "answer": "C",
+          "evidence": "C",
+          "explanation": "C段落に \"The group needed permission from the town council\" とあり、さらに \"They also had to buy insurance and find tables and tents\" と書かれています。開く前に必要だった許可や道具が並んでいるので C です。"
+        },
+        {
+          "num": 4,
+          "text": "an example of money from the market being used to help others",
+          "answer": "F",
+          "evidence": "F",
+          "explanation": "F段落に \"they give the money they make to charity\" とあります。子どもたちが店の売り上げを慈善団体に寄付しているので F です。"
+        },
+        {
+          "num": 5,
+          "text": "where the idea for the market first came from",
+          "answer": "B",
+          "evidence": "B",
+          "explanation": "B段落に \"While she was on holiday in another part of the country, she had visited a farmers' market\" とあります。Sarah Doyle が休暇中に見た朝市がアイデアのもとなので B です。"
+        }
+      ]
+    },
+    {
+      "type": "tfng",
+      "instructions": "Questions 6–9. Do the following statements agree with the information given in the reading passage? Write TRUE if the statement agrees with the information, FALSE if the statement contradicts the information, NOT GIVEN if there is no information on this.",
+      "questions": [
+        {
+          "num": 6,
+          "text": "Sarah Doyle saw her first farmers' market while she was on holiday.",
+          "answer": "TRUE",
+          "evidence": "B",
+          "explanation": "B段落に \"While she was on holiday in another part of the country, she had visited a farmers' market\" とあります。休暇中に朝市を訪れたという内容と一致するので TRUE です。"
+        },
+        {
+          "num": 7,
+          "text": "Farmers did not have to pay anything to have a stall at the market.",
+          "answer": "FALSE",
+          "evidence": "C",
+          "explanation": "C段落に \"each farmer paid a small fee of ten pounds a week for a stall\" とあります。農家は毎週10ポンドを払っていたので、何も払わなくてよかったという問題文は本文と矛盾し、FALSE です。"
+        },
+        {
+          "num": 8,
+          "text": "Some of the farmers at the first market came from other towns.",
+          "answer": "NOT GIVEN",
+          "evidence": "D",
+          "explanation": "D段落には初日の店の数（\"only nine stalls\"）や客の数は書かれていますが、農家がどこから来たかは書かれていません。A段落にも \"farmers in the hills around Elmbrook\" とあるだけなので、NOT GIVEN です。"
+        },
+        {
+          "num": 9,
+          "text": "The café next to the square had fewer customers on Saturdays after the market opened.",
+          "answer": "FALSE",
+          "evidence": "E",
+          "explanation": "E段落に \"the café next to the square doubled its Saturday sales in the first year\" とあります。土曜日の売り上げが2倍になったので、客が減ったという問題文は本文と矛盾し、FALSE です。"
+        }
+      ]
+    },
+    {
+      "type": "short",
+      "instructions": "Questions 10–13. Answer the questions below. Choose NO MORE THAN THREE WORDS from the passage for each answer.",
+      "questions": [
+        {
+          "num": 10,
+          "text": "Where was the first meeting about the market held?",
+          "accept": ["school hall", "the school hall"],
+          "evidence": "B",
+          "explanation": "B段落の \"a meeting in the school hall\" が根拠です。答えは school hall（the school hall）です。"
+        },
+        {
+          "num": 11,
+          "text": "Apart from tables and tents, what did the group have to buy?",
+          "accept": ["insurance"],
+          "evidence": "C",
+          "explanation": "C段落の \"They also had to buy insurance and find tables and tents\" が根拠です。机とテントは「見つける」もので、「買う」必要があったのは insurance（保険）です。"
+        },
+        {
+          "num": 12,
+          "text": "What kind of shop did one of the empty shops on the main street become?",
+          "accept": ["bakery", "a bakery"],
+          "evidence": "E",
+          "explanation": "E段落の \"One became a bakery\" が根拠です。もう1軒は園芸用品の店になったので、「何の店になったか」の答えは bakery です。"
+        },
+        {
+          "num": 13,
+          "text": "Who runs a stall at the market once a month?",
+          "accept": ["children"],
+          "evidence": "F",
+          "explanation": "F段落の \"Once a month, children from the local school run their own stall\" が根拠です。3語以内という条件があるので children と書きます。"
+        }
+      ]
+    }
+  ],
+  "vocab": [
+    { "en": "give up", "ja": "やめる、あきらめる" },
+    { "en": "directly", "ja": "直接に" },
+    { "en": "town council", "ja": "町議会" },
+    { "en": "permission", "ja": "許可" },
+    { "en": "insurance", "ja": "保険" },
+    { "en": "fee", "ja": "料金、手数料" },
+    { "en": "stall", "ja": "屋台、売り場" },
+    { "en": "turn out", "ja": "結局〜だとわかる" },
+    { "en": "crowd", "ja": "人ごみ、群衆" },
+    { "en": "charity", "ja": "慈善団体、慈善" }
+  ]
+}

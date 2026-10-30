@@ -1,0 +1,198 @@
+{
+  "id": "l5-r03",
+  "title": "What the City Remembers",
+  "titleJa": "都市は感染症の歴史から何を学べるか",
+  "minutes": 20,
+  "paragraphs": [
+    {
+      "label": "A",
+      "text": "Cities and infectious disease have always been intimately connected. Dense settlement brings people, animals and waste into close proximity, and the trade routes that make a city prosperous also carry pathogens to its gates. It is therefore unsurprising that urban planners, when confronted with a new outbreak, often turn to history for guidance. Yet the historian Nadia Harlow cautions that the past is more readily plundered for reassuring analogies than studied for its complications. Epidemics, she argues, do not so much teach lessons as expose the priorities and blind spots of the societies they strike, and the value of history lies less in ready-made solutions than in the questions it obliges us to ask."
+    },
+    {
+      "label": "B",
+      "text": "The most frequently cited example of epidemic-driven reform is the sanitary movement of the nineteenth century. Repeated cholera outbreaks in rapidly growing industrial cities prompted vast investment in sewers, piped water and street drainage, works that arguably did more to extend life expectancy than any medical treatment of the period. What is less often remembered is that many reformers were guided by the belief that disease spread through foul-smelling air. Their theory was mistaken, but because removing filth also removed much of the contaminated water through which cholera actually travelled, their interventions worked. The episode suggests that effective action does not always depend on correct understanding, although it also shows how much such successes can owe to fortunate coincidence."
+    },
+    {
+      "label": "C",
+      "text": "Other responses proved more troubling. Quarantine, one of the oldest public health tools, was developed in Mediterranean port cities, where ships suspected of carrying plague were required to wait offshore for a fixed period before landing goods and passengers. Its effectiveness against some diseases is well established, but historians have documented how easily it could be turned against particular groups. During outbreaks in several colonial cities around 1900, sanitary measures were enforced far more harshly in districts inhabited by poor or minority populations, and in some cases entire neighbourhoods were demolished in the name of hygiene. The resulting distrust, Harlow notes, sometimes led residents to conceal illness, undermining the very measures that were supposed to protect them."
+    },
+    {
+      "label": "D",
+      "text": "Architecture also bears the imprint of disease. The campaign against tuberculosis in the early twentieth century encouraged a preference for sunlight, cross-ventilation and open terraces, and the sanatoria built for patients helped to popularise the clean white surfaces and flat roofs later associated with modernist design. The urban scholar Eitan Morrow suggests that the influence ran in both directions: architects borrowed the visual language of health to lend their buildings moral authority, while health authorities found in modern buildings a convenient symbol of progress. Whether the designs themselves did much to reduce infection is harder to establish, since tuberculosis rates were already falling as nutrition and housing improved."
+    },
+    {
+      "label": "E",
+      "text": "Perhaps the most instructive comparisons concern the timing of intervention. Analyses of the 1918 influenza pandemic in American cities have found that those which closed schools, theatres and churches early, and kept the measures in place for longer, tended to experience lower peak death rates than those which acted late or relaxed restrictions prematurely. Such findings must be treated with care: the cities differed in age structure, crowding and the virulence of the strain that reached them, and records from the period are incomplete. Nevertheless, the pattern has proved remarkably consistent across studies, and it informed planning for subsequent pandemics."
+    },
+    {
+      "label": "F",
+      "text": "One reason the lessons of history are hard to apply is that the infrastructure of the past outlives the circumstances that produced it. Sewers built for a city of one million may now serve a population several times larger, and wide boulevards cut through crowded districts partly for reasons of hygiene now carry heavy traffic. Morrow argues that this durability is double-edged. Investments made in a crisis can protect generations who never knew the original threat, but they can also lock cities into arrangements that later become liabilities, as when combined drainage systems, which carry sewage and rainwater in the same pipes, overflow into rivers during heavy rainfall."
+    },
+    {
+      "label": "G",
+      "text": "Recent experience has added a further dimension. In the pandemic of the early 2020s, the residents most exposed to infection were frequently those whose work could not be done from home and who lived in overcrowded housing. Researchers comparing districts within the same city found that differences in occupation and household size accounted for much of the variation in infection rates, more than population density as such. This complicates the long-standing assumption that density itself is the enemy of health, an assumption that, if acted on uncritically, might encourage dispersal into car-dependent suburbs with costs of their own."
+    },
+    {
+      "label": "H",
+      "text": "What, then, can cities usefully take from the past? Harlow's answer is deliberately modest. History cannot predict which pathogen will arrive next or how it will behave, but it consistently shows that measures perceived as fair are more likely to be obeyed, that infrastructure decisions have consequences far beyond the emergency that prompts them, and that the communities with the least power tend to bear the greatest burden. These are not technical lessons so much as political ones, and they are, for that reason, both the easiest to state and the hardest to act upon."
+    }
+  ],
+  "groups": [
+    {
+      "type": "endings",
+      "instructions": "Questions 1–5. Complete each sentence with the correct ending, A–G, below. Write the correct letter, A–G. NB There are more endings than sentences, so you will not use all of them.",
+      "options": [
+        { "key": "A", "text": "may later create problems of its own." },
+        { "key": "B", "text": "was shown to have greatly reduced rates of infection." },
+        { "key": "C", "text": "achieved good results despite relying on a faulty explanation." },
+        { "key": "D", "text": "generally recorded lower maximum death rates." },
+        { "key": "E", "text": "sometimes encouraged people to hide signs of disease." },
+        { "key": "F", "text": "depended mainly on how densely a district was populated." },
+        { "key": "G", "text": "helped to shape the appearance of a later architectural style." }
+      ],
+      "questions": [
+        {
+          "num": 1,
+          "text": "The nineteenth-century sanitary reformers",
+          "answer": "C",
+          "evidence": "B",
+          "explanation": "段落Bに \"Their theory was mistaken, but because removing filth also removed much of the contaminated water through which cholera actually travelled, their interventions worked\" とあります。悪臭の空気が病気を広めるという誤った理論に基づきながら成果を上げたので C です。"
+        },
+        {
+          "num": 2,
+          "text": "The harsh enforcement of sanitary measures in some colonial cities",
+          "answer": "E",
+          "evidence": "C",
+          "explanation": "段落Cに \"The resulting distrust, Harlow notes, sometimes led residents to conceal illness\" とあります。厳しい取り締まりが不信を生み、住民が病気を隠すようになったので E です。conceal illness が hide signs of disease に言い換えられています。"
+        },
+        {
+          "num": 3,
+          "text": "The design of tuberculosis sanatoria",
+          "answer": "G",
+          "evidence": "D",
+          "explanation": "段落Dに、療養所が \"helped to popularise the clean white surfaces and flat roofs later associated with modernist design\" とあります。後のモダニズム建築の外観に影響したので G です。B は近い選択肢ですが、本文は \"Whether the designs themselves did much to reduce infection is harder to establish\" と述べ、感染を減らした証拠は示していません。"
+        },
+        {
+          "num": 4,
+          "text": "American cities that intervened early during the 1918 influenza pandemic",
+          "answer": "D",
+          "evidence": "E",
+          "explanation": "段落Eに、早く対策をとった都市は \"tended to experience lower peak death rates\" とあります。peak death rates が maximum death rates、tended to が generally に言い換えられているので D です。"
+        },
+        {
+          "num": 5,
+          "text": "Infrastructure built in response to past epidemics",
+          "answer": "A",
+          "evidence": "F",
+          "explanation": "段落Fに、危機のときの投資は \"can also lock cities into arrangements that later become liabilities\" とあり、合流式の排水路の例が続きます。後になって新たな問題を生みうるので A です。F の人口密度は段落Gの話題で、本文はむしろ密度より職業や世帯規模の影響が大きいと述べています。"
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "instructions": "Questions 6–9. Choose the correct letter, A, B, C or D.",
+      "questions": [
+        {
+          "num": 6,
+          "text": "According to Nadia Harlow in paragraph A, the main value of studying past epidemics is that it",
+          "choices": [
+            { "key": "A", "text": "supplies planners with reassuring precedents." },
+            { "key": "B", "text": "prompts societies to examine their own assumptions." },
+            { "key": "C", "text": "is of little use because every outbreak is unique." },
+            { "key": "D", "text": "reveals how pathogens change over time." }
+          ],
+          "answer": "B",
+          "evidence": "A",
+          "explanation": "段落Aで彼女は、感染症は社会の \"priorities and blind spots\" を明らかにし、歴史の価値は \"the questions it obliges us to ask\" にあると述べています。自分たちの前提を問い直させるという B が正解です。A の reassuring analogies は彼女が批判している使い方です。C のように歴史が役に立たないとは言っておらず、D は本文に記述がありません。"
+        },
+        {
+          "num": 7,
+          "text": "What does Eitan Morrow suggest about the relationship between architecture and public health in the early twentieth century?",
+          "choices": [
+            { "key": "A", "text": "Health authorities instructed architects to adopt modernist features." },
+            { "key": "B", "text": "Modernist buildings were the main reason tuberculosis declined." },
+            { "key": "C", "text": "Each side made use of the other to promote its own image." },
+            { "key": "D", "text": "Architects largely ignored the medical advice of the period." }
+          ],
+          "answer": "C",
+          "evidence": "D",
+          "explanation": "段落Dに \"the influence ran in both directions\" とあり、建築家は健康のイメージを借りて建物に権威を与え、保健当局は近代建築を \"a convenient symbol of progress\" として使ったと説明されています。互いを自分の印象づけに利用したので C です。B は \"tuberculosis rates were already falling as nutrition and housing improved\" と合わず、A と D は本文に記述がありません。"
+        },
+        {
+          "num": 8,
+          "text": "Why does the writer mention differences in age structure, crowding and virulence in paragraph E?",
+          "choices": [
+            { "key": "A", "text": "to show that the findings about 1918 cannot be trusted" },
+            { "key": "B", "text": "to explain why some cities were slow to act" },
+            { "key": "C", "text": "to indicate why the evidence needs cautious interpretation" },
+            { "key": "D", "text": "to argue that closing schools had little real effect" }
+          ],
+          "answer": "C",
+          "evidence": "E",
+          "explanation": "これらの違いは \"Such findings must be treated with care\" の理由として挙げられています。結果を慎重に解釈する必要がある理由を示すためなので C です。A は言い過ぎで、筆者は続けて \"the pattern has proved remarkably consistent across studies\" と述べ、結果の価値を認めています。B と D は本文の内容と合いません。"
+        },
+        {
+          "num": 9,
+          "text": "What did the research described in paragraph G find?",
+          "choices": [
+            { "key": "A", "text": "Population density had no effect on rates of infection." },
+            { "key": "B", "text": "Residents of suburbs were infected less often than city dwellers." },
+            { "key": "C", "text": "Overcrowded housing was found mainly in the densest districts." },
+            { "key": "D", "text": "Jobs and household size explained more of the variation than density did." }
+          ],
+          "answer": "D",
+          "evidence": "G",
+          "explanation": "段落Gに \"differences in occupation and household size accounted for much of the variation in infection rates, more than population density as such\" とあるので D が正解です。A は「影響がまったくない」と言い切っていますが、本文は密度より影響が小さいと比べているだけです。B と C は本文に記述がありません。"
+        }
+      ]
+    },
+    {
+      "type": "short",
+      "instructions": "Questions 10–13. Answer the questions below. Choose NO MORE THAN THREE WORDS from the passage for each answer.",
+      "questions": [
+        {
+          "num": 10,
+          "text": "Through what did cholera actually spread, according to the passage?",
+          "accept": ["contaminated water", "water"],
+          "evidence": "B",
+          "explanation": "段落Bに \"the contaminated water through which cholera actually travelled\" とあります。travelled が設問の spread に言い換えられているので contaminated water が正解です。改革者が信じていた foul-smelling air は誤った理論として紹介されています。"
+        },
+        {
+          "num": 11,
+          "text": "Where were ships suspected of carrying plague required to wait?",
+          "accept": ["offshore"],
+          "evidence": "C",
+          "explanation": "段落Cに \"ships suspected of carrying plague were required to wait offshore for a fixed period\" とあるので offshore（沖合）が正解です。Mediterranean port cities は検疫が生まれた場所で、船が待機した場所を答える設問には合いません。"
+        },
+        {
+          "num": 12,
+          "text": "Apart from housing, what improvement was already reducing tuberculosis rates?",
+          "accept": ["nutrition"],
+          "evidence": "D",
+          "explanation": "段落Dに \"tuberculosis rates were already falling as nutrition and housing improved\" とあります。housing は設問で除かれているので nutrition（栄養状態）が正解です。"
+        },
+        {
+          "num": 13,
+          "text": "What type of drainage system can overflow into rivers during heavy rainfall?",
+          "accept": ["combined drainage systems", "combined drainage system", "combined drainage", "combined"],
+          "evidence": "F",
+          "explanation": "段落Fに \"combined drainage systems, which carry sewage and rainwater in the same pipes, overflow into rivers during heavy rainfall\" とあります。汚水と雨水を同じ管で流す合流式の排水路なので combined drainage systems が正解です。sewage and rainwater まで書くと語数を超えます。"
+        }
+      ]
+    }
+  ],
+  "vocab": [
+    { "en": "proximity", "ja": "近接、近いこと" },
+    { "en": "pathogen", "ja": "病原体" },
+    { "en": "plunder", "ja": "（都合よく）あさる、略奪する" },
+    { "en": "blind spot", "ja": "盲点" },
+    { "en": "oblige", "ja": "（人に）〜せざるをえなくする" },
+    { "en": "imprint", "ja": "痕跡、刻印" },
+    { "en": "sanatorium (pl. sanatoria)", "ja": "療養所、サナトリウム" },
+    { "en": "virulence", "ja": "（病原体の）毒性、病原性" },
+    { "en": "prematurely", "ja": "早すぎる時期に、時期尚早に" },
+    { "en": "double-edged", "ja": "諸刃の、良い面と悪い面をもつ" },
+    { "en": "liability", "ja": "負担、不利な要因" },
+    { "en": "dispersal", "ja": "分散" }
+  ]
+}

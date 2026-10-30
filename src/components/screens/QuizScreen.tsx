@@ -18,7 +18,11 @@ import { TaskPromptCard } from '../common/TaskPromptCard';
 import { ParagraphBreak } from '../common/ParagraphBreak';
 import { useDecks } from '../../hooks/useDecks';
 import { TaskFigure } from '../common/TaskFigure';
-import { buildEntryTranslation } from '../../lib/translation';
+import { buildEntryTranslation, sentenceIndices } from '../../lib/translation';
+import { addReviewItem } from '../../lib/review';
+import { logActivity } from '../../lib/activity';
+import { speak, speechSupported } from '../../lib/speech';
+import { joinTokens } from '../../lib/joinTokens';
 
 /** この時間だけ学習画面を開いていたら「学習した」と記録する */
 const STUDY_RECORD_MS = 60_000;
@@ -64,10 +68,19 @@ function QuizSession() {
   // 一定時間この画面にいたら学習した扱いにする(1回の表示につき1回だけ)
   const totalRef = useRef(blanks.length);
   totalRef.current = blanks.length;
+  const titleRef = useRef(entry?.title ?? '');
   useEffect(() => {
-    const timer = setTimeout(() => addSession(totalRef.current), STUDY_RECORD_MS);
+    const timer = setTimeout(() => {
+      addSession(totalRef.current);
+      logActivity({ kind: 'quiz', title: titleRef.current, total: totalRef.current });
+    }, STUDY_RECORD_MS);
     return () => clearTimeout(timer);
   }, [addSession]);
+
+  // 本文の読み上げ(読んでいる文を知らせる)。画面を離れたら止める
+  const [speakingSentence, setSpeakingSentence] = useState<number | null>(null);
+  const stopRef = useRef<() => void>(() => {});
+  useEffect(() => () => stopRef.current(), []);
 
   useEffect(() => {
     if (entry && blanks.length === 0) {
@@ -121,13 +134,38 @@ function QuizSession() {
     );
   };
 
+  // 固定した穴(間違えた・覚えたい語)は苦手の復習にも入れる
+  const togglePin = (tokenIndex: number) => {
+    if (!pinned.has(tokenIndex)) addReviewItem(entry.id, tokenIndex, entry.tokens[tokenIndex] ?? '');
+    dispatch({ type: 'TOGGLE_PIN', entryId: entry.id, index: tokenIndex });
+  };
+
   const handleTap = (tokenIndex: number) => {
     setActiveIndex(tokenIndex);
     if (!revealed.has(tokenIndex)) {
       setRevealed((prev) => new Set(prev).add(tokenIndex));
       return;
     }
-    dispatch({ type: 'TOGGLE_PIN', entryId: entry.id, index: tokenIndex });
+    togglePin(tokenIndex);
+  };
+
+  const toggleSpeech = () => {
+    if (speakingSentence !== null) {
+      stopRef.current();
+      setSpeakingSentence(null);
+      return;
+    }
+    const of = sentenceIndices(entry.tokens);
+    const sentences: string[] = [];
+    entry.tokens.forEach((t, i) => {
+      sentences[of[i]!] = (sentences[of[i]!] ?? '') + (sentences[of[i]!] && isWordToken(t) ? ' ' : '') + t;
+    });
+    stopRef.current = speak(sentences.map((s) => joinTokens(s.split(' '))), {
+      rate: settings.speechRate ?? 1,
+      onSentence: setSpeakingSentence,
+      onEnd: () => setSpeakingSentence(null),
+    });
+    setSpeakingSentence(0);
   };
 
   // 穴になっていない語をタップしたら、その場で固定の穴にする
@@ -203,6 +241,23 @@ function QuizSession() {
             固定 {pinnedInBlanks}
           </span>
         </div>
+        {speechSupported() && (
+          <button
+            onClick={toggleSpeech}
+            aria-pressed={speakingSentence !== null}
+            style={{
+              background: 'none',
+              border: '1.5px solid var(--border)',
+              color: speakingSentence !== null ? 'var(--brand-red)' : 'var(--text-muted)',
+              borderRadius: 999,
+              padding: '5px 12px',
+              fontSize: 12.5,
+              fontWeight: 600,
+            }}
+          >
+            {speakingSentence !== null ? '停止' : '音声'}
+          </button>
+        )}
         {translation && (
         <button
           onClick={() => setShowGlossHints(!showGlossHints)}
@@ -319,9 +374,9 @@ function QuizSession() {
               <button
                 className="secondary-btn"
                 style={{ flex: 1, padding: '8px 6px', fontSize: 12.5 }}
-                onClick={() => dispatch({ type: 'TOGGLE_PIN', entryId: entry.id, index: activeIndex })}
+                onClick={() => togglePin(activeIndex)}
               >
-                {pinned.has(activeIndex) ? '固定を解除' : 'この穴を固定'}
+                {pinned.has(activeIndex) ? '固定を解除' : '固定して復習に入れる'}
               </button>
               <button
                 className="secondary-btn"
@@ -333,7 +388,7 @@ function QuizSession() {
             </div>
             <div style={{ fontSize: 12.5, color: pinned.has(activeIndex) ? 'var(--pin-text)' : 'var(--text-muted)' }}>
               {pinned.has(activeIndex)
-                ? '固定中: 割合を変えても毎回穴になります(もう一度タップで解除)'
+                ? '固定中: 毎回穴になり、「苦手の復習」にも出ます(もう一度タップで解除)'
                 : '「もう出題しない」にすると、この語は自動の穴埋めから外れます'}
             </div>
           </div>

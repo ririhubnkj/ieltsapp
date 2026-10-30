@@ -1,0 +1,179 @@
+{
+  "id": "l1-r01",
+  "title": "From Wild Animals to Family Pets",
+  "titleJa": "野生動物から家族のペットへ：犬と猫が人と暮らすようになった理由",
+  "minutes": 20,
+  "paragraphs": [
+    {
+      "label": "A",
+      "text": "Today, millions of homes around the world have a cat or a dog. Many owners think of their pet as a member of the family. But these animals were not always so close to people. Long ago, their ancestors lived in the wild and found their own food. Scientists who study old bones, ancient pictures and animal DNA now have a fairly clear idea of how this change happened. The story is very different for each animal."
+    },
+    {
+      "label": "B",
+      "text": "Dogs came first. The ancestors of all pet dogs were wolves, and the change began at least 15,000 years ago, before people started farming. At that time, humans lived by hunting. One popular idea is that some wolves began to follow groups of hunters and eat the meat and bones that they left behind. The wolves that were less afraid of people got more food, so they lived longer and had more young. Over many generations, these animals became calmer and friendlier."
+    },
+    {
+      "label": "C",
+      "text": "People soon found that these animals were useful. Dogs could hear and smell much better than humans, so they warned people when strangers or wild animals came near at night. Later, dogs helped with hunting, and after farming began, they guarded sheep and goats. People chose the most helpful dogs to keep, and so different types of dog slowly appeared. Today there are more than 300 breeds, from tiny dogs that weigh less than two kilograms to very large ones."
+    },
+    {
+      "label": "D",
+      "text": "Cats followed a very different path. Their story started about 10,000 years ago in the Middle East, when people began to grow wheat and other grain. Farmers kept their grain in stores, and these stores attracted mice and rats. Wild cats came to the villages to hunt the mice. The farmers were happy to let them stay, because the cats protected their food. In other words, people did not catch cats and train them. The cats chose to live near people."
+    },
+    {
+      "label": "E",
+      "text": "For this reason, cats changed much less than dogs. A pet cat today looks very similar to its wild relatives, and it can still survive alone if it has to. In ancient Egypt, cats became very important. People kept them in their homes, painted them on walls and sometimes buried them with great care after they died. Cats also travelled on ships to catch rats, and this helped them spread to many parts of the world."
+    },
+    {
+      "label": "F",
+      "text": "In the last 200 years, the role of both animals has changed again. In modern cities, few people need a dog to guard animals or a cat to catch mice. Instead, people keep pets mainly for company. In a small study by Dr Lena Park, a researcher who interviewed 120 pet owners, most owners said that their pet made them feel less lonely. However, Dr Park also points out that pets need time, money and space, so a pet is not the right choice for every family."
+    }
+  ],
+  "groups": [
+    {
+      "type": "tfng",
+      "instructions": "Questions 1–5. Do the following statements agree with the information given in the reading passage? Write TRUE if the statement agrees with the information, FALSE if the statement contradicts the information, NOT GIVEN if there is no information on this.",
+      "questions": [
+        {
+          "num": 1,
+          "text": "Pet dogs are descended from wolves.",
+          "answer": "TRUE",
+          "evidence": "B",
+          "explanation": "B段落に \"The ancestors of all pet dogs were wolves\" とあります。「すべてのペットの犬の祖先はオオカミ」という内容は、問題文の are descended from wolves（オオカミの子孫である）と同じ意味なので TRUE です。"
+        },
+        {
+          "num": 2,
+          "text": "Wolves that were less afraid of humans usually got less food.",
+          "answer": "FALSE",
+          "evidence": "B",
+          "explanation": "B段落に \"The wolves that were less afraid of people got more food\" とあります。人を怖がらないオオカミは「より多くの」食べ物を得たので、less food は本文と反対の内容です。答えは FALSE です。"
+        },
+        {
+          "num": 3,
+          "text": "Dogs could see better than humans in the dark.",
+          "answer": "NOT GIVEN",
+          "evidence": "C",
+          "explanation": "C段落には \"Dogs could hear and smell much better than humans\" とあり、耳と鼻がよいことは書かれています。目がよいかどうかは本文に書かれていないので NOT GIVEN です。"
+        },
+        {
+          "num": 4,
+          "text": "Farmers in the Middle East caught wild cats and trained them to hunt mice.",
+          "answer": "FALSE",
+          "evidence": "D",
+          "explanation": "D段落に \"people did not catch cats and train them\" とあり、続けて \"The cats chose to live near people\" と書かれています。猫は自分から人の近くに来たので、農民が捕まえて訓練したという問題文は本文と矛盾し、FALSE です。"
+        },
+        {
+          "num": 5,
+          "text": "In ancient Egypt, there were laws to stop people hurting cats.",
+          "answer": "NOT GIVEN",
+          "evidence": "E",
+          "explanation": "E段落には \"In ancient Egypt, cats became very important\" とあり、家で飼ったり壁に描いたりしたことが書かれています。猫を守る法律については何も書かれていないので NOT GIVEN です。"
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "instructions": "Questions 6–9. Choose the correct letter, A, B, C or D.",
+      "questions": [
+        {
+          "num": 6,
+          "text": "According to paragraph C, why did different types of dog appear?",
+          "choices": [
+            { "key": "A", "text": "Dogs moved with people to new countries." },
+            { "key": "B", "text": "Farmers needed smaller dogs for their homes." },
+            { "key": "C", "text": "People kept the dogs that were most useful to them." },
+            { "key": "D", "text": "Dogs and wild wolves continued to have young together." }
+          ],
+          "answer": "C",
+          "evidence": "C",
+          "explanation": "C段落に \"People chose the most helpful dogs to keep, and so different types of dog slowly appeared\" とあります。役に立つ犬を選んで飼ったことが理由なので C です。most helpful が most useful に言い換えられています。"
+        },
+        {
+          "num": 7,
+          "text": "Why were farmers happy to let wild cats stay in their villages?",
+          "choices": [
+            { "key": "A", "text": "The cats were friendly to children." },
+            { "key": "B", "text": "The cats warned them when strangers came." },
+            { "key": "C", "text": "The cats helped them to hunt wild animals." },
+            { "key": "D", "text": "The cats kept mice away from their food." }
+          ],
+          "answer": "D",
+          "evidence": "D",
+          "explanation": "D段落に \"The farmers were happy to let them stay, because the cats protected their food\" とあります。猫が穀物をネズミから守ったからなので D です。B の「見知らぬ人を知らせる」は C段落の犬の話です。"
+        },
+        {
+          "num": 8,
+          "text": "What does the writer say about pet cats today?",
+          "choices": [
+            { "key": "A", "text": "They are still very like wild cats." },
+            { "key": "B", "text": "They have changed more than dogs." },
+            { "key": "C", "text": "They need humans in order to live." },
+            { "key": "D", "text": "They are more popular than dogs." }
+          ],
+          "answer": "A",
+          "evidence": "E",
+          "explanation": "E段落に \"A pet cat today looks very similar to its wild relatives\" とあるので A が正解です。同じ段落に \"cats changed much less than dogs\" とあるので B は誤りで、\"it can still survive alone\" とあるので C も誤りです。"
+        },
+        {
+          "num": 9,
+          "text": "What did Dr Lena Park find in her study?",
+          "choices": [
+            { "key": "A", "text": "Most owners spent too much money on their pets." },
+            { "key": "B", "text": "Most owners felt less alone because of their pet." },
+            { "key": "C", "text": "Most owners lived in large houses with gardens." },
+            { "key": "D", "text": "Most owners wanted a second pet." }
+          ],
+          "answer": "B",
+          "evidence": "F",
+          "explanation": "F段落に \"most owners said that their pet made them feel less lonely\" とあります。less lonely が less alone に言い換えられているので B です。お金や場所の話は Dr Park の注意点で、調査結果としては書かれていません。"
+        }
+      ]
+    },
+    {
+      "type": "completion",
+      "instructions": "Questions 10–13. Complete the sentences below. Choose NO MORE THAN TWO WORDS from the passage for each answer.",
+      "questions": [
+        {
+          "num": 10,
+          "text": "Dogs could warn people about danger at night because they could hear and ____ better than humans.",
+          "accept": ["smell"],
+          "evidence": "C",
+          "explanation": "C段落の \"Dogs could hear and smell much better than humans\" が根拠です。hear and のあとに来る語なので smell が答えです。"
+        },
+        {
+          "num": 11,
+          "text": "Wild cats first came to villages in the Middle East after people began to grow ____ and other grain.",
+          "accept": ["wheat"],
+          "evidence": "D",
+          "explanation": "D段落の \"when people began to grow wheat and other grain\" が根拠です。答えは wheat の1語です。"
+        },
+        {
+          "num": 12,
+          "text": "Cats spread to many parts of the world by travelling on ____.",
+          "accept": ["ships"],
+          "evidence": "E",
+          "explanation": "E段落の \"Cats also travelled on ships to catch rats\" が根拠です。船でネズミを捕るために旅をしたことで、猫は世界中に広がりました。答えは ships です。"
+        },
+        {
+          "num": 13,
+          "text": "In modern cities, people keep pets mostly for ____.",
+          "accept": ["company"],
+          "evidence": "F",
+          "explanation": "F段落の \"people keep pets mainly for company\" が根拠です。mainly が mostly に言い換えられています。company はここでは「会社」の意味で使われておらず、「一緒にいること、仲間」の意味です。"
+        }
+      ]
+    }
+  ],
+  "vocab": [
+    { "en": "ancestor", "ja": "祖先" },
+    { "en": "generation", "ja": "世代" },
+    { "en": "calm", "ja": "おだやかな、落ち着いた" },
+    { "en": "guard", "ja": "見張る、守る" },
+    { "en": "breed", "ja": "（犬や猫などの）品種" },
+    { "en": "grain", "ja": "穀物" },
+    { "en": "attract", "ja": "引きつける、呼び寄せる" },
+    { "en": "relative", "ja": "親類、近い仲間の動物" },
+    { "en": "survive", "ja": "生き残る、生きていく" },
+    { "en": "company", "ja": "一緒にいること、仲間" }
+  ]
+}

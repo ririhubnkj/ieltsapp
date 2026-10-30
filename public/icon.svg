@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" fill="#012169"/>
+  <rect y="0" width="512" height="44" fill="#c8102e"/>
+  <text x="256" y="318" text-anchor="middle" font-family="Times New Roman, Tinos, Liberation Serif, serif" font-weight="700" font-size="150" letter-spacing="4" fill="#fffdf8">IELTS</text>
+  <rect x="136" y="356" width="240" height="6" fill="#c8102e"/>
+</svg>

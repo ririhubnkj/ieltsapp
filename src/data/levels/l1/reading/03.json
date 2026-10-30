@@ -1,0 +1,241 @@
+{
+  "id": "l1-r03",
+  "title": "The Story of the Umbrella",
+  "titleJa": "傘の歴史：日よけから雨具へ",
+  "minutes": 20,
+  "paragraphs": [
+    {
+      "label": "A",
+      "text": "Today, the umbrella is such a common object that most people never think about where it came from. Yet it has a history of several thousand years. Surprisingly, for most of that time, it was not used for rain at all. It was used to give shade from the hot sun, and only later did people find a way to keep the rain off."
+    },
+    {
+      "label": "B",
+      "text": "The earliest umbrellas were sunshades. Pictures from ancient Egypt and other parts of the Middle East show servants holding large shades over kings and other important people. In these places, a sunshade was a sign of power, and ordinary people were usually not allowed to stand under one. Later, in ancient Greece and Rome, sunshades were carried by rich women, who used them to protect their skin from the sun."
+    },
+    {
+      "label": "C",
+      "text": "People in China were probably the first to use umbrellas against rain. They made umbrellas from paper or silk and covered them with oil or wax, so that water ran off the top. The frames were made of bamboo, which was light and strong. Some Chinese umbrellas could also be opened and closed, which made them easy to carry. From China, the idea spread to Korea and Japan, where some paper umbrellas are still made by hand today."
+    },
+    {
+      "label": "D",
+      "text": "In Europe, umbrellas took much longer to become popular. In the 1600s, sunshades became fashionable among rich women in Italy and France. But for a long time, people believed that only women should use them. In London in the 1750s, a man who walked in the rain under an umbrella was often laughed at in the street. The drivers of horse-drawn taxis also disliked umbrellas, because people who had one did not need to pay for a ride when it rained. Slowly, however, men saw that umbrellas were useful, and by 1800 many men in London carried one."
+    },
+    {
+      "label": "E",
+      "text": "The modern umbrella appeared in the nineteenth century. Early European umbrellas were heavy, because their frames were made of wood or whalebone. In the 1850s, makers began to use thin steel instead, and umbrellas became much lighter and cheaper. In the twentieth century, folding umbrellas that could fit into a small bag were developed, and later, cheap umbrellas made of plastic became common."
+    },
+    {
+      "label": "F",
+      "text": "Now umbrellas are so cheap that many people throw them away after a short time. In Japan, for example, thousands of umbrellas are left on trains every year, and many are never collected. Because most umbrellas are made of metal and plastic joined together, they are difficult to recycle. To solve this problem, some companies now offer umbrella-sharing services. In one service, started by a designer called Aya Kimura, users can borrow an umbrella at a station with their phone and return it at a different station. Kimura hopes that people will share umbrellas in the future instead of buying a new one every time it rains."
+    }
+  ],
+  "groups": [
+    {
+      "type": "matching",
+      "instructions": "Questions 1–4. Look at the following statements (Questions 1–4) and the list of places below. Match each statement with the correct place, A–E. NB There are more places than statements, so you will not use all of them.",
+      "options": [
+        {
+          "key": "A",
+          "text": "ancient Egypt"
+        },
+        {
+          "key": "B",
+          "text": "ancient Greece and Rome"
+        },
+        {
+          "key": "C",
+          "text": "China"
+        },
+        {
+          "key": "D",
+          "text": "London"
+        },
+        {
+          "key": "E",
+          "text": "Korea"
+        }
+      ],
+      "questions": [
+        {
+          "num": 1,
+          "text": "Umbrellas were made waterproof by covering them with oil or wax.",
+          "answer": "C",
+          "evidence": "C",
+          "explanation": "C段落に \"People in China were probably the first to use umbrellas against rain\" とあり、紙や絹を \"covered them with oil or wax, so that water ran off the top\" と書かれています。油やろうで水をはじくようにしたのは中国なので C です。"
+        },
+        {
+          "num": 2,
+          "text": "Men who used umbrellas were laughed at by people in the street.",
+          "answer": "D",
+          "evidence": "D",
+          "explanation": "D段落に \"In London in the 1750s, a man who walked in the rain under an umbrella was often laughed at in the street\" とあります。傘を差す男性が笑われたのはロンドンなので D です。"
+        },
+        {
+          "num": 3,
+          "text": "Standing under a sunshade showed that a person was powerful.",
+          "answer": "A",
+          "evidence": "B",
+          "explanation": "B段落に古代エジプトなどについて \"a sunshade was a sign of power\" とあります。日よけが権力のしるしだったのは古代エジプトなので A です。"
+        },
+        {
+          "num": 4,
+          "text": "Rich women carried sunshades to protect their skin.",
+          "answer": "B",
+          "evidence": "B",
+          "explanation": "B段落に \"in ancient Greece and Rome, sunshades were carried by rich women, who used them to protect their skin from the sun\" とあります。D段落のイタリアとフランスの女性の話には肌を守る目的が書かれていないので、答えは B です。"
+        }
+      ]
+    },
+    {
+      "type": "wordlist",
+      "instructions": "Questions 5–8. Complete the summary using the list of words, A–H, below. Write the correct letter, A–H.",
+      "options": [
+        {
+          "key": "A",
+          "text": "fold"
+        },
+        {
+          "key": "B",
+          "text": "glass"
+        },
+        {
+          "key": "C",
+          "text": "steel"
+        },
+        {
+          "key": "D",
+          "text": "heavier"
+        },
+        {
+          "key": "E",
+          "text": "recycle"
+        },
+        {
+          "key": "F",
+          "text": "sell"
+        },
+        {
+          "key": "G",
+          "text": "lighter"
+        },
+        {
+          "key": "H",
+          "text": "open"
+        }
+      ],
+      "questions": [
+        {
+          "num": 5,
+          "text": "In the 1850s, makers stopped using wood or whalebone for umbrella frames and began to use thin ____.",
+          "answer": "C",
+          "evidence": "E",
+          "explanation": "E段落の \"In the 1850s, makers began to use thin steel instead\" が根拠です。木や鯨のひげの代わりに使われたのは steel（鋼鉄）なので C です。"
+        },
+        {
+          "num": 6,
+          "text": "Because of this change, umbrellas became much ____ than before.",
+          "answer": "G",
+          "evidence": "E",
+          "explanation": "E段落の \"umbrellas became much lighter and cheaper\" が根拠です。直前に \"Early European umbrellas were heavy\" とあり、鋼鉄を使って軽くなったので G の lighter です。D の heavier は反対の意味です。"
+        },
+        {
+          "num": 7,
+          "text": "In the twentieth century, umbrellas that could ____ were developed, so people could carry them in a small bag.",
+          "answer": "A",
+          "evidence": "E",
+          "explanation": "E段落の \"folding umbrellas that could fit into a small bag were developed\" が根拠です。folding umbrellas（折りたたみ傘）を「折りたためる傘」と言い換えているので A の fold です。"
+        },
+        {
+          "num": 8,
+          "text": "Today, umbrellas are cheap, but because they contain both metal and plastic, it is hard to ____ them.",
+          "answer": "E",
+          "evidence": "F",
+          "explanation": "F段落の \"Because most umbrellas are made of metal and plastic joined together, they are difficult to recycle\" が根拠です。difficult が hard に言い換えられているので E の recycle です。"
+        }
+      ]
+    },
+    {
+      "type": "tfng",
+      "instructions": "Questions 9–13. Do the following statements agree with the information given in the reading passage? Write TRUE if the statement agrees with the information, FALSE if the statement contradicts the information, NOT GIVEN if there is no information on this.",
+      "questions": [
+        {
+          "num": 9,
+          "text": "Chinese umbrella frames were made of bamboo.",
+          "answer": "TRUE",
+          "evidence": "C",
+          "explanation": "C段落に \"The frames were made of bamboo, which was light and strong\" とあります。中国の傘の骨組みは竹でできていたので TRUE です。"
+        },
+        {
+          "num": 10,
+          "text": "Paper umbrellas are no longer made by hand in Japan.",
+          "answer": "FALSE",
+          "evidence": "C",
+          "explanation": "C段落に \"some paper umbrellas are still made by hand today\" とあり、韓国と日本では今も手作りの紙の傘があります。no longer（もう〜ない）は本文と矛盾するので FALSE です。"
+        },
+        {
+          "num": 11,
+          "text": "In the 1600s, sunshades cost more in Italy than in France.",
+          "answer": "NOT GIVEN",
+          "evidence": "D",
+          "explanation": "D段落には \"sunshades became fashionable among rich women in Italy and France\" とあるだけで、値段については書かれていません。どちらの国で高かったかはわからないので NOT GIVEN です。"
+        },
+        {
+          "num": 12,
+          "text": "Taxi drivers in London did not like umbrellas because they could lose money.",
+          "answer": "TRUE",
+          "evidence": "D",
+          "explanation": "D段落に \"people who had one did not need to pay for a ride when it rained\" とあります。傘を持つ人は雨でも馬車に乗らないので、運転手は収入が減ります。これが umbrellas を嫌った理由なので TRUE です。"
+        },
+        {
+          "num": 13,
+          "text": "Aya Kimura's umbrella-sharing service is now used in every city in Japan.",
+          "answer": "NOT GIVEN",
+          "evidence": "F",
+          "explanation": "F段落には \"users can borrow an umbrella at a station with their phone\" とサービスの使い方が書かれていますが、どの町で使えるかは書かれていません。日本中のすべての都市で使われているかどうかはわからないので NOT GIVEN です。"
+        }
+      ]
+    }
+  ],
+  "vocab": [
+    {
+      "en": "shade",
+      "ja": "日かげ、日よけ"
+    },
+    {
+      "en": "servant",
+      "ja": "使用人、召使い"
+    },
+    {
+      "en": "ordinary",
+      "ja": "ふつうの、一般の"
+    },
+    {
+      "en": "frame",
+      "ja": "骨組み、枠"
+    },
+    {
+      "en": "spread",
+      "ja": "広がる"
+    },
+    {
+      "en": "fashionable",
+      "ja": "流行の"
+    },
+    {
+      "en": "horse-drawn",
+      "ja": "馬が引く"
+    },
+    {
+      "en": "fold",
+      "ja": "折りたたむ"
+    },
+    {
+      "en": "recycle",
+      "ja": "再利用する、リサイクルする"
+    },
+    {
+      "en": "borrow",
+      "ja": "借りる"
+    }
+  ]
+}

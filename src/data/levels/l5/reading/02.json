@@ -1,0 +1,186 @@
+{
+  "id": "l5-r02",
+  "title": "Mining the Abyss",
+  "titleJa": "深海採掘：不確実性のなかの意思決定",
+  "minutes": 20,
+  "paragraphs": [
+    {
+      "label": "A",
+      "text": "Several kilometres beneath the surface of the central Pacific, the ocean floor is scattered with dark, potato-sized lumps known as polymetallic nodules. Formed as metals precipitate around a fragment of shell or rock, they grow at a rate of only a few millimetres per million years, yet they contain concentrations of nickel, cobalt, copper and manganese that rival those of the richest deposits on land. As demand for these metals rises with the manufacture of batteries and electrical infrastructure, a number of companies and governments have argued that collecting nodules from the abyssal plain could supply them with less disruption to people than conventional mining. Whether it could do so without unacceptable harm to the deep ocean is a question that, at present, nobody is in a position to answer with confidence."
+    },
+    {
+      "label": "B",
+      "text": "The difficulty begins with how little is known. The abyssal plains are among the least sampled environments on the planet, and expeditions to areas of commercial interest routinely return with organisms that have never been described. In some surveys, the majority of animals collected belonged to species new to science. Many are known from a single specimen, which makes it impossible to say whether they are widespread or confined to a small area. The marine ecologist Leonie Barraclough points out that this is not a gap that further fieldwork will quickly close: at the current rate of formal description, she estimates, cataloguing the fauna of one licensed region could take longer than the proposed lifetime of the mines themselves."
+    },
+    {
+      "label": "C",
+      "text": "What is reasonably clear is that the nodules themselves matter. They provide one of the few hard surfaces in an otherwise soft, muddy landscape, and a range of animals, from sponges to soft corals, attach to them and to nothing else. Since nodules take millions of years to form, their removal is, on any human timescale, permanent. Evidence from small-scale experiments supports a cautious reading. In a disturbance trial conducted in the south-east Pacific in the late 1980s, the tracks left by a ploughing device remained clearly visible when the site was revisited more than a quarter of a century later, and several groups of animals had still not returned to their former abundance."
+    },
+    {
+      "label": "D",
+      "text": "The direct footprint of collection is only part of the concern. Machines moving across the seabed would stir up clouds of fine sediment, and the processing of nodules at the surface would produce wastewater that must be returned to the sea. How far such plumes might travel, and at what concentrations they would harm filter-feeding animals adapted to exceptionally clear water, depends on currents and particle behaviour that have been modelled but seldom measured at scale. The hydrodynamicist Tomás Ekwueme stresses that models calibrated on short trials may underestimate the cumulative effect of continuous operation, since sediment that settles slowly could overlap from one season's work to the next."
+    },
+    {
+      "label": "E",
+      "text": "Proponents of seabed extraction do not, for the most part, deny these uncertainties; they argue that they must be weighed against the known costs of the alternative. Land-based mining of nickel and cobalt has been associated with deforestation, polluted rivers and, in some regions, poor labour conditions. Rhea Castellanos, an environmental scientist employed by one of the exploration contractors, contends that a comparison which treats the deep sea as uniquely precious while overlooking damage on land is not a neutral one. In her view, a modest amount of carefully monitored collection would generate precisely the data that critics say are lacking, and a refusal to begin guarantees that the uncertainty will never be reduced."
+    },
+    {
+      "label": "F",
+      "text": "Critics regard this reasoning as circular. If the purpose of a pilot operation is to discover whether the harm is acceptable, then the decision about what counts as acceptable must be made beforehand, and at present no agreed threshold exists. Moreover, the argument assumes that seabed metals would replace land-based supply rather than add to it. The resource economist Haruto Lindgren observes that, historically, new sources of a commodity have tended to lower prices and expand consumption, so that pressure on terrestrial deposits might ease far less than proponents suggest."
+    },
+    {
+      "label": "G",
+      "text": "These disagreements are being played out within an unusual legal framework. The mineral resources of the seabed beyond national jurisdiction are designated as the common heritage of humankind, and a single international authority is responsible both for organising their exploitation and for protecting the marine environment from its effects. Some observers see an inherent tension in this dual role. A number of governments have called for a moratorium until the science is more settled, while others have pressed for regulations to be completed so that commercial applications can be assessed. Delegates from small island states have been especially vocal, noting that communities with the least say in the global metals market may bear a disproportionate share of any risk to ocean ecosystems."
+    },
+    {
+      "label": "H",
+      "text": "The debate has recently been complicated further by a contested report that nodules may generate small quantities of oxygen on the seabed through an electrochemical process. If confirmed, this would suggest that nodule fields play a role in deep-sea ecosystems that no previous assessment had considered; several researchers, however, have questioned the measurements, and the finding awaits independent verification. Whatever its fate, the episode illustrates the central predicament: decisions about the deep ocean are being made at a time when a single study can still alter the basic picture of how it functions."
+    }
+  ],
+  "groups": [
+    {
+      "type": "matching",
+      "instructions": "Questions 1–4. Look at the following people (Questions 1–4) and the list of views below. Match each person with the correct view, A–G. NB There are more views than people, so you will not use all of them.",
+      "options": [
+        { "key": "A", "text": "Additional supply might expand overall use of a metal rather than displace existing sources." },
+        { "key": "B", "text": "Most species collected in licensed areas are likely to occur elsewhere too." },
+        { "key": "C", "text": "Results from brief trials could understate the effects of sustained activity." },
+        { "key": "D", "text": "Land-based mining is more environmentally destructive than seabed extraction would be." },
+        { "key": "E", "text": "Documenting the animals of a single area may take longer than the area would be mined." },
+        { "key": "F", "text": "Sediment plumes have been shown to travel further than models predict." },
+        { "key": "G", "text": "Declining to begin extraction would leave key questions permanently unanswered." }
+      ],
+      "questions": [
+        {
+          "num": 1,
+          "text": "Leonie Barraclough",
+          "answer": "E",
+          "evidence": "B",
+          "explanation": "段落Bに \"cataloguing the fauna of one licensed region could take longer than the proposed lifetime of the mines themselves\" とあります。cataloguing the fauna が documenting the animals、lifetime of the mines が採掘期間の言い換えなので E です。B は本文の \"impossible to say whether they are widespread or confined to a small area\" と食い違い、彼女の見解にも含まれていません。"
+        },
+        {
+          "num": 2,
+          "text": "Tomás Ekwueme",
+          "answer": "C",
+          "evidence": "D",
+          "explanation": "段落Dに \"models calibrated on short trials may underestimate the cumulative effect of continuous operation\" とあります。short trials が brief trials、underestimate が understate、continuous operation が sustained activity に対応するので C です。F は「実際に遠くまで広がることが示された」と言い切っていますが、本文はプルームが \"seldom measured at scale\" だと述べており、測定結果は示されていません。"
+        },
+        {
+          "num": 3,
+          "text": "Rhea Castellanos",
+          "answer": "G",
+          "evidence": "E",
+          "explanation": "段落Eに \"a refusal to begin guarantees that the uncertainty will never be reduced\" とあります。始めることを拒めば不確実性は永遠に減らないという主張なので G です。D は近い選択肢ですが、彼女が述べたのは陸と深海の比較が \"not a neutral one\" だという点で、陸上採掘の方が破壊的だとは言っていません。"
+        },
+        {
+          "num": 4,
+          "text": "Haruto Lindgren",
+          "answer": "A",
+          "evidence": "F",
+          "explanation": "段落Fに \"new sources of a commodity have tended to lower prices and expand consumption\" とあります。新しい供給源は既存の供給を置き換えるより消費全体を増やしてきたという見方なので A です。直前の \"would replace land-based supply rather than add to it\" という前提を、彼はこの観察によって疑っています。"
+        }
+      ]
+    },
+    {
+      "type": "tfng",
+      "instructions": "Questions 5–9. Do the following statements agree with the information given in the reading passage? Write TRUE if the statement agrees with the information, FALSE if the statement contradicts the information, NOT GIVEN if there is no information on this.",
+      "questions": [
+        {
+          "num": 5,
+          "text": "When the site of the 1980s disturbance trial was visited again, the seabed had largely returned to its original condition.",
+          "answer": "FALSE",
+          "evidence": "C",
+          "explanation": "段落Cに \"the tracks left by a ploughing device remained clearly visible\" とあり、さらに \"several groups of animals had still not returned to their former abundance\" と書かれています。25年以上たっても跡が残り生物も戻っていなかったので、ほぼ元に戻ったという文と矛盾し FALSE です。"
+        },
+        {
+          "num": 6,
+          "text": "Wastewater from surface processing would contain more sediment than the plumes created on the seabed.",
+          "answer": "NOT GIVEN",
+          "evidence": "D",
+          "explanation": "段落Dは海底の堆積物の雲と、海面での処理による \"wastewater that must be returned to the sea\" の両方に触れています。しかし、どちらに堆積物が多く含まれるかの比較はどこにもないので NOT GIVEN です。"
+        },
+        {
+          "num": 7,
+          "text": "The company that employs Rhea Castellanos has already applied for permission to begin commercial extraction.",
+          "answer": "NOT GIVEN",
+          "evidence": "E",
+          "explanation": "段落Eで分かるのは、彼女が \"employed by one of the exploration contractors\" であることだけです。探査の契約者であることは書かれていますが、商業採掘の許可を申請したかどうかは書かれていないので NOT GIVEN です。段落Gの \"commercial applications\" は一般的な申請の審査の話で、彼女の会社には触れていません。"
+        },
+        {
+          "num": 8,
+          "text": "The same organisation is charged with both enabling seabed mining and limiting its environmental impact.",
+          "answer": "TRUE",
+          "evidence": "G",
+          "explanation": "段落Gに \"a single international authority is responsible both for organising their exploitation and for protecting the marine environment from its effects\" とあります。一つの機関が採掘の運営と環境保護の両方を担っているので TRUE です。筆者はこれを \"this dual role\" と呼んでいます。"
+        },
+        {
+          "num": 9,
+          "text": "The claim that nodules produce oxygen has been confirmed by independent researchers.",
+          "answer": "FALSE",
+          "evidence": "H",
+          "explanation": "段落Hに \"several researchers, however, have questioned the measurements, and the finding awaits independent verification\" とあります。独立した検証はまだ行われていないので、確認済みとする文と矛盾し FALSE です。If confirmed という仮定の表現もこれを裏づけています。"
+        }
+      ]
+    },
+    {
+      "type": "wordlist",
+      "instructions": "Questions 10–13. Complete the summary using the list of words, A–J, below. Write the correct letter, A–J.",
+      "options": [
+        { "key": "A", "text": "supplement" },
+        { "key": "B", "text": "exaggerated" },
+        { "key": "C", "text": "drawbacks" },
+        { "key": "D", "text": "measured" },
+        { "key": "E", "text": "displace" },
+        { "key": "F", "text": "procedure" },
+        { "key": "G", "text": "simulated" },
+        { "key": "H", "text": "benefits" },
+        { "key": "I", "text": "benchmark" },
+        { "key": "J", "text": "ignored" }
+      ],
+      "questions": [
+        {
+          "num": 10,
+          "text": "Beyond the removal of nodules, collection would create plumes of sediment whose spread has been ____ but rarely observed at full scale.",
+          "answer": "G",
+          "evidence": "D",
+          "explanation": "段落Dに \"have been modelled but seldom measured at scale\" とあります。modelled（モデルで計算された）を言い換えた simulated が入るので G です。D の measured は seldom measured と逆の内容になり、but rarely observed ともつながりません。"
+        },
+        {
+          "num": 11,
+          "text": "Supporters argue that these uncertainties must be set against the familiar ____ of mining on land.",
+          "answer": "C",
+          "evidence": "E",
+          "explanation": "段落Eに \"they must be weighed against the known costs of the alternative\" とあり、森林破壊や河川の汚染が例に挙がっています。known costs を言い換えた drawbacks（欠点・弊害）が入るので C です。H の benefits は意味が逆になります。"
+        },
+        {
+          "num": 12,
+          "text": "Opponents reply that a pilot operation only makes sense if a ____ for acceptable harm has been agreed in advance.",
+          "answer": "I",
+          "evidence": "F",
+          "explanation": "段落Fに \"the decision about what counts as acceptable must be made beforehand, and at present no agreed threshold exists\" とあります。threshold（基準値）を言い換えた benchmark が入るので I です。F の procedure は手続き一般を指し、許容できる害の線引きを表しません。"
+        },
+        {
+          "num": 13,
+          "text": "They also question the assumption that seabed metals would ____ supplies from land.",
+          "answer": "E",
+          "evidence": "F",
+          "explanation": "段落Fに \"the argument assumes that seabed metals would replace land-based supply rather than add to it\" とあります。疑われている前提は replace（置き換える）なので、同じ意味の displace が入り E です。A の supplement は add to に当たり、批判者が実際に起こりうると考えている側の内容です。"
+        }
+      ]
+    }
+  ],
+  "vocab": [
+    { "en": "precipitate", "ja": "（化学）沈殿する" },
+    { "en": "abyssal plain", "ja": "深海平原" },
+    { "en": "fauna", "ja": "（ある地域の）動物相" },
+    { "en": "abundance", "ja": "（生物の）個体数、豊富さ" },
+    { "en": "calibrate", "ja": "（モデルや計器を）調整・較正する" },
+    { "en": "cumulative", "ja": "累積的な" },
+    { "en": "proponent", "ja": "支持者、推進者" },
+    { "en": "circular", "ja": "（議論が）循環論法の" },
+    { "en": "terrestrial", "ja": "陸上の" },
+    { "en": "jurisdiction", "ja": "管轄権" },
+    { "en": "moratorium", "ja": "一時停止、猶予期間" },
+    { "en": "predicament", "ja": "苦境、難しい立場" }
+  ]
+}

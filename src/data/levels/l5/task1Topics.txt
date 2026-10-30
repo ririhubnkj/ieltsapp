@@ -1,0 +1,59 @@
+**2. 表｜ニュージーランドの世帯構成**
+
+The table shows how the population of New Zealand was distributed across five household types at ten-year intervals between 1975 and 2015.
+
+Overall, it is clear that while the dominance of couples with dependent children {{was steadily eroded}}, one-person and lone-parent households {{expanded markedly}}. Meanwhile, the proportion of couples with non-dependent children {{remained virtually static}}.
+
+Looking first at couples with dependent children, this category {{accounted for a full half}} of the population in 1975 but {{underwent a sustained decline}} to 35% by 2015, {{albeit}} retaining its position as the most prevalent arrangement. Lone-parent households, by contrast, {{registered a threefold increase}}, from 5% to 15%, while the share of people living alone {{more than doubled}} from 6% to 13%, {{plateauing}} from 2005 onwards. Combined, these two household types thus made up 28% of the total by 2015, compared with just 11% in 1975.
+
+Turning to the remaining categories, couples without children {{edged up}} from 18% to 22%, {{consistently ranking second}} throughout the four decades. Couples with non-dependent children, meanwhile, {{hovered around}} 11% for most of the period, {{dipping marginally}} to 10% in 2005, the level at which the figure subsequently {{stabilised}}.
+
+**3. 折れ線｜金属価格の月ごとの変化**
+
+The line graph shows the average month-on-month percentage change in the prices of aluminium, tin and lead over the course of 2016.
+
+Overall, it is clear that while tin {{exhibited by far the greatest volatility}}, aluminium {{proved the most stable}}. Meanwhile, the three metals {{followed a broadly parallel trajectory}}, with a mid-year downturn {{giving way to}} a recovery in the final quarter.
+
+Looking first at tin, the year opened with a 6% rise, {{the steepest monthly gain}} recorded for any of the metals. Thereafter, the pace of growth {{slowed markedly}} to a mere 1.5% in March, and by June prices {{had slumped}} by 2.5%. This downward momentum persisted until September, when tin {{bottomed out at}} minus 3%, before {{staging a recovery}} to 0.5% in October.
+
+Turning to aluminium and lead, the fluctuations in both were {{comparatively muted}}, {{confined to}} a narrow band between minus 2% and 3.5%. Aluminium {{slipped into negative territory}} only in April and May, whereas lead {{peaked at}} 3.5% in February before sliding below zero in the summer months. Both metals then rallied, with lead closing the year at 3%, {{marginally outstripping}} aluminium at 2.5%.
+
+**5. 棒｜旅行者の余暇の過ごし方**
+
+The bar chart shows the number of hours per day that tourists of four nationalities devoted to three leisure activities while on holiday in Spain in July 2022.
+
+Overall, it is clear that while reading {{dominated}} the daily routine of Japanese tourists, shopping {{held the least appeal}} for every nationality. Meanwhile, {{the time allocated to}} the beach {{diverged sharply}} across the four groups.
+
+Looking first at the Japanese, they spent 7 hours a day reading, {{the single highest figure}} on the chart and {{more than three times}} the time they spent at the beach, while shopping took up a mere hour. The Mexicans, by contrast, were {{the most avid beachgoers}}, spending 6 hours there, {{closely followed by}} Canadians at 5 hours, whereas Germans {{lagged well behind}} at 3 hours.
+
+Turning to the other activities, reading {{commanded far less attention}} among the remaining nationalities, {{tapering from}} 4 hours for Canadians {{+to}} 3 for Germans and just 2 for Mexicans. Shopping, meanwhile, {{never exceeded}} 2 hours for any group, with Germans and Canadians {{tied at}} this figure and the Japanese and Mexicans {{trailing}} at 1 hour each.
+
+**7. 円｜エネルギー容量の内訳**
+
+The pie charts show the breakdown of energy capacity by source in 2020, together with projections for 2050.
+
+Overall, it is clear that while fossil fuels {{are forecast to lose the most ground}}, solar power {{is poised to make the most substantial gains}}. Meanwhile, nuclear power and other renewables {{are expected to hold}} broadly steady shares against the backdrop of {{a near twofold expansion}} in overall capacity.
+
+Looking first at fossil fuels, they {{accounted for the lion's share}} of capacity in 2020, at 59%. Although this proportion {{is projected to shrink}} to 37% by 2050, fossil fuels {{will retain their dominant position}}. Solar power, by contrast, is set to see {{a nearly sevenfold increase}}, from a mere 3% to 20%, while wind power {{is expected to more than double}} its share, from 6% to 14%.
+
+Turning to the remaining sources, other renewables and nuclear power {{are likely to edge down}} to 22% and 7% from 24% and 8% {{respectively}}. Notably, total capacity {{is anticipated to surge}} from 7,050 GW to 13,600 GW, which means that even these {{marginally smaller shares}} would represent considerable growth {{in absolute terms}}.
+
+**10. 地図｜エルムフォードの町の変化**
+
+The maps show the transformation of the town of Elmford between 2010 and the present day.
+
+Overall, it is clear that while the eastern half of the town {{has been extensively redeveloped}}, the west {{has seen comparatively little change}}. Meanwhile, {{connectivity across the river}} {{has been enhanced}} by the addition of a second crossing.
+
+Looking first at the east, the farmland {{has given way to}} a sizeable housing estate of twelve homes, {{flanked to the south by}} a newly built supermarket. Further south, the riverside factory {{has been razed}} and {{converted into}} a park, while a new road now {{runs the length of}} the eastern boundary of the town, alongside the housing estate. As a result, an area that was once largely agricultural and industrial now serves residential and recreational purposes.
+
+Turning to the west, the town centre and the school {{have retained their original locations}}. The hospital in the north-west, however, {{has undergone a substantial expansion}}, {{complemented by}} an adjoining car park. Finally, a footbridge {{now spans}} the river to the south of the existing bridge, {{affording convenient access to}} the park on the opposite bank.
+
+**12. 図解｜冷凍チキンパイの製造**
+
+The diagrams show the composition of a frozen chicken pie and the stages involved in its manufacture.
+
+Overall, it is clear that the pie {{comprises}} layers of mashed potato, gravy, chicken and carrots {{encased in}} an oven-safe tray, and that its production {{follows two parallel lines}}, which {{converge}} before the final stages. Meanwhile, potatoes {{have a considerably longer storage life than}} chicken.
+
+Looking first at the potatoes, {{upon delivery}} they {{may be stored for up to}} three weeks before being washed and peeled. They are then boiled and mashed, and the resulting mash {{is held in storage}} {{pending}} the assembly of the pies.
+
+Turning to the chicken, its storage {{is limited to}} a mere two days, after which it {{is seasoned with}} herbs and spices and roasted in an oven. The meat is subsequently cut into pieces by machine and weighed into portions, to which carrots and gravy are added in turn. At this point, the two lines merge, with the mashed potato {{forming the top layer}} of each pie. Finally, the pies are sealed with a lid, frozen and packed into boxes {{prior to distribution}}.
