@@ -332,13 +332,12 @@ function Contents({
   if (rows.length === 0)
     return <p style={{ margin: 0, fontSize: 13, color: 'var(--text-muted)' }}>このレベルの題材は準備中です。</p>;
 
-  let prevGroup = '';
+  const groups = rows.map((e) => splitTitle(e.title).group);
   return (
     <ol style={{ listStyle: 'none', margin: 0, padding: 0 }}>
       {rows.map((e, i) => {
         const { group, name } = splitTitle(e.title);
-        const showGroup = group !== prevGroup;
-        prevGroup = group;
+        const showGroup = i === 0 || group !== groups[i - 1];
         const studied = last.get(e.id);
         return (
           <li key={e.id}>

@@ -500,7 +500,7 @@ export function buildAiPrompt(input: AiPromptInput): string {
   );
   lines.push(
     '3. 型(段落の役割や決まった書き出し)の使い方に問題があれば指摘してください。' +
-      (task === 'task1' ? ' Overview の書き方と数字の選び方も見てください。' : ' 立場の示し方と結論の書き方も見てください。'),
+      (task === 'task1' ? 'Overview の書き方と数字の選び方も見てください。' : '立場の示し方と結論の書き方も見てください。'),
   );
   lines.push('4. この答案で使える、より良い語彙・コロケーションを5つ、英語と日本語の意味つきで挙げてください。');
   lines.push(

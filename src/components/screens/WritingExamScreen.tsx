@@ -179,7 +179,7 @@ function levelQuestions(level: Level, task: WritingTask): ExamQuestion[] {
 }
 
 function findQuestion(task: WritingTask, presetId: string | null): ExamQuestion | null {
-  if (!presetId) return null;
+  if (!presetId || !presetId.startsWith(task === 'task1' ? 'task1-' : 'task2model-')) return null;
   const topic = getAllPresetTopics().find((t) => t.presetId === presetId);
   return topic ? buildQuestion(task, topic) : null;
 }
