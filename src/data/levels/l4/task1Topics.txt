@@ -1,0 +1,59 @@
+**2. 表｜ニュージーランドの世帯構成**
+
+The table shows the proportion of people in New Zealand living in five types of household between 1975 and 2015.
+
+Overall, it is clear that while couples with dependent children {{experienced the most significant decline}}, one-person and lone-parent households {{grew considerably}}. Meanwhile, the share of couples with non-dependent children {{remained relatively stable}}.
+
+Looking first at couples with dependent children, this group {{accounted for}} half of all people in 1975. However, the figure {{fell steadily}} over the next four decades to 35% in 2015, although it was still {{the most common household type}}. In contrast, lone-parent households, which {{stood at}} just 5% in 1975, {{tripled}} to 15%. Similarly, the percentage of people living alone {{more than doubled}} from 6% to 13%, {{levelling off}} after 2005.
+
+Turning to the remaining groups, couples without children {{saw a modest rise}} from 18% to 22%, {{ranking second}} throughout the period. By contrast, the figure for couples with non-dependent children {{showed a marginal decline}}, {{edging down}} from 12% to 10% by 2005 and remaining at that level until 2015.
+
+**3. 折れ線｜金属価格の月ごとの変化**
+
+The line graph shows the average monthly percentage change in the prices of aluminium, tin and lead in 2016, compared with the previous month.
+
+Overall, it is clear that while tin {{was by far the most volatile}} of the three metals, aluminium {{fluctuated the least}}. Meanwhile, all three {{followed a broadly similar pattern}}, with prices falling in the middle of the year before {{recovering}} towards the end.
+
+Looking first at tin, its price rose by 6% in January, which was {{the highest figure}} on the graph. After that, the rate of increase {{slowed considerably}} to just 1.5% in March, and in June the price fell by 2.5%. This downward trend continued until September, when tin {{hit a low of}} minus 3%, before {{rebounding}} to 0.5% in October.
+
+Turning to aluminium and lead, the changes in both metals were {{far more moderate}}, {{ranging between}} minus 2% {{+and}} 3.5%. Aluminium, which {{remained relatively stable}}, {{dipped below zero}} only in April and May. In contrast, lead {{peaked at}} 3.5% in February and ended the year at 3%, {{marginally higher than}} aluminium at 2.5%.
+
+**5. 棒｜旅行者の余暇の過ごし方**
+
+The bar chart shows the number of hours per day that tourists from four countries spent on three leisure activities in Spain in July 2022.
+
+Overall, it is clear that while Japanese tourists {{devoted the most time}} to reading, shopping was {{the least popular pastime}} for every nationality. Meanwhile, the amount of time spent at the beach {{varied considerably}} from one nationality to another.
+
+Looking first at Japanese tourists, they read for 7 hours a day, which was {{the highest figure in the entire chart}}. However, they spent {{only a fraction of that}} at the beach and shopping, at 2 hours and 1 hour {{respectively}}. Mexican tourists, in contrast, {{showed a clear preference for}} the beach, where they spent 6 hours, {{followed by}} Canadians and Germans at 5 and 3 hours.
+
+Turning to the other activities, reading {{was considerably less popular}} among the other three groups, {{ranging from}} 4 hours for Canadians {{+to}} just 2 hours for Mexicans, with Germans {{in between}} at 3 hours. Shopping {{did not exceed}} 2 hours a day for any group, but it {{was equally popular}} among Germans and Canadians, at 2 hours each.
+
+**7. 円｜エネルギー容量の内訳**
+
+The pie charts show the proportion of energy capacity from five sources in 2020 and the forecast for 2050.
+
+Overall, it is clear that while fossil fuels {{are expected to see the largest fall}} in their share, solar power {{is projected to grow the most}}. Meanwhile, the shares of nuclear power and other renewables {{are likely to remain fairly stable}}.
+
+Looking first at fossil fuels, they {{accounted for}} 59% of total capacity in 2020, which was {{well over half}}. This figure {{is predicted to drop}} to 37% by 2050, although fossil fuels {{will remain the dominant source}}. In contrast, solar power, which {{made up}} a mere 3% in 2020, is expected to {{climb sharply}} to 20%, while wind power {{is set to more than double}} from 6% to 14%.
+
+Turning to nuclear power and other renewables, both {{are forecast to decline marginally}}. The share of other renewables is likely to {{slip}} from 24% to 22%, and that of nuclear power from 8% to 7%. Meanwhile, total capacity {{is expected to almost double}}, {{rising}} from 7,050 GW to 13,600 GW.
+
+**10. 地図｜エルムフォードの町の変化**
+
+The maps show how the town of Elmford has changed between 2010 and the present day.
+
+Overall, it is clear that while the east side of the town {{has undergone extensive development}}, the west side {{has remained largely unchanged}}. Meanwhile, the river {{has become considerably easier to cross}}.
+
+Looking first at the east side, the farmland {{has made way for}} a large housing estate {{consisting of}} twelve houses, and a supermarket has been built directly to the south of it. In addition, the old factory by the river {{has been demolished}} and {{replaced by}} a park. A new road has also been constructed {{along the eastern edge}} of the town, {{running parallel to}} the housing estate.
+
+Turning to the west side, the town centre and the school {{remain in their original positions}}. However, the hospital, which is located in the north-west of the town, {{has been significantly enlarged}}, and a car park has been added next to it. Finally, a footbridge {{now spans}} the river {{to the south of}} the original bridge, {{providing convenient access to}} the new park.
+
+**12. 図解｜冷凍チキンパイの製造**
+
+The diagrams show the components of a frozen chicken pie and the process by which it is manufactured.
+
+Overall, it is clear that the pie {{consists of}} mashed potato, gravy, chicken and carrots in an oven-safe tray, and that production involves {{two parallel lines}}, which {{merge}} before the final stages. Meanwhile, potatoes {{can be stored for far longer than}} chicken before they are processed.
+
+Looking first at the potatoes, they {{are delivered to}} the factory, where they {{can be kept for up to}} three weeks. They are washed and peeled, {{after which}} they are boiled and mashed. The mashed potato {{is then stored}} until it is required for the final assembly.
+
+Turning to the chicken, which {{can be stored for a maximum of}} two days after delivery, it is first seasoned with herbs and spices and roasted in an oven. Next, it {{is cut into pieces}} by a machine, and the portions are weighed. Once carrots and gravy have been added, the pies {{are topped with}} the mashed potato and {{sealed with a lid}}. Finally, they are frozen, packed into boxes and {{dispatched}}.

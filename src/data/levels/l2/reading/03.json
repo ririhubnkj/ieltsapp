@@ -1,0 +1,177 @@
+{
+  "id": "l2-r03",
+  "title": "A Vault for the World's Seeds",
+  "titleJa": "世界の種を守る貯蔵庫：作物の多様性を残すしくみ",
+  "minutes": 20,
+  "paragraphs": [
+    {
+      "label": "A",
+      "text": "On a cold, rocky island far to the north of mainland Norway, a narrow concrete entrance sticks out from the side of a mountain. Behind it lies the Svalbard Global Seed Vault, which opened in 2008 and holds more than a million packets of seeds from food crops such as rice, wheat, maize and beans. Yet almost nobody visits it, and the seeds are not meant to be used in everyday farming. The vault is a back-up: a safe place to keep copies of seeds in case the originals are lost."
+    },
+    {
+      "label": "B",
+      "text": "To see why such a place is needed, consider what has happened to farming over the last century. In the past, farmers in each region grew their own local varieties of crops, which had slowly adapted to the soil, the weather and the pests of that area. During the twentieth century, many of these were replaced by a small number of modern varieties that produced bigger harvests. This change fed millions of people, but it also created a risk. When a whole region depends on a single variety, one new disease can destroy most of the crop. Old varieties often carry useful qualities, such as the ability to survive heat or drought. Dr Amina Haddad, a plant breeder in North Africa, is crossing modern wheat with an old local type that needs very little water, hoping to produce a variety that suits a hotter climate."
+    },
+    {
+      "label": "C",
+      "text": "For this reason, scientists have built up collections of seeds, known as gene banks, in more than a hundred countries. However, many of these collections are not as safe as they should be. Some are in buildings where the electricity often fails, so the seeds cannot be kept cold enough. Others depend on government money that can disappear after a change of policy. A number of gene banks have been damaged or completely lost because of war, floods or fire. Once a rare local variety disappears, it cannot be brought back."
+    },
+    {
+      "label": "D",
+      "text": "The vault on Svalbard was designed to avoid these dangers. Its storage rooms lie more than 100 metres inside the mountain, where machines keep the temperature at minus 18 degrees Celsius. If the machines stopped, the frozen ground around the rooms would still keep the seeds below zero. The vault was also built well above sea level, so it should stay dry even if the polar ice melts. The seeds are sealed in boxes, and the vault works rather like a bank's safe: the staff never open the boxes, and only the organisation that sent a box can ask for it to be returned."
+    },
+    {
+      "label": "E",
+      "text": "For several years, no seeds left the vault. Then, in 2015, an international research centre that had been based in Aleppo, Syria, made the first request. War had forced its staff to leave the city, and they could no longer reach their own large seed collection. Using the copies stored on Svalbard, the scientists planted the seeds in fields in Lebanon and Morocco. When the plants produced fresh seed, part of the harvest was sent back to the vault, so that the back-up was complete once again."
+    },
+    {
+      "label": "F",
+      "text": "The vault is not perfect. In 2016, unusually warm weather caused snow and ice near the entrance to melt, and water flowed into the entrance tunnel. No seeds were harmed, but the tunnel was later rebuilt with waterproof walls. A more basic limit is that the vault can only store seeds. Some important crops, such as bananas, are normally grown from cuttings rather than seeds, so they must be protected in other ways. Experts therefore stress that the vault is a last line of defence. Crop diversity also needs to survive where it began: in farmers' fields."
+    }
+  ],
+  "groups": [
+    {
+      "type": "headings",
+      "instructions": "Questions 1–5. The reading passage has six paragraphs, A–F. Choose the correct heading for paragraphs B–F from the list of headings below. Write the correct number, i–viii. NB There are more headings than paragraphs, so you will not use all of them.",
+      "options": [
+        { "key": "i", "text": "Weaknesses of other seed collections" },
+        { "key": "ii", "text": "Teaching farmers to save their own seeds" },
+        { "key": "iii", "text": "The first time seeds were taken out" },
+        { "key": "iv", "text": "Why many different crop varieties are needed" },
+        { "key": "v", "text": "The high cost of building the vault" },
+        { "key": "vi", "text": "Problems the vault cannot fully solve" },
+        { "key": "vii", "text": "How the design protects the seeds" },
+        { "key": "viii", "text": "Seeds that stay alive for thousands of years" }
+      ],
+      "questions": [
+        {
+          "num": 1,
+          "text": "Paragraph B",
+          "answer": "iv",
+          "evidence": "B",
+          "explanation": "B段落は、在来品種が少数の現代品種に置き換わったことで \"When a whole region depends on a single variety, one new disease can destroy most of the crop\" という危険が生じたと説明しています。さらに \"Old varieties often carry useful qualities\" と古い品種の価値を述べているので、多くの品種が必要な理由を表す iv です。"
+        },
+        {
+          "num": 2,
+          "text": "Paragraph C",
+          "answer": "i",
+          "evidence": "C",
+          "explanation": "C段落の中心は \"many of these collections are not as safe as they should be\" です。停電、予算の打ち切り、戦争や洪水による損失という各地のジーンバンクの弱点が並んでいるので i です。"
+        },
+        {
+          "num": 3,
+          "text": "Paragraph D",
+          "answer": "vii",
+          "evidence": "D",
+          "explanation": "D段落は \"The vault on Svalbard was designed to avoid these dangers\" で始まり、山の奥の保管室、マイナス18度の温度、海面より高い場所などのつくりを説明しています。設計が種を守るしくみなので vii です。種が何千年も生きるという viii の内容は書かれていません。"
+        },
+        {
+          "num": 4,
+          "text": "Paragraph E",
+          "answer": "iii",
+          "evidence": "E",
+          "explanation": "E段落はアレッポの研究所が \"made the first request\" した話です。それまでは \"no seeds left the vault\" だったので、初めて種が取り出された出来事を表す iii です。"
+        },
+        {
+          "num": 5,
+          "text": "Paragraph F",
+          "answer": "vi",
+          "evidence": "F",
+          "explanation": "F段落は \"The vault is not perfect\" で始まり、トンネルへの浸水と、バナナのように種で保存できない作物があることを挙げています。貯蔵庫だけでは解決できない問題を述べているので vi です。"
+        }
+      ]
+    },
+    {
+      "type": "tfng",
+      "instructions": "Questions 6–9. Do the following statements agree with the information given in the reading passage? Write TRUE if the statement agrees with the information, FALSE if the statement contradicts the information, or NOT GIVEN if there is no information on this.",
+      "questions": [
+        {
+          "num": 6,
+          "text": "The main purpose of the vault is to supply farmers with seeds every year.",
+          "answer": "FALSE",
+          "evidence": "A",
+          "explanation": "A段落に \"the seeds are not meant to be used in everyday farming\" とあり、貯蔵庫は \"a back-up\" だと説明されています。毎年農家に種を配る場所ではないので FALSE です。"
+        },
+        {
+          "num": 7,
+          "text": "Haddad is using wheat seeds that she received from the Svalbard vault.",
+          "answer": "NOT GIVEN",
+          "evidence": "B",
+          "explanation": "B段落には Haddad 博士が \"crossing modern wheat with an old local type that needs very little water\" とあるだけです。その古い小麦をどこから手に入れたかは書かれていないので NOT GIVEN です。"
+        },
+        {
+          "num": 8,
+          "text": "The vault was placed high enough to remain dry if the polar ice melts.",
+          "answer": "TRUE",
+          "evidence": "D",
+          "explanation": "D段落の \"The vault was also built well above sea level, so it should stay dry even if the polar ice melts\" が根拠です。stay dry が remain dry に言い換えられているので TRUE です。"
+        },
+        {
+          "num": 9,
+          "text": "Some seeds were damaged when water entered the tunnel in 2016.",
+          "answer": "FALSE",
+          "evidence": "F",
+          "explanation": "F段落に、2016年に水がトンネルに流れ込んだあと \"No seeds were harmed\" とあります。種は1つも被害を受けていないので FALSE です。"
+        }
+      ]
+    },
+    {
+      "type": "wordlist",
+      "instructions": "Questions 10–13. Complete the summary using the list of words, A–H, below. Write the correct letter, A–H.",
+      "options": [
+        { "key": "A", "text": "fields" },
+        { "key": "B", "text": "floods" },
+        { "key": "C", "text": "bananas" },
+        { "key": "D", "text": "laboratories" },
+        { "key": "E", "text": "war" },
+        { "key": "F", "text": "harvest" },
+        { "key": "G", "text": "wheat" },
+        { "key": "H", "text": "money" }
+      ],
+      "questions": [
+        {
+          "num": 10,
+          "text": "In 2015, a research centre whose staff had left Aleppo because of ____ became the first to ask for its seeds back.",
+          "answer": "E",
+          "evidence": "E",
+          "explanation": "E段落の \"War had forced its staff to leave the city\" が根拠なので E の war です。B の floods や H の money はC段落で各地のジーンバンクの危険として出てきますが、この研究所の話には出てきません。"
+        },
+        {
+          "num": 11,
+          "text": "The seeds were grown in Lebanon and Morocco, and part of the new ____ was later returned to Svalbard.",
+          "answer": "F",
+          "evidence": "E",
+          "explanation": "E段落に \"part of the harvest was sent back to the vault\" とあります。sent back to the vault が returned to Svalbard に言い換えられているので F の harvest です。"
+        },
+        {
+          "num": 12,
+          "text": "However, the vault cannot protect every crop, because some, like ____, are not usually grown from seed.",
+          "answer": "C",
+          "evidence": "F",
+          "explanation": "F段落の \"Some important crops, such as bananas, are normally grown from cuttings rather than seeds\" が根拠なので C の bananas です。G の wheat はA段落で貯蔵庫にある種の例として挙げられています。"
+        },
+        {
+          "num": 13,
+          "text": "Experts believe that crop diversity must also be kept alive in farmers' ____.",
+          "answer": "A",
+          "evidence": "F",
+          "explanation": "F段落の最後の \"Crop diversity also needs to survive where it began: in farmers' fields\" が根拠なので A の fields です。needs to survive が must be kept alive に言い換えられています。"
+        }
+      ]
+    }
+  ],
+  "vocab": [
+    { "en": "vault", "ja": "（貴重品の）貯蔵庫、金庫室" },
+    { "en": "back-up", "ja": "予備、控え" },
+    { "en": "variety", "ja": "（作物の）品種" },
+    { "en": "adapt to", "ja": "〜に適応する、なじむ" },
+    { "en": "drought", "ja": "干ばつ、日照り" },
+    { "en": "breeder", "ja": "品種改良をする人、育種家" },
+    { "en": "policy", "ja": "政策、方針" },
+    { "en": "sea level", "ja": "海面、海抜" },
+    { "en": "seal", "ja": "密封する、封をする" },
+    { "en": "request", "ja": "依頼、要請" },
+    { "en": "cutting", "ja": "挿し木（用に切り取った枝や茎）" },
+    { "en": "line of defence", "ja": "防衛線、守りの手段" }
+  ]
+}

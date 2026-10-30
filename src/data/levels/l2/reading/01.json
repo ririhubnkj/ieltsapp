@@ -1,0 +1,181 @@
+{
+  "id": "l2-r01",
+  "title": "Electric Scooters on City Streets",
+  "titleJa": "街を走る電動キックボード：急な広がりと課題",
+  "minutes": 20,
+  "paragraphs": [
+    {
+      "label": "A",
+      "text": "Ten years ago, very few people had ridden an electric scooter. Today, in hundreds of cities around the world, rows of them stand on street corners, waiting for the next rider. The system is simple. A user finds a scooter with a smartphone app, scans a code to unlock it and pays a small amount for every minute of the ride. At the end of the journey, the rider just leaves the scooter near their destination, and it is ready for someone else. For many young city residents, this has become a normal way to travel short distances."
+    },
+    {
+      "label": "B",
+      "text": "The speed at which scooters spread surprised many city governments. Because the companies did not need to build stations or lay tracks, they could place thousands of scooters on the streets almost overnight, sometimes without asking for permission. Supporters argued that the scooters solved an old problem in public transport, often called the 'last mile'. Many people live or work too far from a bus stop or train station to walk there comfortably, so they choose to drive instead. A scooter, it was hoped, could fill this gap and make public transport more attractive."
+    },
+    {
+      "label": "C",
+      "text": "Electric scooters produce no exhaust gases, so at first they were seen as a clean form of transport. However, the real picture is more complicated. A survey of riders in one European city found that most scooter trips replaced walking, cycling or a bus journey, and only about one in ten replaced a car trip. In addition, the first scooters were not built to last. Many broke down or were damaged after only a few months, and every night workers drove around in vans to collect them and take them away for charging. When all of this is taken into account, the benefit to the environment was much smaller than the companies had claimed."
+    },
+    {
+      "label": "D",
+      "text": "Safety has been another concern. As scooter use grew, hospitals began to see more patients with broken arms, wrist injuries and head injuries. Dr Helen Brandt, an emergency doctor who studied injured riders at a large city hospital, found that almost a third of them had been hurt on their very first ride. Very few had been wearing a helmet. In Brandt's view, the problem is not only the scooters themselves but also the fact that new users are given no training before they set off into busy traffic."
+    },
+    {
+      "label": "E",
+      "text": "Many residents complain less about accidents than about clutter. Scooters left lying across pavements can be a real obstacle for people in wheelchairs, parents with pushchairs and people who are blind. In response, cities have introduced a range of rules. Some now require riders to park in marked zones and charge them a fine if they do not. Others limit the number of companies that are allowed to operate, or use GPS technology to reduce the speed of scooters automatically in crowded areas such as markets and squares."
+    },
+    {
+      "label": "F",
+      "text": "The industry itself has also changed. Newer models are stronger and last for several years, and many have batteries that can be swapped on the street, so fewer van journeys are needed. Even so, many scooter companies have struggled to make a profit, and some have closed. A few cities have gone further and removed shared scooters altogether after complaints from the public. Whether electric scooters become a permanent part of city life may depend less on the technology than on how well cities and companies manage them."
+    }
+  ],
+  "groups": [
+    {
+      "type": "paragraph",
+      "instructions": "Questions 1–5. The reading passage has six paragraphs, A–F. Which paragraph contains the following information? Write the correct letter, A–F. NB You may use any letter more than once.",
+      "questions": [
+        {
+          "num": 1,
+          "text": "an explanation of why scooters may be less good for the environment than people first believed",
+          "answer": "C",
+          "evidence": "C",
+          "explanation": "C段落に \"the real picture is more complicated\" とあり、車の代わりに使われたのは \"only about one in ten\" で、夜に回収用のバンが走っていたことも挙げています。最後に \"the benefit to the environment was much smaller than the companies had claimed\" とまとめているので C です。"
+        },
+        {
+          "num": 2,
+          "text": "a description of the steps involved in hiring a scooter",
+          "answer": "A",
+          "evidence": "A",
+          "explanation": "A段落の \"A user finds a scooter with a smartphone app, scans a code to unlock it and pays a small amount for every minute of the ride\" が、アプリで探す、コードを読み取る、分単位で払うという利用の手順の説明です。したがって A です。"
+        },
+        {
+          "num": 3,
+          "text": "examples of rules that control where and how scooters are used",
+          "answer": "E",
+          "evidence": "E",
+          "explanation": "E段落に \"cities have introduced a range of rules\" とあり、指定区域への駐車と罰金、会社数の制限、GPS による速度制限が例として挙げられています。where（どこに置くか）と how（どう走るか）の両方に当たるので E です。"
+        },
+        {
+          "num": 4,
+          "text": "a mention of businesses that have stopped operating",
+          "answer": "F",
+          "evidence": "F",
+          "explanation": "F段落の \"many scooter companies have struggled to make a profit, and some have closed\" が根拠です。have closed が have stopped operating に言い換えられているので F です。"
+        },
+        {
+          "num": 5,
+          "text": "information about the types of injuries that riders suffer",
+          "answer": "D",
+          "evidence": "D",
+          "explanation": "D段落に \"hospitals began to see more patients with broken arms, wrist injuries and head injuries\" とあり、けがの種類が具体的に書かれています。したがって D です。"
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "instructions": "Questions 6–9. Choose the correct letter, A, B, C or D.",
+      "questions": [
+        {
+          "num": 6,
+          "text": "What is the 'last mile' problem described in paragraph B?",
+          "choices": [
+            { "key": "A", "text": "Scooter companies put too many scooters on the streets." },
+            { "key": "B", "text": "Buses and trains do not run often enough at night." },
+            { "key": "C", "text": "Many people find stations too far away to reach on foot." },
+            { "key": "D", "text": "Cities did not want to build new stations or tracks." }
+          ],
+          "answer": "C",
+          "evidence": "B",
+          "explanation": "B段落の \"Many people live or work too far from a bus stop or train station to walk there comfortably\" が根拠です。walk there が on foot に言い換えられているので C です。D の \"build stations or lay tracks\" は会社が必要としなかったことで、last mile の説明には当たりません。"
+        },
+        {
+          "num": 7,
+          "text": "What did the survey of riders in one European city show?",
+          "choices": [
+            { "key": "A", "text": "Most scooter trips were made instead of walking, cycling or taking a bus." },
+            { "key": "B", "text": "About one in ten riders drove a car to reach a scooter." },
+            { "key": "C", "text": "Most riders sold their cars after they started using scooters." },
+            { "key": "D", "text": "Scooters were mainly used by people travelling to work." }
+          ],
+          "answer": "A",
+          "evidence": "C",
+          "explanation": "C段落の \"most scooter trips replaced walking, cycling or a bus journey\" が根拠なので A です。\"only about one in ten replaced a car trip\" は車での移動がキックボードに置き換わった割合で、B の内容とは違います。C と D は本文に書かれていません。"
+        },
+        {
+          "num": 8,
+          "text": "According to Dr Brandt, one reason for the injuries is that",
+          "choices": [
+            { "key": "A", "text": "scooters are allowed to travel too fast." },
+            { "key": "B", "text": "hospitals do not have enough emergency doctors." },
+            { "key": "C", "text": "most riders use scooters at night when it is dark." },
+            { "key": "D", "text": "new riders do not receive any instruction." }
+          ],
+          "answer": "D",
+          "evidence": "D",
+          "explanation": "D段落の \"new users are given no training before they set off into busy traffic\" が根拠です。no training が do not receive any instruction に言い換えられているので D です。速度や夜間の利用については Brandt 博士の意見として書かれていません。"
+        },
+        {
+          "num": 9,
+          "text": "What does the writer suggest about the future of electric scooters in cities?",
+          "choices": [
+            { "key": "A", "text": "Better technology will solve most of the remaining problems." },
+            { "key": "B", "text": "It will mainly depend on how they are managed." },
+            { "key": "C", "text": "Most cities will soon remove shared scooters." },
+            { "key": "D", "text": "Scooter companies will soon start to make a profit." }
+          ],
+          "answer": "B",
+          "evidence": "F",
+          "explanation": "F段落の最後に \"may depend less on the technology than on how well cities and companies manage them\" とあるので B です。技術の影響は小さいと述べているため A は合いません。撤去したのは \"A few cities\" なので C も誤りです。"
+        }
+      ]
+    },
+    {
+      "type": "completion",
+      "instructions": "Questions 10–13. Complete the sentences below. Choose NO MORE THAN TWO WORDS from the passage for each answer.",
+      "questions": [
+        {
+          "num": 10,
+          "text": "Before starting a ride, a user unlocks the scooter by scanning a ____ with a phone.",
+          "accept": ["code"],
+          "evidence": "A",
+          "explanation": "A段落の \"scans a code to unlock it\" が根拠です。scanning a の後に入る名詞なので code が正解です。"
+        },
+        {
+          "num": 11,
+          "text": "The first shared scooters often broke down or were damaged within a few ____.",
+          "accept": ["months"],
+          "evidence": "C",
+          "explanation": "C段落に \"Many broke down or were damaged after only a few months\" とあります。after only a few が within a few に言い換えられているので、months が入ります。"
+        },
+        {
+          "num": 12,
+          "text": "In some cities, riders who do not leave scooters in marked zones have to pay a ____.",
+          "accept": ["fine"],
+          "evidence": "E",
+          "explanation": "E段落の \"require riders to park in marked zones and charge them a fine if they do not\" が根拠です。charge them a fine が have to pay a fine に言い換えられているので、fine（罰金）が正解です。"
+        },
+        {
+          "num": 13,
+          "text": "Because the batteries of newer scooters can be changed on the street, fewer ____ are necessary.",
+          "accept": ["van journeys"],
+          "evidence": "F",
+          "explanation": "F段落に \"batteries that can be swapped on the street, so fewer van journeys are needed\" とあります。swapped が changed、needed が necessary に言い換えられているので、2語の van journeys が正解です。"
+        }
+      ]
+    }
+  ],
+  "vocab": [
+    { "en": "unlock", "ja": "（鍵・ロックを）解除する" },
+    { "en": "destination", "ja": "目的地、行き先" },
+    { "en": "overnight", "ja": "一晩で、あっという間に" },
+    { "en": "permission", "ja": "許可" },
+    { "en": "fill a gap", "ja": "すき間を埋める、不足を補う" },
+    { "en": "exhaust gases", "ja": "排気ガス" },
+    { "en": "take ... into account", "ja": "〜を考慮に入れる" },
+    { "en": "concern", "ja": "懸念、心配なこと" },
+    { "en": "clutter", "ja": "散らかった物、乱雑さ" },
+    { "en": "obstacle", "ja": "障害物、妨げ" },
+    { "en": "swap", "ja": "取り替える、交換する" },
+    { "en": "make a profit", "ja": "利益を出す、もうける" }
+  ]
+}

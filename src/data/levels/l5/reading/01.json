@@ -1,0 +1,177 @@
+{
+  "id": "l5-r01",
+  "title": "When Findings Fail to Return",
+  "titleJa": "再現されない研究結果：心理学の再現性危機",
+  "minutes": 20,
+  "paragraphs": [
+    {
+      "label": "A",
+      "text": "For much of the twentieth century, a published experiment in psychology was treated rather like a brick in a wall: once laid, it could be built upon without being inspected again. Textbooks cited striking findings about how subtle cues shape behaviour, and those findings travelled into management courses, public policy and popular books. During the 2010s, however, that confidence was shaken. When teams of researchers set out to repeat well-known studies as faithfully as they could, a disconcertingly large share of the original effects either shrank to a fraction of their reported size or disappeared altogether. What came to be called the replication crisis was less a single discovery than a gradual erosion of trust in the ordinary machinery of the discipline."
+    },
+    {
+      "label": "B",
+      "text": "It would be a mistake to read every failed replication as evidence of misconduct. Deliberate fabrication certainly occurs, but it appears to account for only a small proportion of unreliable results. The more troubling possibility is that honest researchers, following practices their supervisors had taught them, were systematically producing findings that could not be trusted. Nor does a single unsuccessful repetition prove that the original effect was illusory. A replication may itself be underpowered, or may differ from the original in ways nobody thought to record, such as the time of year at which participants were tested or the wording of instructions after translation. The question, then, is not whether any one study can be repeated but whether a body of evidence, taken as a whole, deserves the confidence once placed in it."
+    },
+    {
+      "label": "C",
+      "text": "Much of the explanation lies in what has been termed researcher flexibility. In analysing a typical experiment, an investigator faces dozens of apparently minor decisions: which participants to exclude, which of several outcome measures to emphasise, whether to stop collecting data or to recruit a few more people. None of these choices is improper in itself. The difficulty is that when they are made after the data have been inspected, they tend, often unconsciously, to be made in whichever direction produces a statistically significant result. The psychologist Miriam Okonjo has compared the process to planning a journey by first deciding where one would like to arrive: each turning seems reasonable at the moment it is taken, yet the route as a whole has been chosen by its destination."
+    },
+    {
+      "label": "D",
+      "text": "Such habits did not arise in a vacuum. Journals have long preferred results that are new, surprising and positive, while studies that find nothing, or that merely confirm an earlier finding, have struggled to find a publisher. Careers, in turn, have depended on publication in prestigious outlets. The consequence is a literature that resembles the visible portion of an iceberg: the published studies are disproportionately those that happened to cross the threshold of significance, while the many attempts that did not are left in filing cabinets. Under these conditions, even a field composed entirely of scrupulous individuals could accumulate a misleading record."
+    },
+    {
+      "label": "E",
+      "text": "A further problem is statistical. Many classic experiments relied on samples of a few dozen students, which is often too few to detect effects of the modest size that human behaviour usually displays. It might be supposed that small studies simply produce noisier estimates, erring equally in either direction. In practice, however, when only significant results reach print, the small studies that do get published are those that happened, by chance, to observe an unusually large effect. Published estimates are therefore inflated in a predictable direction, and a faithful replication with an adequate sample will tend to find a smaller effect even if the underlying phenomenon is genuine."
+    },
+    {
+      "label": "F",
+      "text": "The reforms that followed have been largely procedural. Researchers are increasingly encouraged to preregister their studies, setting out their hypotheses and analysis plans in a time-stamped document before any data are collected. Some journals have gone further, agreeing to publish a study on the strength of its design, before the results are known, so that the decision no longer depends on whether the outcome is striking. Sharing raw data and materials has also become more common, allowing others to check analyses and to attempt exact repetitions. Early comparisons suggest that studies published under the design-first model report positive results considerably less often than conventional papers, which is what one would expect if the conventional literature had been filtered for success."
+    },
+    {
+      "label": "G",
+      "text": "Not everyone regards these changes as an unqualified improvement. Some researchers worry that an emphasis on advance planning may discourage the open-ended exploration from which many important ideas have historically emerged. Others, including the methodologist Daniel Ferreira-Holm, argue that the reforms address the symptoms rather than the cause. In his view, many psychological theories are formulated so loosely that almost any result could be interpreted as support, and no amount of procedural care can make a vague theory testable. Preregistration, on this account, guarantees that a prediction was stated in advance, but not that it was worth stating."
+    },
+    {
+      "label": "H",
+      "text": "Whether the crisis has been resolved is difficult to judge. Replication rates in recent studies appear to be higher, but the period is short and the evidence uneven across subfields. What seems clearer is that the episode has changed what counts as a credible finding. A striking result reported once, from a small sample, is now more likely to be greeted with curiosity than with immediate acceptance; and that shift in attitude, rather than any particular rule, may prove to be the most durable legacy of the crisis."
+    }
+  ],
+  "groups": [
+    {
+      "type": "headings",
+      "instructions": "Questions 1–6. The reading passage has eight paragraphs, A–H. Choose the correct heading for paragraphs B–G from the list of headings below. Write the correct number, i–ix. NB There are more headings than paragraphs, so you will not use all of them.",
+      "options": [
+        { "key": "i", "text": "Reasonable decisions that become distorted in combination" },
+        { "key": "ii", "text": "The true scale of deliberate fraud in the discipline" },
+        { "key": "iii", "text": "Doubts about whether better procedure is enough" },
+        { "key": "iv", "text": "Why chance favours exaggerated estimates" },
+        { "key": "v", "text": "Evidence that the reforms have restored public trust" },
+        { "key": "vi", "text": "Misreading what an unsuccessful repetition shows" },
+        { "key": "vii", "text": "Committing to a plan before the evidence arrives" },
+        { "key": "viii", "text": "Replacing student volunteers with broader samples" },
+        { "key": "ix", "text": "Publication pressures that reward the unexpected" }
+      ],
+      "questions": [
+        {
+          "num": 1,
+          "text": "Paragraph B",
+          "answer": "vi",
+          "evidence": "B",
+          "explanation": "段落Bは \"It would be a mistake to read every failed replication as evidence of misconduct\" で始まり、\"Nor does a single unsuccessful repetition prove that the original effect was illusory\" と続きます。再現の失敗が何を示すかを読み誤る危険がこの段落の中心なので vi です。ii は不正に触れた部分だけを拾った見出しで、本文は不正を \"only a small proportion\" と述べるにとどまり、その規模を論じてはいません。"
+        },
+        {
+          "num": 2,
+          "text": "Paragraph C",
+          "answer": "i",
+          "evidence": "C",
+          "explanation": "段落Cは分析上の小さな判断について \"None of these choices is improper in itself\" と述べたうえで、データを見た後に判断すると有意な方向へ偏ると説明しています。一つひとつは妥当な判断が積み重なって歪むという i が合います。比喩の \"the route as a whole has been chosen by its destination\" も同じ内容です。"
+        },
+        {
+          "num": 3,
+          "text": "Paragraph D",
+          "answer": "ix",
+          "evidence": "D",
+          "explanation": "段落Dは \"Journals have long preferred results that are new, surprising and positive\" と、学術誌と評価制度が目新しい結果を優遇してきたことを述べています。出版の圧力が意外な結果に報いるという ix が合います。iv の「偶然による推定値の誇張」は統計の話で、段落Eの内容です。"
+        },
+        {
+          "num": 4,
+          "text": "Paragraph E",
+          "answer": "iv",
+          "evidence": "E",
+          "explanation": "段落Eは小規模研究のうち出版されるのは \"those that happened, by chance, to observe an unusually large effect\" だと説明し、\"Published estimates are therefore inflated in a predictable direction\" と結論づけています。偶然が誇張された推定値を選び出す仕組みなので iv です。viii は学生の標本に触れていますが、より広い標本への置き換えは本文に書かれていません。"
+        },
+        {
+          "num": 5,
+          "text": "Paragraph F",
+          "answer": "vii",
+          "evidence": "F",
+          "explanation": "段落Fは事前登録について \"setting out their hypotheses and analysis plans in a time-stamped document before any data are collected\" と説明しています。データを集める前に計画を確定させる改革なので vii です。v は信頼が回復したと述べていますが、段落Fの比較は肯定的な結果の割合の違いを示すだけで、段落Hも \"difficult to judge\" としています。"
+        },
+        {
+          "num": 6,
+          "text": "Paragraph G",
+          "answer": "iii",
+          "evidence": "G",
+          "explanation": "段落Gは \"Not everyone regards these changes as an unqualified improvement\" で始まり、\"no amount of procedural care can make a vague theory testable\" という批判を紹介しています。手続きの改善だけで足りるのかという疑問なので iii が合います。"
+        }
+      ]
+    },
+    {
+      "type": "ynng",
+      "instructions": "Questions 7–11. Do the following statements agree with the claims of the writer? Write YES if the statement agrees with the claims of the writer, NO if the statement contradicts the claims of the writer, or NOT GIVEN if it is impossible to say what the writer thinks about this.",
+      "questions": [
+        {
+          "num": 7,
+          "text": "Most unreliable findings in psychology are the result of deliberate fabrication.",
+          "answer": "NO",
+          "evidence": "B",
+          "explanation": "段落Bに \"Deliberate fabrication certainly occurs, but it appears to account for only a small proportion of unreliable results\" とあります。意図的な捏造は信頼できない結果の一部にすぎないと筆者は述べているので、「大半が捏造による」という文と矛盾し NO です。certainly occurs は捏造が実際にあることを認める部分で、その割合は only a small proportion とされています。"
+        },
+        {
+          "num": 8,
+          "text": "A misleading body of research could develop even if every researcher in a field acted honestly.",
+          "answer": "YES",
+          "evidence": "D",
+          "explanation": "段落Dの最後に \"even a field composed entirely of scrupulous individuals could accumulate a misleading record\" とあります。scrupulous individuals が acted honestly、misleading record が misleading body of research の言い換えなので YES です。"
+        },
+        {
+          "num": 9,
+          "text": "If a large replication finds a smaller effect than the original study, this shows that the original phenomenon does not exist.",
+          "answer": "NO",
+          "evidence": "E",
+          "explanation": "段落Eに \"a faithful replication with an adequate sample will tend to find a smaller effect even if the underlying phenomenon is genuine\" とあります。効果が小さく出ても現象が本物である場合があると筆者は述べているので、「現象が存在しない証拠になる」という文と矛盾し NO です。段落Bの \"Nor does a single unsuccessful repetition prove that the original effect was illusory\" も同じ方向の根拠です。"
+        },
+        {
+          "num": 10,
+          "text": "Studies published under the design-first model are of higher methodological quality than conventional papers.",
+          "answer": "NOT GIVEN",
+          "evidence": "F",
+          "explanation": "段落Fが両者を比べているのは \"report positive results considerably less often than conventional papers\" という結果の割合だけです。方法論上の質が高いかどうかについて筆者は何も述べていないので NOT GIVEN です。肯定的な結果が少ないことを質の高さの証拠とする記述は本文にありません。"
+        },
+        {
+          "num": 11,
+          "text": "A change in how surprising results are received may have a longer-lasting effect than any specific reform.",
+          "answer": "YES",
+          "evidence": "H",
+          "explanation": "段落Hに \"that shift in attitude, rather than any particular rule, may prove to be the most durable legacy of the crisis\" とあります。意外な結果を受け止める態度の変化が個々の規則より長く残るかもしれないという主張と一致するので YES です。may prove という控えめな言い方も設問の may と対応しています。"
+        }
+      ]
+    },
+    {
+      "type": "mcq2",
+      "instructions": "Questions 12–13. Choose TWO letters, A–E.",
+      "questions": [
+        {
+          "num": 12,
+          "count": 2,
+          "text": "Which TWO criticisms of the reforms are mentioned in the passage?",
+          "choices": [
+            { "key": "A", "text": "They have caused journals to publish fewer positive results." },
+            { "key": "B", "text": "They place an unfair burden on junior researchers." },
+            { "key": "C", "text": "They may deter the kind of exploration that has produced important ideas." },
+            { "key": "D", "text": "Sharing raw data may expose participants' personal information." },
+            { "key": "E", "text": "They cannot by themselves make an imprecise theory testable." }
+          ],
+          "answer": "C,E",
+          "evidence": "G",
+          "explanation": "段落Gの \"may discourage the open-ended exploration from which many important ideas have historically emerged\" が C に、\"no amount of procedural care can make a vague theory testable\" が E に当たります。A の肯定的な結果の減少は段落Fで \"what one would expect\" と予想どおりの結果として紹介されており、批判として挙げられてはいません。B と D は本文に記述がありません。"
+        }
+      ]
+    }
+  ],
+  "vocab": [
+    { "en": "disconcertingly", "ja": "当惑するほど、不安になるほど" },
+    { "en": "erosion", "ja": "（信頼などが）徐々に損なわれること" },
+    { "en": "misconduct", "ja": "（研究上の）不正行為" },
+    { "en": "fabrication", "ja": "捏造" },
+    { "en": "illusory", "ja": "錯覚による、実在しない" },
+    { "en": "underpowered", "ja": "（研究の）検出力が不足した" },
+    { "en": "in a vacuum", "ja": "周囲から切り離されて、何の背景もなく" },
+    { "en": "scrupulous", "ja": "良心的な、きわめて誠実な" },
+    { "en": "inflated", "ja": "（数値が）水増しされた、過大な" },
+    { "en": "preregister", "ja": "（研究計画を）事前登録する" },
+    { "en": "unqualified", "ja": "無条件の、全面的な" },
+    { "en": "durable legacy", "ja": "長く残る遺産・影響" }
+  ]
+}

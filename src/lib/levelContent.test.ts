@@ -1,8 +1,9 @@
 import { describe, expect, it } from 'vitest';
 import { parseMarkedText, parsePresetTopics } from './presets';
+import { isWordToken, tokenize } from './tokenize';
 import { parseJpLine, parseTranslations, sentenceIndices } from './translation';
 import { parseTaskPrompts } from './presetLibrary';
-import { TEMPLATES } from './writingTemplates';
+import { splitTemplateLine, TEMPLATES } from './writingTemplates';
 import sharedSpeakingPrompts from '../data/speakingPrompts.txt?raw';
 
 /**
@@ -52,8 +53,12 @@ describe.each(LEVELS)('level %s', (level) => {
         /^Type: (Advantages and disadvantages|Two-part question|Problem and solution|Discuss both views|Agree or disagree)$/,
       );
       // 型ごとの決まった書き出し(資料の型の各段落の最初の2語)がそろっている
-      const tokens = parseMarkedText(t.text).tokens.join(' ');
-      const tp = TEMPLATES.task2.find((x) => x.paragraphs.every((p) => tokens.includes(p.lines[0]!.split(' ').slice(0, 2).join(' '))));
+      // 句読点を除いた語の並びで比べる(In conclusion, の読点などは問わない)
+      const words = (text: string) => tokenize(text).filter(isWordToken).join(' ');
+      const essay = words(parseMarkedText(t.text).tokens.join(' '));
+      const tp = TEMPLATES.task2.find((x) =>
+        x.paragraphs.every((p) => essay.includes(words(splitTemplateLine(p.lines[0]!)[0]!.text).split(' ').slice(0, 3).join(' '))),
+      );
       expect(tp, t.title).toBeDefined();
     }
   });

@@ -1,7 +1,8 @@
 import { useCallback, useMemo } from 'react';
 import { useAppData } from '../context/AppDataContext';
 import { DEFAULT_DECKS, deckIdOf, withNewDefaultDecks } from '../lib/decks';
-import { HAS_PRESETS } from '../lib/target';
+import { HAS_PRESETS, IS_EVERYONE } from '../lib/target';
+import { levelOfPresetId } from '../lib/levels';
 import type { Deck, Entry } from '../types';
 
 /** ホームのタブ(自分専用版だけ。公開版ではタブを使わず全件を1つの一覧にする) */
@@ -24,7 +25,11 @@ export function useDecks() {
     (entries: Entry[], current: Entry) => {
       if (!HAS_PRESETS) return entries;
       const deckId = deckIdOf(current, decks);
-      return entries.filter((e) => deckIdOf(e, decks) === deckId);
+      // IELTS 版は、同じレベルの題材の中だけで前後に移る
+      const level = levelOfPresetId(current.presetId);
+      return entries.filter(
+        (e) => deckIdOf(e, decks) === deckId && (!IS_EVERYONE || levelOfPresetId(e.presetId) === level),
+      );
     },
     [decks],
   );

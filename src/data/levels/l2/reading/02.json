@@ -1,0 +1,165 @@
+{
+  "id": "l2-r02",
+  "title": "Why Do Some People Forget Their Dreams?",
+  "titleJa": "夢を覚えている人、忘れてしまう人",
+  "minutes": 20,
+  "paragraphs": [
+    {
+      "label": "A",
+      "text": "Ask a group of friends about their dreams, and you will probably get very different answers. Some will happily describe long, strange stories from the night before, while others will insist that they never dream at all. For many years, it was thought that these two groups simply had different kinds of sleep. Today, however, most sleep scientists believe that nearly everyone dreams for about two hours every night. The real difference between people is whether they can remember their dreams when they wake up."
+    },
+    {
+      "label": "B",
+      "text": "Part of the answer lies in the timing of waking up. Although dreams can happen at any stage of sleep, the longest and most detailed ones usually take place during rapid eye movement (REM) sleep. Periods of REM sleep come back several times a night, and they become longer towards the morning. People who wake up during or just after one of these periods are far more likely to remember a dream than those who wake up from deep sleep. By the time a person rises from deep sleep, the dream has often already faded."
+    },
+    {
+      "label": "C",
+      "text": "Another important factor seems to be how often a person wakes up during the night. Dr Clara Weiss and her team at a sleep laboratory compared two groups of volunteers: 'high recallers', who remembered dreams on most mornings, and 'low recallers', who remembered them once a month or less. Using equipment that measured brain activity, the researchers found that high recallers woke up more often during the night, usually for around two minutes at a time. In the morning, they had no memory of these short awakenings. The high recallers' brains also reacted more strongly to sounds, such as someone saying their name, while they were asleep. Weiss believes that these brief moments of waking give the brain a chance to save a dream as a memory."
+    },
+    {
+      "label": "D",
+      "text": "Without such moments, dreams are very easily lost. During sleep, the level of a brain chemical called noradrenaline, which helps us to form new memories, falls sharply. As a result, the sleeping brain is poor at storing new information, including the dreams it is creating. Even when people do wake up with a dream in mind, the details usually begin to disappear within a few minutes, especially if they start thinking about the day ahead. Unless the dream is written down or told to someone, much of it will soon be gone."
+    },
+    {
+      "label": "E",
+      "text": "Personal differences also play a part. Surveys suggest that young people remember more dreams than older adults, and that people who are creative or curious about their inner lives tend to recall dreams more often. Interest itself may make a difference. When the psychologist Dr Tomas Lindqvist asked a group of students to keep a dream diary for two weeks, the number of dreams they could recall roughly doubled by the end of the study. Simply paying attention to dreams, it seems, helps people to hold on to them."
+    },
+    {
+      "label": "F",
+      "text": "Is it a problem if you rarely remember your dreams? There is no evidence that it is. Remembering a lot of dreams is not a sign of better sleep. In fact, it may simply mean that a person has lighter sleep with more short awakenings. For those who would like to recall more, experts suggest a few simple steps: keep a notebook beside the bed, lie still with your eyes closed for a moment after waking, and write down anything you remember before getting up."
+    }
+  ],
+  "groups": [
+    {
+      "type": "tfng",
+      "instructions": "Questions 1–5. Do the following statements agree with the information given in the reading passage? Write TRUE if the statement agrees with the information, FALSE if the statement contradicts the information, or NOT GIVEN if there is no information on this.",
+      "questions": [
+        {
+          "num": 1,
+          "text": "People who say that they never dream probably do not dream at all.",
+          "answer": "FALSE",
+          "evidence": "A",
+          "explanation": "A段落に \"nearly everyone dreams for about two hours every night\" とあり、人による違いは \"whether they can remember their dreams\" だと述べています。夢を見ないと言う人も実際には夢を見ていると考えられているので FALSE です。"
+        },
+        {
+          "num": 2,
+          "text": "Dreams that are long and full of detail mostly happen during REM sleep.",
+          "answer": "TRUE",
+          "evidence": "B",
+          "explanation": "B段落の \"the longest and most detailed ones usually take place during rapid eye movement (REM) sleep\" が根拠です。usually take place が mostly happen に言い換えられているので TRUE です。"
+        },
+        {
+          "num": 3,
+          "text": "Dreams that happen early in the night are usually more frightening than later ones.",
+          "answer": "NOT GIVEN",
+          "evidence": "B",
+          "explanation": "B段落は REM 睡眠が \"become longer towards the morning\" と、夢の時間帯と長さについて述べています。夢が怖いかどうか、夢の内容と時間帯の関係はどこにも書かれていないので NOT GIVEN です。"
+        },
+        {
+          "num": 4,
+          "text": "The high recallers in Weiss's study remembered waking up during the night.",
+          "answer": "FALSE",
+          "evidence": "C",
+          "explanation": "C段落に \"In the morning, they had no memory of these short awakenings\" とあります。夜中に目を覚ましたことを本人は覚えていなかったので FALSE です。"
+        },
+        {
+          "num": 5,
+          "text": "While they were asleep, the high recallers responded more strongly to sounds than the low recallers.",
+          "answer": "TRUE",
+          "evidence": "C",
+          "explanation": "C段落の \"The high recallers' brains also reacted more strongly to sounds, such as someone saying their name, while they were asleep\" が根拠です。reacted が responded に言い換えられているので TRUE です。"
+        }
+      ]
+    },
+    {
+      "type": "endings",
+      "instructions": "Questions 6–9. Complete each sentence with the correct ending, A–F, below. Write the correct letter, A–F. NB There are more endings than sentences, so you will not use all of them.",
+      "options": [
+        { "key": "A", "text": "find it harder to fall asleep again after waking." },
+        { "key": "B", "text": "could remember about twice as many dreams by the end of the study." },
+        { "key": "C", "text": "to store a dream so that it can be recalled later." },
+        { "key": "D", "text": "are more likely to have frightening dreams." },
+        { "key": "E", "text": "the brain has difficulty keeping new information." },
+        { "key": "F", "text": "tend to remember their dreams more often." }
+      ],
+      "questions": [
+        {
+          "num": 6,
+          "text": "Weiss thinks that short periods of waking in the night allow the brain",
+          "answer": "C",
+          "evidence": "C",
+          "explanation": "C段落の最後に \"these brief moments of waking give the brain a chance to save a dream as a memory\" とあります。save a dream as a memory が store a dream so that it can be recalled later に言い換えられているので C です。"
+        },
+        {
+          "num": 7,
+          "text": "Because the level of noradrenaline drops during sleep,",
+          "answer": "E",
+          "evidence": "D",
+          "explanation": "D段落に noradrenaline の量が \"falls sharply\" とあり、続けて \"As a result, the sleeping brain is poor at storing new information\" と述べています。is poor at storing が has difficulty keeping に言い換えられているので E です。"
+        },
+        {
+          "num": 8,
+          "text": "People who are creative or curious about their inner lives",
+          "answer": "F",
+          "evidence": "E",
+          "explanation": "E段落の \"people who are creative or curious about their inner lives tend to recall dreams more often\" が根拠なので F です。D の怖い夢や A の寝つきについては本文に書かれていません。"
+        },
+        {
+          "num": 9,
+          "text": "The students who kept a dream diary",
+          "answer": "B",
+          "evidence": "E",
+          "explanation": "E段落に \"the number of dreams they could recall roughly doubled by the end of the study\" とあります。roughly doubled が about twice as many に言い換えられているので B です。"
+        }
+      ]
+    },
+    {
+      "type": "short",
+      "instructions": "Questions 10–13. Answer the questions below. Choose NO MORE THAN THREE WORDS AND/OR A NUMBER from the passage for each answer.",
+      "questions": [
+        {
+          "num": 10,
+          "text": "Roughly how long do most people spend dreaming each night?",
+          "accept": ["about two hours", "two hours"],
+          "evidence": "A",
+          "explanation": "A段落の \"nearly everyone dreams for about two hours every night\" が根拠です。3語以内なので about two hours または two hours と答えます。"
+        },
+        {
+          "num": 11,
+          "text": "What might people start thinking about that makes the details of a dream disappear more quickly?",
+          "accept": ["the day ahead", "day ahead"],
+          "evidence": "D",
+          "explanation": "D段落に \"the details usually begin to disappear within a few minutes, especially if they start thinking about the day ahead\" とあります。especially if のあとが答えなので the day ahead です。"
+        },
+        {
+          "num": 12,
+          "text": "Which group of people remembers fewer dreams than young people?",
+          "accept": ["older adults"],
+          "evidence": "E",
+          "explanation": "E段落の \"young people remember more dreams than older adults\" が根拠です。若い人のほうが多く覚えているので、少ないほうの older adults が正解です。"
+        },
+        {
+          "num": 13,
+          "text": "What should people keep next to their bed if they want to recall more dreams?",
+          "accept": ["a notebook", "notebook"],
+          "evidence": "F",
+          "explanation": "F段落で勧められている方法の1つ目が \"keep a notebook beside the bed\" です。beside が next to に言い換えられているので、notebook が正解です。"
+        }
+      ]
+    }
+  ],
+  "vocab": [
+    { "en": "insist", "ja": "（〜だと）言い張る、強く主張する" },
+    { "en": "detailed", "ja": "詳しい、細かい" },
+    { "en": "fade", "ja": "（記憶・色などが）薄れる、消えていく" },
+    { "en": "factor", "ja": "要因" },
+    { "en": "volunteer", "ja": "（実験などの）参加者、志願者" },
+    { "en": "awakening", "ja": "目覚めること、覚醒" },
+    { "en": "brief", "ja": "短い、つかの間の" },
+    { "en": "fall sharply", "ja": "急激に下がる" },
+    { "en": "play a part", "ja": "役割を果たす、関係している" },
+    { "en": "curious", "ja": "好奇心の強い、興味をもっている" },
+    { "en": "roughly", "ja": "おおよそ、だいたい" },
+    { "en": "hold on to", "ja": "〜を失わずに持ち続ける" }
+  ]
+}
