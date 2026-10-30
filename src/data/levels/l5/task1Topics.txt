@@ -1,6 +1,6 @@
 **2. 表｜ニュージーランドの世帯構成**
 
-The table illustrates how the population of New Zealand was distributed across five household types at ten-year intervals between 1975 and 2015.
+The table shows how the population of New Zealand was distributed across five household types at ten-year intervals between 1975 and 2015.
 
 Overall, it is clear that while the dominance of couples with dependent children {{was steadily eroded}}, one-person and lone-parent households {{expanded markedly}}. Meanwhile, the proportion of couples with non-dependent children {{remained virtually static}}.
 
@@ -10,7 +10,7 @@ Turning to the remaining categories, couples without children {{edged up}} from 
 
 **3. 折れ線｜金属価格の月ごとの変化**
 
-The line graph illustrates the average month-on-month percentage change in the prices of aluminium, tin and lead over the course of 2016.
+The line graph shows the average month-on-month percentage change in the prices of aluminium, tin and lead over the course of 2016.
 
 Overall, it is clear that while tin {{exhibited by far the greatest volatility}}, aluminium {{proved the most stable}}. Meanwhile, the three metals {{followed a broadly parallel trajectory}}, with a mid-year downturn {{giving way to}} a recovery in the final quarter.
 
@@ -20,7 +20,7 @@ Turning to aluminium and lead, the fluctuations in both were {{comparatively mut
 
 **5. 棒｜旅行者の余暇の過ごし方**
 
-The bar chart compares the number of hours per day that tourists of four nationalities devoted to three leisure activities while on holiday in Spain in July 2022.
+The bar chart shows the number of hours per day that tourists of four nationalities devoted to three leisure activities while on holiday in Spain in July 2022.
 
 Overall, it is clear that while reading {{dominated}} the daily routine of Japanese tourists, shopping {{held the least appeal}} for every nationality. Meanwhile, {{the time allocated to}} the beach {{diverged sharply}} across the four groups.
 
@@ -30,7 +30,7 @@ Turning to the other activities, reading {{commanded far less attention}} among 
 
 **7. 円｜エネルギー容量の内訳**
 
-The pie charts illustrate the breakdown of energy capacity by source in 2020, together with projections for 2050.
+The pie charts show the breakdown of energy capacity by source in 2020, together with projections for 2050.
 
 Overall, it is clear that while fossil fuels {{are forecast to lose the most ground}}, solar power {{is poised to make the most substantial gains}}. Meanwhile, nuclear power and other renewables {{are expected to hold}} broadly steady shares against the backdrop of {{a near twofold expansion}} in overall capacity.
 
@@ -40,7 +40,7 @@ Turning to the remaining sources, other renewables and nuclear power {{are likel
 
 **10. 地図｜エルムフォードの町の変化**
 
-The maps depict the transformation of the town of Elmford between 2010 and the present day.
+The maps show the transformation of the town of Elmford between 2010 and the present day.
 
 Overall, it is clear that while the eastern half of the town {{has been extensively redeveloped}}, the west {{has seen comparatively little change}}. Meanwhile, {{connectivity across the river}} {{has been enhanced}} by the addition of a second crossing.
 
@@ -50,7 +50,7 @@ Turning to the west, the town centre and the school {{have retained their origin
 
 **12. 図解｜冷凍チキンパイの製造**
 
-The diagrams illustrate the composition of a frozen chicken pie and the stages involved in its manufacture.
+The diagrams show the composition of a frozen chicken pie and the stages involved in its manufacture.
 
 Overall, it is clear that the pie {{comprises}} layers of mashed potato, gravy, chicken and carrots {{encased in}} an oven-safe tray, and that its production {{follows two parallel lines}}, which {{converge}} before the final stages. Meanwhile, potatoes {{have a considerably longer storage life than}} chicken.
 

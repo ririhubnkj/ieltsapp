@@ -99,6 +99,7 @@ const GAP = null;
 /**
  * 型の段落の1行目から、決まった書き出し(最初の3語まで)を取り出す。
  * 「The (graph の種類) shows」のように途中に自分で埋める部分があれば、そこは何語か入ってよいものとして扱う。
+ * 2語そろったあとに埋める部分が来たら、そこで打ち切る(Turning to (エリアB), 〜 has → Turning to)。
  * 返す配列の null は埋める部分
  */
 export function openingPattern(line: string): (string | null)[] {
@@ -107,6 +108,7 @@ export function openingPattern(line: string): (string | null)[] {
   for (const part of splitTemplateLine(line)) {
     if (words >= 3) break;
     if (part.slot) {
+      if (words >= 2) break;
       if (items.length > 0 && items[items.length - 1] !== GAP) items.push(GAP);
       continue;
     }
@@ -133,10 +135,16 @@ function escapeRegExp(s: string): string {
   return s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 }
 
+/** 4文字以上の語は、末尾の s の有無を問わない(The pie charts show / The map shows) */
+function wordSource(w: string): string {
+  if (w.length < 4) return escapeRegExp(w);
+  return escapeRegExp(w.endsWith('s') ? w.slice(0, -1) : w) + 's?';
+}
+
 /** 答案(正規化済み)に書き出しがあるか。埋める部分は1〜6語まで */
 export function hasOpening(normalizedEssay: string, pattern: (string | null)[]): boolean {
   if (pattern.length === 0) return true;
-  const source = pattern.map((w) => (w === GAP ? '(?: \\S+){1,6}' : ' ' + escapeRegExp(w))).join('');
+  const source = pattern.map((w) => (w === GAP ? '(?: \\S+){1,6}' : ' ' + wordSource(w))).join('');
   return new RegExp(`(?:^|\\s)${source.slice(1)}(?= |$)`).test(normalizedEssay);
 }
 
@@ -145,13 +153,17 @@ function countNumbers(text: string): number {
   return (text.match(/\d+(?:[.,]\d+)*/g) ?? []).length;
 }
 
-/** 5回以上使った内容語(多い順) */
-export function repeatedWords(text: string, limit = REPEAT_LIMIT): { word: string; count: number }[] {
+/**
+ * 5回以上使った内容語(多い順)。
+ * 問題文に出てくる語(テーマの語)はくり返しが避けられないので、ignore に渡して数えない
+ */
+export function repeatedWords(text: string, ignore = '', limit = REPEAT_LIMIT): { word: string; count: number }[] {
+  const ignored = new Set(normalize(ignore).split(' '));
   const counts = new Map<string, number>();
   for (const token of tokenize(text)) {
     if (!/^[A-Za-z][A-Za-z'’-]*$/.test(token)) continue;
     const word = token.toLowerCase().replace(/’/g, "'");
-    if (word.length < 3 || STOPWORDS.has(word) || /'/.test(word)) continue;
+    if (word.length < 3 || STOPWORDS.has(word) || /'/.test(word) || ignored.has(word)) continue;
     counts.set(word, (counts.get(word) ?? 0) + 1);
   }
   return [...counts]
@@ -201,10 +213,12 @@ export interface CheckInput {
   task: WritingTask;
   text: string;
   template?: WritingTemplate | null;
+  /** 問題文(ここに出てくる語は、くり返しの点検で数えない) */
+  question?: string;
 }
 
 /** 答案を点検する。並びは、語数 → 構成 → 型 → 内容の形 → 語彙・文 */
-export function checkEssay({ task, text, template }: CheckInput): CheckItem[] {
+export function checkEssay({ task, text, template, question = '' }: CheckInput): CheckItem[] {
   const items: CheckItem[] = [];
   const words = countWords(text);
   const min = MIN_WORDS[task];
@@ -257,8 +271,9 @@ export function checkEssay({ task, text, template }: CheckInput): CheckItem[] {
           ? 'Overview に数字が入っています。数字は第3・4段落に回し、Overview は全体の傾向だけにします。'
           : 'Overview に数字が入っていません。',
     });
+    // 地図と図解は数字の無い図が多いので、数字の点検はグラフと表だけにする
     const numbers = countNumbers(paragraphs.slice(2, 4).join(' '));
-    items.push({
+    if (template?.id !== 'map' && template?.id !== 'process') items.push({
       label: `第3・4段落の数字 ${numbers}個(3個以上)`,
       ok: numbers >= 3,
       detail:
@@ -299,13 +314,13 @@ export function checkEssay({ task, text, template }: CheckInput): CheckItem[] {
         : 'However, Moreover, For instance, As a result などで文と文のつながりを示してください。'),
   });
 
-  const repeated = repeatedWords(text);
+  const repeated = repeatedWords(text, question);
   items.push({
     label: '同じ語のくり返し',
     ok: repeated.length === 0,
     detail:
       repeated.length === 0
-        ? `同じ内容語を${REPEAT_LIMIT}回以上使っていません。`
+        ? `同じ内容語を${REPEAT_LIMIT}回以上使っていません(問題文にある語は数えていません)。`
         : `${repeated.map((r) => `${r.word}(${r.count}回)`).join(', ')}。言い換えや代名詞を使うと Lexical Resource の評価が上がります。`,
   });
 

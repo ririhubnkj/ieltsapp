@@ -41,7 +41,7 @@ const TASK2_ESSAY = [
 
 describe('countWords / splitParagraphs / splitSentences', () => {
   it('counts numbers with decimals and commas as one word', () => {
-    expect(countWords('It rose to 8.4 and 1,550 people.')).toBe(6);
+    expect(countWords('It rose to 8.4 and 1,550 people.')).toBe(7);
     expect(countWords('')).toBe(0);
   });
 
@@ -64,6 +64,7 @@ describe('opening phrases', () => {
     expect(openingPattern('It is often argued that 問題文パラフレーズ.')).toEqual(['it', 'is', 'often']);
     expect(openingPattern('The (graph の種類) shows 問題文パラフレーズ.')).toEqual(['the', null, 'shows']);
     expect(openingPattern('Turning to (グループB), 〜.')).toEqual(['turning', 'to']);
+    expect(openingPattern('Turning to (エリアB), 〜 has been moved to 〜 / is still the same.')).toEqual(['turning', 'to']);
     expect(openingLabel(['the', null, 'shows'])).toBe('The 〜 shows');
   });
 
@@ -72,6 +73,9 @@ describe('opening phrases', () => {
     expect(hasOpening(essay, ['the', null, 'shows'])).toBe(true);
     expect(hasOpening(essay, ['overall', 'it', 'is'])).toBe(true);
     expect(hasOpening(essay, ['turning', 'to'])).toBe(false);
+    // 4文字以上の語は末尾の s の有無を問わない
+    expect(hasOpening(normalize('The pie charts show X.'), ['the', null, 'shows'])).toBe(true);
+    expect(hasOpening(normalize('The diagrams show X.'), ['the', 'diagram', 'shows'])).toBe(true);
     // 単語の途中では一致しない
     expect(hasOpening(normalize('Overturning tower'), ['turning', 'to'])).toBe(false);
   });
@@ -84,6 +88,12 @@ describe('word-level helpers', () => {
       { word: 'cars', count: 5 },
       { word: 'people', count: 5 },
     ]);
+  });
+
+  it('ignores words that appear in the question', () => {
+    const text = 'Cars are useful. Cars are cheap. Cars are fast. Cars are safe. Cars are fun.';
+    expect(repeatedWords(text, 'Many people buy cars.')).toEqual([]);
+    expect(repeatedWords(text)).toEqual([{ word: 'cars', count: 5 }]);
   });
 
   it('lists linking words in order of appearance without duplicates', () => {
@@ -136,6 +146,13 @@ describe('checkEssay', () => {
     expect(item(items, '第3・4段落の数字').ok).toBe(false);
     expect(item(items, '一人称').ok).toBe(false);
     expect(item(items, '型の書き出し').detail).toContain('Overall it is');
+  });
+
+  it('does not ask for numbers in maps and diagrams', () => {
+    const text = 'The maps show a town.\nOverall, it is clear that while A changed, B did not.\nLooking first at the north, a park has been built.\nTurning to the south, the school has been moved.';
+    const items = checkEssay({ task: 'task1', text, template: template('task1', 'map') });
+    expect(items.some((i) => i.label.startsWith('第3・4段落の数字'))).toBe(false);
+    expect(item(items, '型の書き出し').ok).toBe(true);
   });
 
   it('checks position and conclusion for Task 2', () => {
