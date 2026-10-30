@@ -1,0 +1,161 @@
+{
+  "id": "r04",
+  "title": "The Wisdom of the Swarm",
+  "titleJa": "群れの知恵：ミツバチの意思決定",
+  "minutes": 20,
+  "paragraphs": [
+    {
+      "label": "A",
+      "text": "Every spring, a healthy honeybee colony that has outgrown its nest reproduces by dividing in two. The old queen departs with roughly two-thirds of the workers, often 10,000 bees or more, and the swarm settles in a cluster on a nearby branch. From there it must quickly select a permanent home, usually a hollow in a tree. Before leaving, each bee fills its stomach with honey, but this supply lasts only about three days, and a cluster hanging in the open is exposed to rain and predators. Remarkably, the queen takes no part in the choice. The decision is made collectively by a few hundred scouts."
+    },
+    {
+      "label": "B",
+      "text": "The scouts are among the colony's oldest and most experienced foragers. Each flies off independently to search the surrounding countryside, and when she finds a promising cavity she inspects it thoroughly, often for 30 minutes or more. She estimates its volume by walking around its inner surfaces, and checks the size and height of the entrance. In the 1990s, a team led by Dr Lena Fischer, a German biologist, placed pairs of empty nest boxes on a small island with no natural cavities. When offered a choice between a 15-litre and a 40-litre box, swarms selected the larger one in 18 out of 20 trials, presumably because a small space cannot store enough honey for winter."
+    },
+    {
+      "label": "C",
+      "text": "Having found a site, a scout returns to the cluster and advertises it with the waggle dance. She runs in a straight line while shaking her body from side to side, then loops back and repeats the run. The angle of the run relative to vertical indicates the direction of the site relative to the sun, while its duration indicates distance: roughly one second of waggling for each kilometre. Most importantly, the dance also conveys quality. A scout returning from an excellent cavity may perform more than a hundred circuits, whereas one reporting a mediocre site may perform only a handful. Scouts that observe these dances are recruited to inspect the sites themselves."
+    },
+    {
+      "label": "D",
+      "text": "What is striking is that no individual bee compares the options. Most scouts visit only one site, and none has an overview of the entire debate. Instead, the comparison emerges from two simple rules. First, each scout's enthusiasm declines over time: on every return trip she dances fewer circuits, until eventually she stops. As a result, support for a weak site fades naturally, while support for a strong site keeps being renewed by fresh recruits. Second, scouts deliver 'stop signals', brief head-butts accompanied by a vibration, to bees dancing for rival sites. The parallel with the human brain, where groups of neurons promoting competing actions inhibit one another, is far more than a convenient metaphor; the underlying mathematics turns out to be almost identical."
+    },
+    {
+      "label": "E",
+      "text": "The final decision does not take place on the cluster at all, but at the candidate site itself. When the number of scouts at one cavity at the same time reaches a threshold of about 15, they sense that a quorum has been reached. They fly back and begin to produce a high-pitched piping sound, which prompts the resting bees to warm their flight muscles to around 35°C. Within an hour the swarm takes off, guided by scouts towards the new home. The system is not perfect: occasionally two sites reach a quorum almost simultaneously, and the airborne swarm splits and returns to the branch to resume the debate."
+    },
+    {
+      "label": "F",
+      "text": "Engineers are interested in these mechanisms because they coordinate many units without a central controller. Bee-inspired algorithms have already been used to allocate tasks among computer servers. More recently, Dr Anna Kovacs, a Hungarian engineer, built 30 small robots designed to find the best charging point in a warehouse. Each robot that located a charger broadcast a radio signal whose strength reflected the charger's quality and weakened over time, and the robots moved only when a quorum had gathered at one location. In tests carried out in 2021, the group selected the best charger in 27 of 30 trials, and continued to perform well even when a third of the robots were deliberately switched off."
+    },
+    {
+      "label": "G",
+      "text": "It is tempting to conclude that human committees should simply copy the bees. However, this would overlook an important difference. The members of a swarm share the same fundamental interest, since all depend on the colony's survival, whereas people in a meeting frequently pursue conflicting goals. What can be borrowed are general principles: gather many independent opinions, allow open competition between proposals, and act only once sufficient agreement has emerged. Equally, it would be a mistake to regard individual bees as clever. Each follows a few simple rules, and the intelligence lies not in any single insect but in the pattern of interactions between them."
+    }
+  ],
+  "groups": [
+    {
+      "type": "paragraph",
+      "instructions": "Questions 1–4. The reading passage has seven paragraphs, A–G. Which paragraph contains the following information? Write the correct letter, A–G. NB You may use any letter more than once.",
+      "questions": [
+        {
+          "num": 1,
+          "text": "an example of machines that kept working well despite the loss of some members",
+          "answer": "F",
+          "evidence": "F",
+          "explanation": "段落Fに \"continued to perform well even when a third of the robots were deliberately switched off\" とあり、ロボットの3分の1を止めても性能を保ったと書かれています。一部のメンバーを失っても機能し続けた機械の例なので F です。"
+        },
+        {
+          "num": 2,
+          "text": "an account of how bees indicate where a site is located",
+          "answer": "C",
+          "evidence": "C",
+          "explanation": "段落Cの \"The angle of the run ... indicates the direction of the site ... while its duration indicates distance\" が、尻振りダンスで方角と距離を伝える仕組みの説明です。段落Eにも新しい巣へ誘導する偵察バチが出てきますが、場所の伝え方を説明しているのは C です。"
+        },
+        {
+          "num": 3,
+          "text": "reasons why the swarm cannot take long to reach a decision",
+          "answer": "A",
+          "evidence": "A",
+          "explanation": "段落Aに \"this supply lasts only about three days, and a cluster hanging in the open is exposed to rain and predators\" とあります。蜜の蓄えが約3日分しかないことと、雨や天敵にさらされることが、急いで決める理由として挙げられているので A です。"
+        },
+        {
+          "num": 4,
+          "text": "an explanation of why backing for poorer sites gradually disappears",
+          "answer": "D",
+          "evidence": "D",
+          "explanation": "段落Dに \"on every return trip she dances fewer circuits ... As a result, support for a weak site fades naturally\" とあります。踊りの回数が往復のたびに減るため、質の低い候補地への支持が自然に消えていくという説明なので D です。"
+        }
+      ]
+    },
+    {
+      "type": "completion",
+      "instructions": "Questions 5–8. Complete the summary below. Choose NO MORE THAN TWO WORDS from the passage for each answer.",
+      "questions": [
+        {
+          "num": 5,
+          "text": "The scouts that search for a new home are usually among the colony's most experienced ____.",
+          "accept": ["foragers"],
+          "evidence": "B",
+          "explanation": "段落B冒頭の \"The scouts are among the colony's oldest and most experienced foragers\" が根拠です。空所の前の most experienced に続く名詞として foragers（採餌バチ）が入ります。"
+        },
+        {
+          "num": 6,
+          "text": "A scout judges how large a cavity is by ____ around the inside of it.",
+          "accept": ["walking"],
+          "evidence": "B",
+          "explanation": "\"She estimates its volume by walking around its inner surfaces\" とあり、内壁を歩き回って容積を見積もります。by の後なので動名詞の walking が入ります。"
+        },
+        {
+          "num": 7,
+          "text": "Back at the swarm, a scout that has found an excellent site performs far more ____ of the waggle dance than one that has found a poor site.",
+          "accept": ["circuits"],
+          "evidence": "C",
+          "explanation": "\"A scout returning from an excellent cavity may perform more than a hundred circuits, whereas one reporting a mediocre site may perform only a handful\" が根拠です。良い候補地ほどダンスの周回（circuits）が多くなります。"
+        },
+        {
+          "num": 8,
+          "text": "When about 15 scouts are present at one site, they return and produce a ____, which tells the other bees to warm up their flight muscles.",
+          "accept": ["piping sound"],
+          "evidence": "E",
+          "explanation": "段落Eに \"begin to produce a high-pitched piping sound, which prompts the resting bees to warm their flight muscles\" とあります。冠詞 a の後で2語以内なので piping sound が正解です。high-pitched piping sound は3語になるため不可です。"
+        }
+      ]
+    },
+    {
+      "type": "ynng",
+      "instructions": "Questions 9–13. Do the following statements agree with the claims of the writer in the reading passage? Write YES if the statement agrees with the claims of the writer, NO if the statement contradicts the claims of the writer, NOT GIVEN if it is impossible to say what the writer thinks about this.",
+      "questions": [
+        {
+          "num": 9,
+          "text": "The queen plays an important part in selecting the swarm's new home.",
+          "answer": "NO",
+          "evidence": "A",
+          "explanation": "筆者は \"Remarkably, the queen takes no part in the choice\" と述べ、女王バチは巣選びに関わらないとしています。設問文はこれと矛盾するので NO です。"
+        },
+        {
+          "num": 10,
+          "text": "The comparison between a swarm and the human brain is more than a superficial one.",
+          "answer": "YES",
+          "evidence": "D",
+          "explanation": "筆者は脳との類似について \"is far more than a convenient metaphor; the underlying mathematics turns out to be almost identical\" と述べています。単なる表面的なたとえを超えた共通点があるという主張なので YES です。"
+        },
+        {
+          "num": 11,
+          "text": "Honeybee swarms reach decisions more quickly than the colonies of any other insect.",
+          "answer": "NOT GIVEN",
+          "evidence": "E",
+          "explanation": "段落Eには \"Within an hour the swarm takes off\" など決定後の速さは書かれていますが、他の昆虫の群れとの比較は本文のどこにもありません。筆者の考えが判断できないので NOT GIVEN です。"
+        },
+        {
+          "num": 12,
+          "text": "It is misleading to think of individual bees as intelligent.",
+          "answer": "YES",
+          "evidence": "G",
+          "explanation": "筆者は \"it would be a mistake to regard individual bees as clever\" と述べ、知性は \"the pattern of interactions between them\" にあるとしています。個々のハチを賢いと見るのは誤りだという主張と一致するので YES です。"
+        },
+        {
+          "num": 13,
+          "text": "Human committees could improve their decisions by adopting the bees' method exactly as it is.",
+          "answer": "NO",
+          "evidence": "G",
+          "explanation": "筆者は \"It is tempting to conclude that human committees should simply copy the bees. However, this would overlook an important difference\" と述べています。人間は利害が対立するため、取り入れられるのは \"general principles\" だけだという立場なので NO です。"
+        }
+      ]
+    }
+  ],
+  "vocab": [
+    { "en": "outgrow", "ja": "大きくなって〜に収まらなくなる" },
+    { "en": "collectively", "ja": "集団で、共同で" },
+    { "en": "cavity", "ja": "空洞、くぼみ" },
+    { "en": "convey", "ja": "伝える" },
+    { "en": "mediocre", "ja": "並の、平凡な" },
+    { "en": "recruit", "ja": "（仲間を）動員する、勧誘する" },
+    { "en": "inhibit", "ja": "抑制する" },
+    { "en": "threshold", "ja": "閾値、境目" },
+    { "en": "quorum", "ja": "定足数" },
+    { "en": "simultaneously", "ja": "同時に" },
+    { "en": "allocate", "ja": "割り当てる" },
+    { "en": "overlook", "ja": "見落とす" }
+  ]
+}

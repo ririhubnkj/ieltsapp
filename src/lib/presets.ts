@@ -21,6 +21,15 @@ export const CHUNK_PREFIX = 'chunk-';
 /** Idiomatic 300(1日10文)の presetId の接頭辞 */
 export const IDIOMATIC_PREFIX = 'idiomatic300-';
 
+/** IELTS Task 2 の型ごとの全文モデルエッセイ(序論から結論まで)の presetId の接頭辞 */
+export const TASK2_MODEL_PREFIX = 'task2model-';
+
+/** IELTS の語彙・コロケーション(トピック別に10文)の presetId の接頭辞 */
+export const COLLOCATION_PREFIX = 'colloc-';
+
+/** IELTS Speaking のモデルアンサー(Part 1〜3)の presetId の接頭辞 */
+export const SPEAKING_PREFIX = 'speaking-';
+
 const HEADING_RE = /^\*\*(\d+)\.\s*(.+?)\*\*\s*$/;
 
 /** 「**番号. タイトル**」の見出しと本文が並んだテキストを題材の一覧にする */

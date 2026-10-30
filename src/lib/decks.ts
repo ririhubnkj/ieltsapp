@@ -1,16 +1,20 @@
 import type { Deck, Entry } from '../types';
-import { CHUNK_PREFIX, IDIOMATIC_PREFIX, TASK1_PREFIX, TOEFL_PREFIX } from './presets';
+import { CHUNK_PREFIX, COLLOCATION_PREFIX, IDIOMATIC_PREFIX, SPEAKING_PREFIX, TASK1_PREFIX, TOEFL_PREFIX } from './presets';
 import { IS_EVERYONE } from './target';
 
 /**
  * 既定のタブ。IELTS の Task 2・Task 1、TOEFL の Email、チャンク大全、Idiomatic 300 を分ける
- * (みんな向けの IELTS 版は IELTS の2つだけ)
+ * (みんな向けの IELTS 版は IELTS の Task 2・Task 1・Reading・語彙・Speaking)
  */
 export const DEFAULT_DECKS: Deck[] = [
   { id: 'ielts-task2', name: 'IELTS Task 2' },
   { id: 'ielts-task1', name: 'IELTS Task 1' },
   ...(IS_EVERYONE
-    ? []
+    ? [
+        { id: 'ielts-reading', name: 'Reading' },
+        { id: 'ielts-vocab', name: '語彙' },
+        { id: 'ielts-speaking', name: 'Speaking' },
+      ]
     : [
         { id: 'toefl-email', name: 'TOEFL Email' },
         { id: 'chunk-taizen', name: 'チャンク大全' },
@@ -23,6 +27,10 @@ export const TASK1_DECK_ID = 'ielts-task1';
 export const TOEFL_DECK_ID = 'toefl-email';
 export const CHUNK_DECK_ID = 'chunk-taizen';
 export const IDIOMATIC_DECK_ID = 'idiomatic-300';
+/** Reading の演習を並べるタブ。英文は入れない */
+export const READING_DECK_ID = 'ielts-reading';
+export const VOCAB_DECK_ID = 'ielts-vocab';
+export const SPEAKING_DECK_ID = 'ielts-speaking';
 
 /** 内蔵題材の presetId の接頭辞 → その種類のタブ */
 const PRESET_DECKS: [string, string][] = [
@@ -30,6 +38,8 @@ const PRESET_DECKS: [string, string][] = [
   [TOEFL_PREFIX, TOEFL_DECK_ID],
   [CHUNK_PREFIX, CHUNK_DECK_ID],
   [IDIOMATIC_PREFIX, IDIOMATIC_DECK_ID],
+  [COLLOCATION_PREFIX, VOCAB_DECK_ID],
+  [SPEAKING_PREFIX, SPEAKING_DECK_ID],
 ];
 
 /** タブを編集して保存した後に増えた既定のタブは、末尾に足して出す */
@@ -43,7 +53,8 @@ export function deckIdOf(entry: Entry, decks: Deck[]): string {
   if (entry.deckId && decks.some((d) => d.id === entry.deckId)) return entry.deckId;
   const presetDeck = PRESET_DECKS.find(([prefix]) => entry.presetId?.startsWith(prefix))?.[1] ?? null;
   if (presetDeck && decks.some((d) => d.id === presetDeck)) return presetDeck;
-  return decks[0]!.id;
+  // Reading のタブには英文を入れないので、自分で登録した英文は Reading 以外の先頭のタブへ
+  return (decks.find((d) => d.id !== READING_DECK_ID) ?? decks[0]!).id;
 }
 
 const SELECTED_KEY = 'eiwaku_selected_deck';

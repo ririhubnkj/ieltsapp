@@ -1,0 +1,193 @@
+{
+  "id": "r03",
+  "title": "Two Wheels Through the City",
+  "titleJa": "自転車と都市の200年",
+  "minutes": 20,
+  "paragraphs": [
+    {
+      "label": "A",
+      "text": "In the summer of 1817, a German civil servant named Karl von Drais demonstrated an unusual vehicle on a road near Mannheim. His 'running machine' consisted of a wooden frame mounted on two wheels placed one behind the other, with a steerable front wheel and a padded seat. It had no pedals: the rider moved forward by pushing his feet against the ground. Some historians have argued that Drais was responding to a crisis, since the disastrous harvests of 1816 had led to the deaths of large numbers of horses, leaving many people without a means of transport. The machine enjoyed only a brief period of fashion among wealthy young men before public interest faded."
+    },
+    {
+      "label": "B",
+      "text": "The next significant step came in France during the 1860s, when pedals were fixed directly to the front wheel. The resulting velocipede could be ridden without the feet touching the ground, but its heavy frame and iron-rimmed wooden wheels transmitted every bump of the cobbled streets to the rider, earning it the nickname 'boneshaker'. Manufacturers soon realised that, because each turn of the pedals produced exactly one turn of the wheel, a larger front wheel would carry the rider further with each stroke. By the late 1870s this logic had produced the high-wheeler, whose front wheel could measure 1.5 metres in diameter. A sudden stop could throw the rider head first over the handlebars, an accident so common that it acquired its own name."
+    },
+    {
+      "label": "C",
+      "text": "The design that transformed cycling appeared in England in 1885. Known as the 'safety bicycle', it had two wheels of roughly equal size and a chain that carried power from the pedals to the rear wheel. The rider sat lower and could put both feet down when stopping. Three years later came the air-filled tyre, which made riding far more comfortable on rough surfaces. Once a diamond-shaped steel frame had been added, the basic form of the bicycle was established, and it has changed surprisingly little since."
+    },
+    {
+      "label": "D",
+      "text": "The effects on society were rapid. Mass production in the 1890s cut prices sharply, and the bicycle became one of the first consumer goods that ordinary families could buy on instalment plans. For many workers it offered an alternative to expensive trams. Dr Margaret Hollis, a social historian, has calculated that in several English industrial towns the average distance between home and workplace almost doubled between 1890 and 1910, as families moved to less crowded districts. For women, the effect was perhaps even greater: cycling demanded clothing that allowed free movement, and shorter skirts and loose trousers gradually became acceptable in public. Cyclists also formed powerful clubs that campaigned for smoother, paved roads, improvements which, ironically, would later benefit the motor car far more than the bicycle."
+    },
+    {
+      "label": "E",
+      "text": "That irony became clear in the twentieth century. As car ownership spread, particularly after 1950, many cities were redesigned around motor traffic. Even in the Netherlands, the number of journeys made by bicycle fell steeply during the 1950s and 1960s. The turning point there came after 1973, when a sharp rise in oil prices coincided with public protests about the number of children killed on the roads. From the mid-1970s onwards, Dutch and Danish authorities invested heavily in separated cycle lanes, and today roughly a quarter of all trips in the Netherlands are made by bike."
+    },
+    {
+      "label": "F",
+      "text": "Shared bicycles have a surprisingly long history. In 1965 a group of activists in Amsterdam painted ordinary bicycles white and left them unlocked around the city for anyone to use. Within weeks, most had been stolen, thrown into canals or removed by the police. Copenhagen launched a more durable scheme in 1995, in which users released a bike by inserting a coin. The real breakthrough came with schemes in Lyon in 2005 and Paris in 2007, which used computerised docking stations and membership cards to track every bike. Around 2015, dockless systems unlocked by smartphone spread rapidly through Chinese cities, but some operators flooded the streets with so many bikes that thousands ended up in vast dumps."
+    },
+    {
+      "label": "G",
+      "text": "Whether bike-sharing actually reduces car traffic is less certain. Dr Tomás Herrera, a transport researcher based in Valencia, compared usage data from 42 European schemes between 2012 and 2020. He found that fewer than one in ten shared-bike journeys replaced a trip that would otherwise have been made by car; most users would previously have walked or taken a bus or train. Schemes performed best, he concluded, where they were accompanied by protected cycle lanes. Nevertheless, with electric bicycles now extending the distances people are willing to ride, the machine that Drais pushed along with his feet two centuries ago may yet reclaim a central place in urban life."
+    }
+  ],
+  "groups": [
+    {
+      "type": "mcq",
+      "instructions": "Questions 1–4. Choose the correct letter, A, B, C or D.",
+      "questions": [
+        {
+          "num": 1,
+          "text": "According to some historians, Drais may have developed the running machine because",
+          "choices": [
+            { "key": "A", "text": "roads near Mannheim had recently been improved." },
+            { "key": "B", "text": "a shortage of horses had made travel difficult." },
+            { "key": "C", "text": "wealthy young men wanted a new form of entertainment." },
+            { "key": "D", "text": "his employer needed a faster way to deliver documents." }
+          ],
+          "answer": "B",
+          "evidence": "A",
+          "explanation": "本文に \"the disastrous harvests of 1816 had led to the deaths of large numbers of horses, leaving many people without a means of transport\" とあり、馬が大量に死んで移動手段がなくなったことが背景とされています。C の「裕福な若者」は発明後に流行した客層の話で、開発の理由として書かれてはいません。A と D は本文に記述がありません。"
+        },
+        {
+          "num": 2,
+          "text": "What does Dr Hollis's research suggest about the bicycle in the period 1890–1910?",
+          "choices": [
+            { "key": "A", "text": "It was too expensive for most factory workers." },
+            { "key": "B", "text": "It encouraged people to move into crowded town centres." },
+            { "key": "C", "text": "It enabled workers to live further from their workplaces." },
+            { "key": "D", "text": "It led to a rapid expansion of tram networks." }
+          ],
+          "answer": "C",
+          "evidence": "D",
+          "explanation": "\"the average distance between home and workplace almost doubled between 1890 and 1910, as families moved to less crowded districts\" から、自宅と職場の距離が伸びたことが分かります。B は「混雑の少ない地区へ移った」という記述と逆です。A は \"cut prices sharply\" と矛盾し、D の路面電車は「高価な代替手段」として触れられているだけです。"
+        },
+        {
+          "num": 3,
+          "text": "What happened to the bike-sharing scheme introduced in Amsterdam in 1965?",
+          "choices": [
+            { "key": "A", "text": "Users were required to pay a small deposit." },
+            { "key": "B", "text": "Most of the bicycles quickly disappeared from use." },
+            { "key": "C", "text": "It was replaced by a system of docking stations." },
+            { "key": "D", "text": "It was copied by the city of Copenhagen." }
+          ],
+          "answer": "B",
+          "evidence": "F",
+          "explanation": "\"Within weeks, most had been stolen, thrown into canals or removed by the police\" とあり、数週間でほとんどの自転車が使えなくなりました。A の硬貨を入れる方式は1995年のコペンハーゲンの説明です。C のドッキングステーションはリヨン・パリの話で、D のように模倣したという記述はありません。"
+        },
+        {
+          "num": 4,
+          "text": "What did Dr Herrera discover about bike-sharing schemes?",
+          "choices": [
+            { "key": "A", "text": "They have led to a large fall in car traffic." },
+            { "key": "B", "text": "Most of their users had not previously travelled by car." },
+            { "key": "C", "text": "Dockless schemes were more successful than other types." },
+            { "key": "D", "text": "Electric bicycles were the main reason for their growth." }
+          ],
+          "answer": "B",
+          "evidence": "G",
+          "explanation": "\"most users would previously have walked or taken a bus or train\" とあり、利用者の多くは以前は徒歩か公共交通機関を使っていました。A は \"fewer than one in ten ... replaced a trip that would otherwise have been made by car\" と矛盾します。C の比較は書かれておらず、D の電動自転車は筆者の今後の見通しの部分で、調査結果ではありません。"
+        }
+      ]
+    },
+    {
+      "type": "tfng",
+      "instructions": "Questions 5–9. Do the following statements agree with the information given in the reading passage? Write TRUE if the statement agrees with the information, FALSE if the statement contradicts the information, NOT GIVEN if there is no information on this.",
+      "questions": [
+        {
+          "num": 5,
+          "text": "Drais's running machine remained fashionable for several decades.",
+          "answer": "FALSE",
+          "evidence": "A",
+          "explanation": "本文は \"The machine enjoyed only a brief period of fashion ... before public interest faded\" と述べており、流行は短期間で終わりました。「数十年続いた」という記述と矛盾するので FALSE です。"
+        },
+        {
+          "num": 6,
+          "text": "Accidents in which high-wheeler riders were thrown forwards happened frequently.",
+          "answer": "TRUE",
+          "evidence": "B",
+          "explanation": "\"A sudden stop could throw the rider head first over the handlebars, an accident so common that it acquired its own name\" とあります。前方に投げ出される事故は名前が付くほどよく起きたので TRUE です。"
+        },
+        {
+          "num": 7,
+          "text": "The inventor of the air-filled tyre was a keen cyclist.",
+          "answer": "NOT GIVEN",
+          "evidence": "C",
+          "explanation": "段落Cには \"Three years later came the air-filled tyre\" とあり、空気入りタイヤの登場時期と効果は書かれています。しかし発明者が誰で、自転車愛好家だったかどうかは一切触れられていないので NOT GIVEN です。"
+        },
+        {
+          "num": 8,
+          "text": "Cycling clubs pressed for better road surfaces.",
+          "answer": "TRUE",
+          "evidence": "D",
+          "explanation": "\"Cyclists also formed powerful clubs that campaigned for smoother, paved roads\" とあり、自転車クラブが舗装道路を求めて運動したことが分かります。campaigned for が pressed for の言い換えなので TRUE です。"
+        },
+        {
+          "num": 9,
+          "text": "Dutch authorities began investing in separated cycle lanes before the oil crisis of 1973.",
+          "answer": "FALSE",
+          "evidence": "E",
+          "explanation": "\"The turning point there came after 1973\" と \"From the mid-1970s onwards, Dutch and Danish authorities invested heavily in separated cycle lanes\" から、投資が始まったのは1973年の石油価格高騰の後です。「前から」とする設問文と矛盾するので FALSE です。"
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "instructions": "Questions 10–13. Look at the following bicycle designs (Questions 10–13) and the list of descriptions below. Match each design with the correct description, A–F. Write the correct letter, A–F. NB There are more descriptions than you need.",
+      "options": [
+        { "key": "A", "text": "transferred power from the pedals to the back wheel by means of a chain" },
+        { "key": "B", "text": "was invented by a professional racing cyclist" },
+        { "key": "C", "text": "could travel further per pedal stroke as its front wheel was made bigger" },
+        { "key": "D", "text": "was moved along by the rider's feet pushing against the ground" },
+        { "key": "E", "text": "was originally developed for use by the army" },
+        { "key": "F", "text": "was given a name that referred to the discomfort it caused" }
+      ],
+      "questions": [
+        {
+          "num": 10,
+          "text": "the high-wheeler",
+          "answer": "C",
+          "evidence": "B",
+          "explanation": "\"a larger front wheel would carry the rider further with each stroke\" という発想から \"this logic had produced the high-wheeler\" と続きます。前輪を大きくするほど一漕ぎで進む距離が伸びる設計なので C です。"
+        },
+        {
+          "num": 11,
+          "text": "the safety bicycle",
+          "answer": "A",
+          "evidence": "C",
+          "explanation": "\"a chain that carried power from the pedals to the rear wheel\" とあり、チェーンで後輪に動力を伝える構造でした。rear wheel が back wheel に言い換えられているので A です。"
+        },
+        {
+          "num": 12,
+          "text": "the running machine",
+          "answer": "D",
+          "evidence": "A",
+          "explanation": "\"It had no pedals: the rider moved forward by pushing his feet against the ground\" とあり、ペダルがなく足で地面を蹴って進みました。したがって D です。"
+        },
+        {
+          "num": 13,
+          "text": "the velocipede",
+          "answer": "F",
+          "evidence": "B",
+          "explanation": "\"transmitted every bump of the cobbled streets to the rider, earning it the nickname 'boneshaker'\" とあり、乗り心地の悪さから「骨揺すり」というあだ名が付きました。乗り手の不快さに由来する名前なので F です。B と E は本文のどの型についても書かれていません。"
+        }
+      ]
+    }
+  ],
+  "vocab": [
+    { "en": "motivation", "ja": "動機" },
+    { "en": "transmit", "ja": "伝える、伝達する" },
+    { "en": "diameter", "ja": "直径" },
+    { "en": "unstable", "ja": "不安定な" },
+    { "en": "transform", "ja": "一変させる" },
+    { "en": "mass production", "ja": "大量生産" },
+    { "en": "instalment plan", "ja": "分割払い" },
+    { "en": "campaign for", "ja": "〜を求めて運動する" },
+    { "en": "coincide with", "ja": "〜と同時に起こる" },
+    { "en": "durable", "ja": "長続きする、耐久性のある" },
+    { "en": "be accompanied by", "ja": "〜を伴う" },
+    { "en": "reclaim", "ja": "取り戻す" }
+  ]
+}

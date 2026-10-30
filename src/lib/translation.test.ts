@@ -1,11 +1,27 @@
 import { describe, expect, it } from 'vitest';
 import { getAllPresetTopics, getAllPresetTranslations } from './presetLibrary';
-import { IDIOMATIC_PREFIX, parseMarkedText, parsePresetTopics, presetEntriesToAdd, TASK1_PREFIX, type PresetTopic } from './presets';
+import {
+  COLLOCATION_PREFIX,
+  IDIOMATIC_PREFIX,
+  parseMarkedText,
+  parsePresetTopics,
+  presetEntriesToAdd,
+  SPEAKING_PREFIX,
+  TASK1_PREFIX,
+  TASK2_MODEL_PREFIX,
+  type PresetTopic,
+} from './presets';
 import { buildEntryTranslation, parseJpLine, parseTranslations, sentenceIndices } from './translation';
 import band6Task1Raw from '../data/band6/task1Topics.txt?raw';
 import band6Task1TranslationsRaw from '../data/band6/task1Translations.txt?raw';
 import band6Task2Raw from '../data/band6/task2Topics.txt?raw';
 import band6Task2TranslationsRaw from '../data/band6/task2Translations.txt?raw';
+import task2ModelRaw from '../data/band6/task2Models.txt?raw';
+import task2ModelTranslationsRaw from '../data/band6/task2ModelTranslations.txt?raw';
+import collocationRaw from '../data/collocationTopics.txt?raw';
+import collocationTranslationsRaw from '../data/collocationTranslations.txt?raw';
+import speakingRaw from '../data/speakingTopics.txt?raw';
+import speakingTranslationsRaw from '../data/speakingTranslations.txt?raw';
 
 describe('parseJpLine', () => {
   it('numbers the marked parts in order, with continuations and explicit numbers', () => {
@@ -43,6 +59,15 @@ describe('band 6 model answers for the everyone build', () => {
   it('keeps the translations aligned', () => {
     expectAligned(parsePresetTopics(band6Task1Raw, TASK1_PREFIX), parseTranslations(band6Task1TranslationsRaw, TASK1_PREFIX));
     expectAligned(parsePresetTopics(band6Task2Raw), parseTranslations(band6Task2TranslationsRaw));
+    expectAligned(
+      parsePresetTopics(task2ModelRaw, TASK2_MODEL_PREFIX),
+      parseTranslations(task2ModelTranslationsRaw, TASK2_MODEL_PREFIX),
+    );
+    expectAligned(
+      parsePresetTopics(collocationRaw, COLLOCATION_PREFIX),
+      parseTranslations(collocationTranslationsRaw, COLLOCATION_PREFIX),
+    );
+    expectAligned(parsePresetTopics(speakingRaw, SPEAKING_PREFIX), parseTranslations(speakingTranslationsRaw, SPEAKING_PREFIX));
   });
 });
 

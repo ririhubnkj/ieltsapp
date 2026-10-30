@@ -5,17 +5,29 @@ import { useAppData } from '../../context/AppDataContext';
 import { joinTokens } from '../../lib/joinTokens';
 import { formatRelativeDate } from '../../lib/relativeDate';
 import { filterAndSortEntries, type SortMode } from '../../lib/homeListView';
-import { getChunkTopics, getIdiomaticTopics, getPresetTopics, getTask1Topics, getToeflTopics } from '../../lib/presetLibrary';
+import {
+  getChunkTopics,
+  getCollocationTopics,
+  getIdiomaticTopics,
+  getPresetTopics,
+  getSpeakingTopics,
+  getTask1Topics,
+  getTask2ModelTopics,
+  getToeflTopics,
+} from '../../lib/presetLibrary';
 import { presetEntriesToAdd, presetEntriesToRefresh, type PresetTopic } from '../../lib/presets';
 import {
   CHUNK_DECK_ID,
   deckIdOf,
   IDIOMATIC_DECK_ID,
   loadSelectedDeckId,
+  READING_DECK_ID,
   saveSelectedDeckId,
+  SPEAKING_DECK_ID,
   TASK1_DECK_ID,
   TASK2_DECK_ID,
   TOEFL_DECK_ID,
+  VOCAB_DECK_ID,
 } from '../../lib/decks';
 import { useDecks } from '../../hooks/useDecks';
 import type { Deck } from '../../types';
@@ -24,6 +36,7 @@ import type { SyncStatus } from '../../lib/cloudSync';
 import { Fab } from '../common/Fab';
 import { EmptyState } from '../common/EmptyState';
 import { TaskPromptList } from '../common/TaskPromptList';
+import { ReadingList } from '../common/ReadingList';
 import { GearIcon, PencilIcon } from '../common/icons';
 
 const SORT_LABEL: Record<SortMode, string> = {
@@ -65,8 +78,8 @@ export function HomeScreen() {
   );
 
   // 内蔵の教材ライブラリは自分専用版とみんな向けの IELTS 版だけに出す。Task 2 と Task 1 はそれぞれのタブで追加する
-  const library = HAS_PRESETS ? libraryFor(currentDeck) : null;
-  const presetTopics = library?.topics ?? [];
+  const library = useMemo(() => (HAS_PRESETS ? libraryFor(currentDeck) : null), [currentDeck]);
+  const presetTopics = useMemo(() => library?.topics ?? [], [library]);
   const addedPresetIds = new Set(entries.map((e) => e.presetId).filter(Boolean));
   const missingPresets = presetTopics.filter((t) => !addedPresetIds.has(t.presetId)).length;
   const addPresets = () =>
@@ -83,6 +96,24 @@ export function HomeScreen() {
         まとめて追加
       </button>
     </div>
+  );
+
+  // みんな向けの IELTS 版は、Writing のタブから型の画面を開ける
+  const templatesTask = !IS_EVERYONE ? null : currentDeck === TASK2_DECK_ID ? 'task2' : currentDeck === TASK1_DECK_ID ? 'task1' : null;
+  const templatesCard = templatesTask && (
+    <button
+      className="card"
+      onClick={() => navigate(`/templates/${templatesTask}`)}
+      style={{ display: 'flex', alignItems: 'center', gap: 12, textAlign: 'left', color: 'var(--text)', fontSize: 13 }}
+    >
+      <span style={{ flex: 1, lineHeight: 1.5 }}>
+        <span style={{ display: 'block', fontWeight: 600 }}>{templatesTask === 'task2' ? 'Task 2 の5つの型' : 'Task 1 の4つの型'}</span>
+        <span style={{ display: 'block', color: 'var(--text-muted)', fontSize: 12.5 }}>
+          段落ごとの書き出し・注意点・採点基準を確認して、エッセイ例で練習できます
+        </span>
+      </span>
+      <span style={{ color: 'var(--accent)', fontWeight: 600 }}>型を見る →</span>
+    </button>
   );
 
   // 内蔵題材の本文を書き換えたら、追加済みの英文を差し替えられるようにする
@@ -149,7 +180,11 @@ export function HomeScreen() {
           <DeckTabs decks={decks} current={currentDeck} onSelect={selectDeck} onEdit={() => setEditingDecks(true)} />
         ))}
 
-      {deckEntries.length === 0 && promptList ? (
+      {currentDeck === READING_DECK_ID && decksEnabled ? (
+        <div className="screen-body">
+          <ReadingList />
+        </div>
+      ) : deckEntries.length === 0 && promptList ? (
         <div className="screen-body" style={{ paddingBottom: 100 }}>
           {transferHint}
           {promptList}
@@ -163,6 +198,7 @@ export function HomeScreen() {
         <>
           <div className="screen-body" style={{ flex: 'none', paddingBottom: 0 }}>
             {transferHint}
+            {templatesCard}
             {libraryCard}
           </div>
           <EmptyState
@@ -172,6 +208,7 @@ export function HomeScreen() {
       ) : (
         <div className="screen-body" style={{ paddingBottom: 100 }}>
           {refreshCard}
+          {templatesCard}
           {libraryCard}
           {promptList}
           <div style={{ display: 'flex', gap: 8 }}>
@@ -267,7 +304,7 @@ export function HomeScreen() {
         </div>
       )}
 
-      <Fab onClick={() => navigate('/new')} />
+      {!(decksEnabled && currentDeck === READING_DECK_ID) && <Fab onClick={() => navigate('/new')} />}
     </div>
   );
 }
@@ -306,11 +343,22 @@ interface Library {
 function libraryFor(deckId: string): Library | null {
   if (deckId === TASK2_DECK_ID)
     return {
-      topics: getPresetTopics(),
+      // 型ごとの全文モデル(序論〜結論)を先に、本論だけのモデルを後に並べる
+      topics: [...getTask2ModelTopics(), ...getPresetTopics()],
       description: (n) =>
         IS_EVERYONE
-          ? `バンド6.0〜6.5のモデルエッセイ ${n}本を追加できます(使える表現はマーキング済み)`
+          ? `型ごとの全文モデルとバンド6.0〜6.5の本論モデル、計${n}本を追加できます(使える表現はマーキング済み)`
           : `エッセイ題材 ${n}本を追加できます(Idiomatic 300 の表現はマーキング済み)`,
+    };
+  if (deckId === VOCAB_DECK_ID)
+    return {
+      topics: getCollocationTopics(),
+      description: (n) => `トピック別のコロケーション ${n}トピック(各10文)を追加できます(全文和訳つき)`,
+    };
+  if (deckId === SPEAKING_DECK_ID)
+    return {
+      topics: getSpeakingTopics(),
+      description: (n) => `Part 1〜3 のモデルアンサー ${n}本を追加できます(質問つき・話し言葉の表現はマーキング済み)`,
     };
   if (deckId === TASK1_DECK_ID)
     return {

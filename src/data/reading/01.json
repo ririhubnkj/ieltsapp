@@ -1,0 +1,161 @@
+{
+  "id": "r01",
+  "title": "Gardens in the Sky",
+  "titleJa": "空の庭園：都市の屋上緑化と壁面緑化",
+  "minutes": 20,
+  "paragraphs": [
+    {
+      "label": "A",
+      "text": "Covering a roof with living plants is hardly a new idea. For centuries, farmers in Scandinavia and Iceland laid thick layers of turf over timber roofs, relying on the soil and grass to keep out the wind and hold in the warmth of the fire. What is new is the use of planted roofs as a deliberate tool of urban policy. The modern green roof was largely developed in Germany during the 1970s, when engineers began producing lightweight growing materials and root-resistant membranes that allowed plants to be grown safely on top of ordinary buildings. By the end of the following decade, a number of German cities were offering financial support to property owners who installed them, and the idea gradually spread to the rest of Europe, North America and East Asia."
+    },
+    {
+      "label": "B",
+      "text": "Specialists today distinguish between two main types. Extensive green roofs have a thin growing layer, usually between five and fifteen centimetres deep, and are planted with hardy, low-growing species such as sedums, which can survive long periods without rain. They need little maintenance and are light enough to be placed on most existing roofs without any reinforcement. Intensive green roofs, by contrast, resemble conventional gardens: their deeper soil can support lawns, shrubs and even small trees, but the extra weight means that the building's structure often has to be strengthened, and they must be watered and tended regularly."
+    },
+    {
+      "label": "C",
+      "text": "Much of the recent enthusiasm for green roofs stems from concern about the urban heat island effect – the tendency of cities to be noticeably warmer than the surrounding countryside. Dark materials such as asphalt and roofing felt absorb solar energy during the day and release it slowly at night, while plants cool their surroundings through evapotranspiration, the process by which water evaporates from soil and leaves. In a study carried out in 2015, Dr Helen Marsh of a Dutch university compared two neighbouring roofs on a hot summer afternoon. The surface of a conventional black roof reached almost 70°C, whereas a planted roof just a few metres away remained below 30°C. Marsh is careful to point out, however, that the effect on air temperature at street level is much smaller, and becomes significant only when a large proportion of a district's roofs are covered."
+    },
+    {
+      "label": "D",
+      "text": "A second benefit concerns rainwater. In a city, most rain falls on hard surfaces and runs straight into drains, which can overflow during heavy storms. A green roof acts rather like a sponge: depending on the depth of its growing layer, it may retain between 40 and 80 per cent of the rain that falls on it over a year, and the water it does release reaches the drains more slowly, reducing the risk of flooding."
+    },
+    {
+      "label": "E",
+      "text": "Ecologists have also begun to view roofs as potential habitats. When a team led by Dr Tomas Brenner surveyed thirty green roofs in a central European city, they recorded more than seventy species of beetle. The great majority were common species, but several were considered rare in the region. Brenner's work also suggested that roofs planted only with sedum support far fewer species than those with varied soil depths and native wildflowers, a finding that has encouraged designers to imitate local grasslands rather than simply covering roofs with a uniform green carpet."
+    },
+    {
+      "label": "F",
+      "text": "Vertical gardens, or living walls, extend the same principle to the sides of buildings. Popularised in the 1990s by designers in France, many systems grow plants without soil, in layers of felt or other fabric supplied with water and nutrients by pumps. The results can be striking, but living walls are more demanding than green roofs. If an irrigation system fails, even for a few days in summer, large sections of planting may die, and replacing them can be expensive."
+    },
+    {
+      "label": "G",
+      "text": "Cost remains the greatest obstacle. A green roof typically costs two to three times as much to install as a conventional one. Supporters argue that this is partly offset over time: the planting protects the waterproof membrane beneath it from ultraviolet light and sudden changes in temperature, which may double its lifespan, and it can reduce the energy needed to heat and cool the floors below. Yet many of the benefits – cooler streets, fewer floods, richer wildlife – are enjoyed by the public rather than by the owner who pays. For this reason, many cities now offer subsidies, and some have gone further, requiring green roofs on all new buildings with flat roofs."
+    }
+  ],
+  "groups": [
+    {
+      "type": "paragraph",
+      "instructions": "The passage has seven paragraphs, A–G. Which paragraph contains the following information? Write the correct letter, A–G. NB You may use any letter more than once.",
+      "questions": [
+        {
+          "num": 1,
+          "text": "a comparison of the temperatures of two surfaces close to each other",
+          "answer": "C",
+          "evidence": "C",
+          "explanation": "C段落に \"compared two neighbouring roofs ... reached almost 70°C, whereas a planted roof just a few metres away remained below 30°C\" とあり、隣り合う2つの屋根の表面温度を比べている。two surfaces close to each other は neighbouring roofs の言い換え。"
+        },
+        {
+          "num": 2,
+          "text": "an explanation of why the people who pay for green roofs do not receive all of their benefits",
+          "answer": "G",
+          "evidence": "G",
+          "explanation": "G段落の \"many of the benefits ... are enjoyed by the public rather than by the owner who pays\" が該当。費用を払う所有者ではなく一般市民が恩恵の多くを受ける、という説明になっている。"
+        },
+        {
+          "num": 3,
+          "text": "a description of two different categories of green roof",
+          "answer": "B",
+          "evidence": "B",
+          "explanation": "B段落は \"Specialists today distinguish between two main types\" で始まり、extensive と intensive の2種類を説明している。categories は types の言い換え。"
+        },
+        {
+          "num": 4,
+          "text": "an example of a traditional building practice that made use of plants",
+          "answer": "A",
+          "evidence": "A",
+          "explanation": "A段落の \"farmers in Scandinavia and Iceland laid thick layers of turf over timber roofs\" が昔からの建築の慣習の例。F段落の壁面緑化は1990年代の新しい技術なので traditional には当たらない。"
+        },
+        {
+          "num": 5,
+          "text": "a reference to a technical failure that can cause plants to die",
+          "answer": "F",
+          "evidence": "F",
+          "explanation": "F段落の \"If an irrigation system fails ... large sections of planting may die\" が該当。灌水装置の故障という技術的トラブルで植物が枯れる可能性を述べている。"
+        }
+      ]
+    },
+    {
+      "type": "tfng",
+      "instructions": "Do the following statements agree with the information given in the passage? Write TRUE if the statement agrees with the information, FALSE if the statement contradicts the information, or NOT GIVEN if there is no information on this.",
+      "questions": [
+        {
+          "num": 6,
+          "text": "The first modern green roofs in Germany were built on government buildings.",
+          "answer": "NOT GIVEN",
+          "evidence": "A",
+          "explanation": "A段落には \"The modern green roof was largely developed in Germany during the 1970s\" とあるが、最初にどんな建物に設置されたかは書かれていない。\"ordinary buildings\" は技術の説明であり、政府の建物かどうかの情報はない。"
+        },
+        {
+          "num": 7,
+          "text": "Extensive green roofs usually require the structure of a building to be strengthened.",
+          "answer": "FALSE",
+          "evidence": "B",
+          "explanation": "B段落に extensive green roofs は \"light enough to be placed on most existing roofs without any reinforcement\" とあり、補強は不要。構造の補強が必要になるのは intensive green roofs のほうなので本文と矛盾する。"
+        },
+        {
+          "num": 8,
+          "text": "The amount of rain a green roof holds depends partly on how deep its growing layer is.",
+          "answer": "TRUE",
+          "evidence": "D",
+          "explanation": "D段落に \"depending on the depth of its growing layer, it may retain between 40 and 80 per cent of the rain\" とある。保水量が土壌層の深さによって変わるという内容と一致する。"
+        },
+        {
+          "num": 9,
+          "text": "Most of the beetle species found in Brenner's survey were rare in the region.",
+          "answer": "FALSE",
+          "evidence": "E",
+          "explanation": "E段落に \"The great majority were common species, but several were considered rare\" とある。大半はありふれた種で、珍しい種は「いくつか」だけなので、Most ... were rare は本文と矛盾する。"
+        },
+        {
+          "num": 10,
+          "text": "Living walls were first developed in order to reduce air pollution in French cities.",
+          "answer": "NOT GIVEN",
+          "evidence": "F",
+          "explanation": "F段落には \"Popularised in the 1990s by designers in France\" とあるだけで、開発の目的（大気汚染対策かどうか）には触れていない。フランスという語に引きずられて TRUE を選ばないこと。"
+        }
+      ]
+    },
+    {
+      "type": "completion",
+      "instructions": "Complete the sentences below. Choose NO MORE THAN TWO WORDS from the passage for each answer.",
+      "questions": [
+        {
+          "num": 11,
+          "text": "While dark roofing materials absorb heat, plants lower the temperature around them by means of ____.",
+          "accept": ["evapotranspiration"],
+          "evidence": "C",
+          "explanation": "C段落の \"plants cool their surroundings through evapotranspiration\" が根拠。cool their surroundings が lower the temperature around them、through が by means of に言い換えられている。"
+        },
+        {
+          "num": 12,
+          "text": "The plants on a green roof protect the waterproof membrane from ____ as well as from sudden temperature changes.",
+          "accept": ["ultraviolet light"],
+          "evidence": "G",
+          "explanation": "G段落の \"protects the waterproof membrane beneath it from ultraviolet light and sudden changes in temperature\" が根拠。2語以内なので ultraviolet light をそのまま書く。"
+        },
+        {
+          "num": 13,
+          "text": "Because owners pay while the public enjoys many of the benefits, many cities now provide ____ for green roofs.",
+          "accept": ["subsidies"],
+          "evidence": "G",
+          "explanation": "G段落の \"For this reason, many cities now offer subsidies\" が根拠。For this reason は直前の「恩恵を受けるのは費用を払う所有者ではなく市民」という理由を指す。A段落の financial support は3語以上の表現になるうえ、1980年代のドイツの話なので文に合わない。"
+        }
+      ]
+    }
+  ],
+  "vocab": [
+    { "en": "deliberate", "ja": "意図的な、計画的な" },
+    { "en": "hardy", "ja": "（植物が）丈夫な、耐寒性・耐乾性のある" },
+    { "en": "reinforcement", "ja": "補強" },
+    { "en": "stem from", "ja": "〜に由来する、〜から生じる" },
+    { "en": "absorb", "ja": "吸収する" },
+    { "en": "proportion", "ja": "割合、比率" },
+    { "en": "retain", "ja": "保持する、とどめておく" },
+    { "en": "habitat", "ja": "生息地" },
+    { "en": "uniform", "ja": "一様な、画一的な" },
+    { "en": "irrigation", "ja": "灌漑、水やり（の設備）" },
+    { "en": "obstacle", "ja": "障害、妨げ" },
+    { "en": "offset", "ja": "相殺する、埋め合わせる" }
+  ]
+}

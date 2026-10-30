@@ -14,13 +14,24 @@ import band6Task1TranslationsRaw from '../data/band6/task1Translations.txt?raw';
 import chunkRaw from '../data/chunkTopics.txt?raw';
 import chunkTranslationsRaw from '../data/chunkTranslations.txt?raw';
 import idiomaticRaw from '../data/idiomatic300Topics.txt?raw';
+import task2ModelRaw from '../data/band6/task2Models.txt?raw';
+import task2ModelTranslationsRaw from '../data/band6/task2ModelTranslations.txt?raw';
+import task2ModelPromptsRaw from '../data/band6/task2ModelPrompts.txt?raw';
+import collocationRaw from '../data/collocationTopics.txt?raw';
+import collocationTranslationsRaw from '../data/collocationTranslations.txt?raw';
+import speakingRaw from '../data/speakingTopics.txt?raw';
+import speakingTranslationsRaw from '../data/speakingTranslations.txt?raw';
+import speakingPromptsRaw from '../data/speakingPrompts.txt?raw';
 import {
   CHUNK_PREFIX,
+  COLLOCATION_PREFIX,
   IDIOMATIC_PREFIX,
   lineBreaks,
   parseMarkedText,
   parsePresetTopics,
+  SPEAKING_PREFIX,
   TASK1_PREFIX,
+  TASK2_MODEL_PREFIX,
   TOEFL_PREFIX,
   type PresetTopic,
 } from './presets';
@@ -51,6 +62,11 @@ let task2Prompts: Map<string, TaskPrompt> | null = null;
 let chunkTopics: PresetTopic[] | null = null;
 let chunkTranslations: Map<string, string[]> | null = null;
 let idiomaticTopics: PresetTopic[] | null = null;
+let task2ModelTopics: PresetTopic[] | null = null;
+let task2ModelPrompts: Map<string, TaskPrompt> | null = null;
+let collocationTopics: PresetTopic[] | null = null;
+let speakingTopics: PresetTopic[] | null = null;
+let speakingPrompts: Map<string, TaskPrompt> | null = null;
 
 /** 個人版だけで使う内蔵の題材(公開版のバンドルに入らないよう、呼ばれたときに読む) */
 export function getPresetTopics(): PresetTopic[] {
@@ -103,9 +119,36 @@ export function getIdiomaticTopics(): PresetTopic[] {
   return idiomaticTopics;
 }
 
-/** 内蔵の題材すべて(IELTS Task 2・Task 1・TOEFL・チャンク大全・Idiomatic 300)と和訳 */
+/** Task 2 の型ごとの全文モデルエッセイ(task2.pdf のエッセイ例)。みんな向けの IELTS 版だけ */
+export function getTask2ModelTopics(): PresetTopic[] {
+  task2ModelTopics ??= BAND6 ? parsePresetTopics(task2ModelRaw, TASK2_MODEL_PREFIX) : [];
+  return task2ModelTopics;
+}
+
+/** IELTS の語彙・コロケーション(1トピック10文)。みんな向けの IELTS 版だけ */
+export function getCollocationTopics(): PresetTopic[] {
+  collocationTopics ??= BAND6 ? parsePresetTopics(collocationRaw, COLLOCATION_PREFIX) : [];
+  return collocationTopics;
+}
+
+/** IELTS Speaking の Part 1〜3 のモデルアンサー(質問と一緒に出す)。みんな向けの IELTS 版だけ */
+export function getSpeakingTopics(): PresetTopic[] {
+  speakingTopics ??= BAND6 ? parsePresetTopics(speakingRaw, SPEAKING_PREFIX) : [];
+  return speakingTopics;
+}
+
+/** 内蔵の題材すべて(IELTS Task 2・Task 1・TOEFL・チャンク大全・Idiomatic 300・語彙・Speaking)と和訳 */
 export function getAllPresetTopics(): PresetTopic[] {
-  return [...getPresetTopics(), ...getTask1Topics(), ...getToeflTopics(), ...getChunkTopics(), ...getIdiomaticTopics()];
+  return [
+    ...getPresetTopics(),
+    ...getTask2ModelTopics(),
+    ...getTask1Topics(),
+    ...getToeflTopics(),
+    ...getChunkTopics(),
+    ...getIdiomaticTopics(),
+    ...getCollocationTopics(),
+    ...getSpeakingTopics(),
+  ];
 }
 
 export function getAllPresetTranslations(): Map<string, string[]> {
@@ -114,6 +157,13 @@ export function getAllPresetTranslations(): Map<string, string[]> {
     ...getTask1Translations(),
     ...getToeflTranslations(),
     ...getChunkTranslations(),
+    ...(BAND6
+      ? [
+          ...parseTranslations(task2ModelTranslationsRaw, TASK2_MODEL_PREFIX),
+          ...parseTranslations(collocationTranslationsRaw, COLLOCATION_PREFIX),
+          ...parseTranslations(speakingTranslationsRaw, SPEAKING_PREFIX),
+        ]
+      : []),
   ]);
 }
 
@@ -122,7 +172,7 @@ export function getAllPresetTranslations(): Map<string, string[]> {
  * チャンク大全と Idiomatic 300 は、そうした表現そのものが覚える対象なので外さない
  */
 export function skipsTemplates(entry: Entry): boolean {
-  return !(entry.presetId?.startsWith(CHUNK_PREFIX) || entry.presetId?.startsWith(IDIOMATIC_PREFIX));
+  return ![CHUNK_PREFIX, IDIOMATIC_PREFIX, COLLOCATION_PREFIX, SPEAKING_PREFIX].some((p) => entry.presetId?.startsWith(p));
 }
 
 /** Task 1 の題材の図(SVG のソース)。図の無い題材なら null */
@@ -227,10 +277,30 @@ export function getTask2Prompt(presetId: string | undefined): TaskPrompt | null 
   return (presetId && task2Prompts.get(presetId)) || null;
 }
 
-/** 題材の上部に固定する問題文。自分で選んだ問題を優先し、無ければ内蔵の TOEFL・IELTS Task 2 の題材の問題文 */
+/** Task 2 の全文モデルエッセイの問題文(Type: の行が型の名前) */
+export function getTask2ModelPrompt(presetId: string | undefined): TaskPrompt | null {
+  if (!presetId?.startsWith(TASK2_MODEL_PREFIX)) return null;
+  task2ModelPrompts ??= BAND6 ? parseTaskPrompts(task2ModelPromptsRaw, TASK2_MODEL_PREFIX) : new Map();
+  return task2ModelPrompts.get(presetId) ?? null;
+}
+
+/** Speaking の質問(Part 1・3 は質問の一覧、Part 2 はトピックカード) */
+export function getSpeakingPrompt(presetId: string | undefined): TaskPrompt | null {
+  if (!presetId?.startsWith(SPEAKING_PREFIX)) return null;
+  speakingPrompts ??= BAND6 ? parseTaskPrompts(speakingPromptsRaw, SPEAKING_PREFIX) : new Map();
+  return speakingPrompts.get(presetId) ?? null;
+}
+
+/** 題材の上部に固定する問題文。自分で選んだ問題を優先し、無ければ内蔵の TOEFL・IELTS Task 2・Speaking の題材の問題文 */
 export function entryPrompt(entry: Entry): TaskPrompt | null {
   if (entry.promptId) return getTaskPrompt(entry.promptId);
-  return HAS_PRESETS ? (getToeflPrompt(entry.presetId) ?? getTask2Prompt(entry.presetId)) : null;
+  if (!HAS_PRESETS) return null;
+  return (
+    getToeflPrompt(entry.presetId) ??
+    getTask2Prompt(entry.presetId) ??
+    getTask2ModelPrompt(entry.presetId) ??
+    getSpeakingPrompt(entry.presetId)
+  );
 }
 
 /**

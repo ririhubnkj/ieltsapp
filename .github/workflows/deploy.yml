@@ -25,7 +25,7 @@ jobs:
           cache: npm
       - run: npm ci
       - run: npm run test
-      - run: npm run build
+      # IELTS 版をサイトのトップに置く
       - run: npm run build:everyone
       - uses: actions/upload-pages-artifact@v3
         with:

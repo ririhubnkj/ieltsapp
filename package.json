@@ -1,5 +1,5 @@
 {
-  "name": "eiwaku-app",
+  "name": "ieltsapp",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "build:personal": "tsc -b && vite build --mode personal",
-    "build:everyone": "vite build --mode everyone",
+    "build:everyone": "tsc -b && vite build --mode everyone",
     "lint": "oxlint",
     "preview": "vite preview",
     "test": "vitest run",

@@ -7,6 +7,8 @@ import { EntryEditScreen } from './components/screens/EntryEditScreen';
 import { StudyDetailScreen } from './components/screens/StudyDetailScreen';
 import { QuizScreen } from './components/screens/QuizScreen';
 import { SettingsScreen } from './components/screens/SettingsScreen';
+import { ReadingScreen } from './components/screens/ReadingScreen';
+import { TemplatesScreen } from './components/screens/TemplatesScreen';
 import { IS_PERSONAL } from './lib/target';
 
 // アーティファクトの枠内ではURLのハッシュを使わず、画面の移動をメモリ上で持つ
@@ -24,6 +26,8 @@ export function App() {
           <Route path="/entries/:id/edit" element={<EntryEditScreen />} />
           <Route path="/entries/:id/quiz" element={<QuizScreen />} />
           <Route path="/settings" element={<SettingsScreen />} />
+          <Route path="/reading/:id" element={<ReadingScreen />} />
+          <Route path="/templates/:task" element={<TemplatesScreen />} />
         </Routes>
       </Router>
     </AppDataProvider>

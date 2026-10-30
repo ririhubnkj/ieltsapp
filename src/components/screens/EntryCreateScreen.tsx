@@ -5,7 +5,7 @@ import { BackButton } from '../common/BackButton';
 import { FigureAttach } from '../common/FigureAttach';
 import { TaskPromptPicker } from '../common/TaskPromptPicker';
 import { getTaskPromptChoices } from '../../lib/presetLibrary';
-import { loadSelectedDeckId } from '../../lib/decks';
+import { loadSelectedDeckId, READING_DECK_ID } from '../../lib/decks';
 import { HAS_PRESETS } from '../../lib/target';
 
 export function EntryCreateScreen() {
@@ -54,7 +54,9 @@ export function EntryCreateScreen() {
   const handleSave = () => {
     if (!text.trim()) return;
     // 自分専用版では、ホームで開いていたタブに入れる
-    const entry = addEntry(text, title, HAS_PRESETS ? (loadSelectedDeckId() ?? undefined) : undefined, figure, promptId);
+    // Reading のタブには英文を入れない(タブを決めずに登録し、先頭のタブに入れる)
+    const selected = HAS_PRESETS ? loadSelectedDeckId() : null;
+    const entry = addEntry(text, title, selected && selected !== READING_DECK_ID ? selected : undefined, figure, promptId);
     navigate(`/entries/${entry.id}/mark`, { replace: true });
   };
 

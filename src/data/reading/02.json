@@ -1,0 +1,197 @@
+{
+  "id": "r02",
+  "title": "The Puzzle of Sleep",
+  "titleJa": "睡眠という謎：人はなぜ眠るのか",
+  "minutes": 20,
+  "paragraphs": [
+    {
+      "label": "A",
+      "text": "Few activities are as universal, or as mysterious, as sleep. Humans spend roughly a third of their lives asleep, and almost every animal that scientists have studied, from fruit flies to whales, shows some form of regular rest. From an evolutionary point of view, this is surprising. An animal that is asleep cannot search for food, care for its young or watch for predators. If sleep has survived despite these dangers, it must provide benefits important enough to outweigh them – but identifying exactly what those benefits are has proved remarkably difficult."
+    },
+    {
+      "label": "B",
+      "text": "For much of history, sleep was regarded as a passive state, a kind of temporary switching-off of the mind. This view began to change in the twentieth century, when scientists started recording the electrical activity of the sleeping brain. In 1953, researchers in the United States noticed that sleepers periodically moved their eyes rapidly beneath closed eyelids, and that people woken during these periods usually reported vivid dreams. This stage, later named rapid eye movement (REM) sleep, showed that the brain could be extremely active during the night. Researchers now know that a night's sleep consists of several cycles, each lasting around ninety minutes, in which lighter stages, deep sleep and REM sleep follow one another."
+    },
+    {
+      "label": "C",
+      "text": "One early explanation for sleep was that it conserves energy. Body temperature and metabolism fall during sleep, so a sleeping animal uses less fuel. However, the savings are modest: for a human, a full night's sleep saves only about as much energy as is contained in a small snack. This is hardly enough to justify the risks involved, and most researchers now believe that energy conservation can be, at best, only part of the story."
+    },
+    {
+      "label": "D",
+      "text": "A more promising line of research links sleep to memory. In a series of experiments, Dr Lena Fischer and her colleagues at a German university taught students lists of unfamiliar word pairs in the evening. Students who then slept for eight hours recalled about 20 per cent more pairs the next morning than a group who had learned the same material in the morning and been tested after twelve hours awake. Fischer argues that during deep sleep the brain replays recent experiences, transferring them from short-term storage into more permanent networks."
+    },
+    {
+      "label": "E",
+      "text": "Sleep may also allow the brain to clean itself. Professor Kenji Morita, whose team at a Japanese university studies brain fluids, found that in sleeping mice the spaces between brain cells became considerably wider than during waking hours. This allowed fluid to flow through the tissue more freely, washing away waste proteins that build up while the animal is awake. Some of these proteins have been associated with illnesses such as Alzheimer's disease, although Morita stresses that it is too early to say whether poor sleep causes such conditions in humans."
+    },
+    {
+      "label": "F",
+      "text": "What, then, happens when we do not sleep enough? In one study, Dr Pieter de Vries of a Dutch research institute restricted a group of volunteers to six hours of sleep a night for twelve nights. By the end of the experiment, their performance on attention tests had declined almost as much as that of volunteers kept awake for an entire night. Strikingly, however, the six-hour group rated themselves as only slightly sleepy. According to de Vries, this suggests that people who regularly lose sleep become poor judges of their own impairment – a worrying conclusion, given how many drivers and machine operators fall into this category."
+    },
+    {
+      "label": "G",
+      "text": "The problem is most serious for shift workers, whose working hours conflict with the body's internal clock. Dr Sarah Okafor, who studies hospital staff in Canada, found that nurses on night shifts made noticeably more errors in the final hours of their shifts, even when they had slept for seven hours during the previous day. Daytime sleep, she explains, tends to be shorter and lighter than sleep at night, so it does not fully restore performance. Simple measures, such as limiting the number of consecutive night shifts or allowing short planned naps, could reduce these risks, yet they are still rarely adopted by employers."
+    },
+    {
+      "label": "H",
+      "text": "It is often claimed that modern lifestyles, with their artificial light and glowing screens, have left people sleeping far less than their great-grandparents did. The evidence for this is surprisingly weak: historical records are patchy, and studies of communities without electricity suggest that their members do not necessarily sleep longer. What is clear is that sleep is not wasted time. Far from being a luxury to be sacrificed when life becomes busy, it appears to be one of the foundations on which memory, health and safety are built."
+    }
+  ],
+  "groups": [
+    {
+      "type": "matching",
+      "instructions": "Look at the following researchers (Questions 1–4) and the list of findings below. Match each researcher with the correct finding, A–F. NB There are more findings than researchers, so you will not use all of them.",
+      "options": [
+        { "key": "A", "text": "People who are short of sleep may not realise how much their abilities have been affected." },
+        { "key": "B", "text": "Sleep developed mainly as a way of saving energy." },
+        { "key": "C", "text": "Sleep helps to move newly learned information into long-term memory." },
+        { "key": "D", "text": "Poor sleep has been shown to cause certain brain diseases in humans." },
+        { "key": "E", "text": "Sleeping during the day is less effective than sleeping at night." },
+        { "key": "F", "text": "Sleep allows the brain to get rid of substances that accumulate while we are awake." }
+      ],
+      "questions": [
+        {
+          "num": 1,
+          "text": "Lena Fischer",
+          "answer": "C",
+          "evidence": "D",
+          "explanation": "D段落の \"the brain replays recent experiences, transferring them from short-term storage into more permanent networks\" が根拠。more permanent networks が long-term memory に言い換えられている。"
+        },
+        {
+          "num": 2,
+          "text": "Kenji Morita",
+          "answer": "F",
+          "evidence": "E",
+          "explanation": "E段落の \"washing away waste proteins that build up while the animal is awake\" が根拠。build up は accumulate の言い換え。D（人間の病気の原因と証明された）は \"too early to say whether poor sleep causes such conditions in humans\" と本人が否定しているので誤り。"
+        },
+        {
+          "num": 3,
+          "text": "Pieter de Vries",
+          "answer": "A",
+          "evidence": "F",
+          "explanation": "F段落の \"people who regularly lose sleep become poor judges of their own impairment\" が根拠。成績は大きく落ちたのに本人は \"only slightly sleepy\" と答えた、という結果から導かれた結論。"
+        },
+        {
+          "num": 4,
+          "text": "Sarah Okafor",
+          "answer": "E",
+          "evidence": "G",
+          "explanation": "G段落の \"Daytime sleep ... tends to be shorter and lighter than sleep at night, so it does not fully restore performance\" が根拠。B（省エネ説）はC段落で紹介されるが特定の研究者の主張ではなく、筆者も不十分な説明としている。"
+        }
+      ]
+    },
+    {
+      "type": "ynng",
+      "instructions": "Do the following statements agree with the claims of the writer? Write YES if the statement agrees with the claims of the writer, NO if the statement contradicts the claims of the writer, or NOT GIVEN if it is impossible to say what the writer thinks about this.",
+      "questions": [
+        {
+          "num": 5,
+          "text": "Given the dangers it involves, sleep must have important advantages for animals.",
+          "answer": "YES",
+          "evidence": "A",
+          "explanation": "A段落の \"If sleep has survived despite these dangers, it must provide benefits important enough to outweigh them\" が根拠。危険があるのに残ってきた以上、それを上回る利点があるはずだという筆者の主張と一致する。"
+        },
+        {
+          "num": 6,
+          "text": "The traditional view of sleep as a passive state was correct.",
+          "answer": "NO",
+          "evidence": "B",
+          "explanation": "B段落で、睡眠を受動的な状態とみなす見方は20世紀に変わり始め、REM睡眠の発見が \"showed that the brain could be extremely active during the night\" と述べている。従来の見方は誤りだったという内容なので矛盾する。"
+        },
+        {
+          "num": 7,
+          "text": "Saving energy cannot be the only reason why animals sleep.",
+          "answer": "YES",
+          "evidence": "C",
+          "explanation": "C段落の \"the savings are modest\" と \"energy conservation can be, at best, only part of the story\" が根拠。節約できるエネルギーは小さく、省エネは理由の一部にすぎないという主張と一致する。"
+        },
+        {
+          "num": 8,
+          "text": "Fischer's results have since been confirmed by researchers in other countries.",
+          "answer": "NOT GIVEN",
+          "evidence": "D",
+          "explanation": "D段落はフィッシャーの実験内容と解釈を述べているだけで、他国の研究者による追試や確認には触れていない。\"a series of experiments\" は彼女自身の実験のこと。"
+        },
+        {
+          "num": 9,
+          "text": "Most employers have already taken steps to reduce the risks faced by night workers.",
+          "answer": "NO",
+          "evidence": "G",
+          "explanation": "G段落の最後に、夜勤の連続回数の制限や仮眠などの対策について \"they are still rarely adopted by employers\" とある。ほとんど導入されていないので、大半の雇用主が対策済みという文と矛盾する。"
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "instructions": "Choose the correct letter, A, B, C or D.",
+      "questions": [
+        {
+          "num": 10,
+          "text": "What does the writer say about the discovery made in 1953?",
+          "choices": [
+            { "key": "A", "text": "It proved that dreams occur only during REM sleep." },
+            { "key": "B", "text": "It showed that the sleeping brain can be highly active." },
+            { "key": "C", "text": "It revealed that each sleep cycle lasts about ninety minutes." },
+            { "key": "D", "text": "It was the first time the brain's electrical activity had been recorded." }
+          ],
+          "answer": "B",
+          "evidence": "B",
+          "explanation": "B段落の \"showed that the brain could be extremely active during the night\" が根拠。A は \"usually reported vivid dreams\" とあるだけで「REM中だけ」とは言っていない。C は \"Researchers now know\" で後の知見として書かれており、D は本文にない。"
+        },
+        {
+          "num": 11,
+          "text": "According to paragraph E, Morita's team found that in sleeping mice",
+          "choices": [
+            { "key": "A", "text": "the brain produced fewer waste proteins." },
+            { "key": "B", "text": "the brain cells themselves grew larger." },
+            { "key": "C", "text": "waste proteins led to memory loss." },
+            { "key": "D", "text": "fluid could move through the brain more easily." }
+          ],
+          "answer": "D",
+          "evidence": "E",
+          "explanation": "E段落の \"This allowed fluid to flow through the tissue more freely\" が根拠。広がったのは細胞そのものではなく \"the spaces between brain cells\" なので B は誤り。A と C は本文に書かれていない。"
+        },
+        {
+          "num": 12,
+          "text": "What was surprising about the volunteers who slept six hours a night in de Vries's study?",
+          "choices": [
+            { "key": "A", "text": "They felt only a little sleepy although their performance had fallen sharply." },
+            { "key": "B", "text": "Their performance improved after the first few nights." },
+            { "key": "C", "text": "They slept for longer than they had been told to." },
+            { "key": "D", "text": "They performed worse than the volunteers kept awake all night." }
+          ],
+          "answer": "A",
+          "evidence": "F",
+          "explanation": "F段落の \"Strikingly, however, the six-hour group rated themselves as only slightly sleepy\" が根拠。Strikingly が surprising に対応する。D は \"declined almost as much as\" で「ほぼ同程度」であり、上回ったとは書かれていない。"
+        },
+        {
+          "num": 13,
+          "text": "What is the writer's opinion of the claim that people today sleep much less than in the past?",
+          "choices": [
+            { "key": "A", "text": "It is supported by studies of communities without electricity." },
+            { "key": "B", "text": "It explains the recent increase in sleep-related illness." },
+            { "key": "C", "text": "It is not backed by convincing evidence." },
+            { "key": "D", "text": "It is true only of people who use screens late at night." }
+          ],
+          "answer": "C",
+          "evidence": "H",
+          "explanation": "H段落の \"The evidence for this is surprisingly weak\" が根拠。A は逆で、電気のない地域の調査は \"do not necessarily sleep longer\" と主張を支持していない。B と D は本文にない。"
+        }
+      ]
+    }
+  ],
+  "vocab": [
+    { "en": "universal", "ja": "普遍的な、どこにでも見られる" },
+    { "en": "outweigh", "ja": "〜より重要である、〜を上回る" },
+    { "en": "passive", "ja": "受動的な、活動していない" },
+    { "en": "conserve", "ja": "節約する、保存する" },
+    { "en": "metabolism", "ja": "代謝" },
+    { "en": "modest", "ja": "（量・程度が）ささやかな、控えめな" },
+    { "en": "promising", "ja": "有望な、見込みのある" },
+    { "en": "impairment", "ja": "（能力などの）低下、障害" },
+    { "en": "conflict with", "ja": "〜と衝突する、〜と相いれない" },
+    { "en": "consecutive", "ja": "連続した" },
+    { "en": "restore", "ja": "回復させる、元に戻す" },
+    { "en": "patchy", "ja": "断片的な、むらのある" }
+  ]
+}
