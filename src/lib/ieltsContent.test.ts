@@ -78,8 +78,11 @@ describe('speaking', () => {
   const topics = parsePresetTopics(speakingRaw, SPEAKING_PREFIX);
   const prompts = parseTaskPrompts(speakingPromptsRaw, SPEAKING_PREFIX);
 
-  it('bundles four sets each of Part 1, 2 and 3 with their questions', () => {
+  it('bundles eight sets each of Part 1, 2 and 3 with their questions', () => {
     expect(topics.map((t) => t.title.split('｜')[0]!.replace(/^\d+\. /, ''))).toEqual([
+      ...Array(4).fill('Part 1'),
+      ...Array(4).fill('Part 2'),
+      ...Array(4).fill('Part 3'),
       ...Array(4).fill('Part 1'),
       ...Array(4).fill('Part 2'),
       ...Array(4).fill('Part 3'),
