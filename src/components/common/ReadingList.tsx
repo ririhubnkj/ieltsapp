@@ -1,5 +1,5 @@
 import { useNavigate } from 'react-router-dom';
-import { allQuestions, loadResults, PASSAGES, TYPE_LABEL } from '../../lib/reading';
+import { loadResults, PASSAGES, totalMarks, TYPE_LABEL } from '../../lib/reading';
 import { formatRelativeDate } from '../../lib/relativeDate';
 
 /** Reading のタブ。本番と同じ形式の演習(本文1つに設問13問)を並べる */
@@ -9,12 +9,12 @@ export function ReadingList() {
   return (
     <>
       <div style={{ fontSize: 12.5, color: 'var(--text-muted)', lineHeight: 1.6 }}>
-        本番と同じ設問形式(段落選択・TRUE/FALSE/NOT GIVEN・YES/NO/NOT GIVEN・4択・組み合わせ・空所補充)の演習です。
+        本番と同じ設問形式(見出し選択・段落選択・TRUE/FALSE/NOT GIVEN・YES/NO/NOT GIVEN・4択・2つ選ぶ・組み合わせ・文の後半選択・要約完成・空所補充・短答)の演習です。
         1題20分が目安。採点後に、根拠の段落と日本語の解説を確認できます。
       </div>
       {PASSAGES.map((p, i) => {
         const result = results[p.id];
-        const total = allQuestions(p).length;
+        const total = totalMarks(p);
         return (
           <div
             key={p.id}

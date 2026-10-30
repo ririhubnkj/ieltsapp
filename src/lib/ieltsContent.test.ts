@@ -23,18 +23,24 @@ describe('writing templates', () => {
   });
 
   it('links every type to a bundled model essay that follows its opening lines', () => {
-    for (const t of [...TEMPLATES.task1, ...TEMPLATES.task2]) {
-      const topic = [...task1, ...task2].find((x) => x.presetId === t.modelPresetId);
-      expect(topic, t.name).toBeDefined();
-      const essay = parseMarkedText(topic!.text).tokens.join(' ');
-      // 各段落の最初の行の決まった言い回し(埋める部分の手前まで)がエッセイに出てくる
-      for (const p of t.paragraphs) {
-        const fixed = splitTemplateLine(p.lines[0]!)[0]!;
-        if (fixed.slot) continue;
-        const words = fixed.text.replace(/[^A-Za-z ]/g, ' ').trim().split(/\s+/).slice(0, 3).join(' ');
-        if (words) expect(essay.replace(/ , /g, ' ').replace(/ ,/g, ''), `${t.name} ${p.label}`).toContain(words);
+    for (const t of [...TEMPLATES.task1, ...TEMPLATES.task2])
+      for (const id of t.modelPresetIds) {
+        const topic = [...task1, ...task2].find((x) => x.presetId === id);
+        expect(topic, `${t.name} ${id}`).toBeDefined();
+        const essay = parseMarkedText(topic!.text).tokens.join(' ');
+        // 各段落の最初の行の決まった言い回し(埋める部分の手前まで)がエッセイに出てくる
+        for (const p of t.paragraphs) {
+          const fixed = splitTemplateLine(p.lines[0]!)[0]!;
+          if (fixed.slot) continue;
+          const words = fixed.text.replace(/[^A-Za-z ]/g, ' ').trim().split(/\s+/).slice(0, 3).join(' ');
+          if (words) expect(essay.replace(/ , /g, ' ').replace(/ ,/g, ''), `${t.name} ${id} ${p.label}`).toContain(words);
+        }
       }
-    }
+  });
+
+  it('files every Task 1 model essay under exactly one type', () => {
+    const ids = TEMPLATES.task1.flatMap((t) => t.modelPresetIds);
+    expect([...ids].sort()).toEqual(task1.map((t) => t.presetId).sort());
   });
 
   it('marks the parts to fill in', () => {

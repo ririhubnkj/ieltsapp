@@ -15,13 +15,13 @@ const VARIANT_STYLE: Record<WordTokenVariant, React.CSSProperties> = {
   marked: {
     background: 'var(--accent-soft)',
     boxShadow: 'inset 0 -2px 0 var(--accent)',
-    color: '#2c4560',
+    color: 'var(--accent-deep)',
     borderRadius: 5,
   },
   markedActive: {
     background: 'var(--accent-soft)',
     boxShadow: 'inset 0 -2px 0 var(--accent)',
-    color: '#2c4560',
+    color: 'var(--accent-deep)',
     outline: '2px solid var(--accent)',
     outlineOffset: 1,
     borderRadius: 5,

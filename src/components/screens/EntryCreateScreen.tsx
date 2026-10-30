@@ -130,11 +130,11 @@ export function EntryCreateScreen() {
           <span>推奨: 100〜300 words</span>
         </div>
         {warning && (
-          <div style={{ background: 'var(--accent-soft)', borderRadius: 10, padding: '12px 14px', fontSize: 13, color: '#33506e' }}>
+          <div style={{ background: 'var(--accent-soft)', borderRadius: 10, padding: '12px 14px', fontSize: 13, color: 'var(--accent-deep)' }}>
             {warning}
           </div>
         )}
-        <div style={{ background: 'var(--accent-soft)', borderRadius: 10, padding: '12px 14px', fontSize: 13, color: '#33506e', lineHeight: 1.5 }}>
+        <div style={{ background: 'var(--accent-soft)', borderRadius: 10, padding: '12px 14px', fontSize: 13, color: 'var(--accent-deep)', lineHeight: 1.5 }}>
           本文は保存後も「学習を始める」画面の「本文を編集」から直せます。保存後は穴埋めにする単語の選択に進みます(学習開始画面で「全単語からランダム」を選べば、選択なしでも学習できます)。
         </div>
         <button className="primary-btn" style={{ marginTop: 'auto' }} disabled={!text.trim()} onClick={handleSave}>

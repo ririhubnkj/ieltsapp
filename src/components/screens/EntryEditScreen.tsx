@@ -72,7 +72,7 @@ function EntryEdit() {
           }}
         />
         <div style={{ fontSize: 12.5, color: 'var(--text-muted)' }}>{wordCount} words</div>
-        <div style={{ background: 'var(--accent-soft)', borderRadius: 10, padding: '12px 14px', fontSize: 13, color: '#33506e', lineHeight: 1.5 }}>
+        <div style={{ background: 'var(--accent-soft)', borderRadius: 10, padding: '12px 14px', fontSize: 13, color: 'var(--accent-deep)', lineHeight: 1.5 }}>
           書き換えていない単語のマーキング・固定・除外はそのまま残ります。書き換えた・足した単語は、保存後に「マーキングを編集」で選び直してください。
           {entry.presetId && ' 内蔵の題材は、編集すると教材の更新で上書きされなくなります(全文和訳は、文の数が変わらなければそのまま付きます)。'}
         </div>

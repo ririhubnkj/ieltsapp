@@ -18,8 +18,8 @@ export interface WritingTemplate {
   question: string;
   paragraphs: TemplateParagraph[];
   notes: string[];
-  /** この型のエッセイ例(内蔵の題材の presetId) */
-  modelPresetId: string;
+  /** この型のエッセイ例(内蔵の題材の presetId)。先頭が資料のエッセイ例 */
+  modelPresetIds: string[];
 }
 
 export interface Criterion {
@@ -107,7 +107,7 @@ export const TEMPLATES: Record<WritingTask, WritingTemplate[]> = {
         '➂➃では似た動きの項目をまとめ、始まり・終わり・最大値などの数字を入れて比べる',
         '全体で170語前後(160〜180語)を目安にする',
       ],
-      modelPresetId: 'task1-4',
+      modelPresetIds: ['task1-4', 'task1-2', 'task1-3', 'task1-6', 'task1-7', 'task1-8'],
     },
     {
       id: 'compare',
@@ -127,7 +127,7 @@ export const TEMPLATES: Record<WritingTask, WritingTemplate[]> = {
         '➁の Overview には数字を入れず、最大・最小などの目立つ特徴だけを書く',
         '時制は図の年に合わせる(過去の年なら過去形)',
       ],
-      modelPresetId: 'task1-5',
+      modelPresetIds: ['task1-5', 'task1-1'],
     },
     {
       id: 'map',
@@ -146,7 +146,7 @@ export const TEMPLATES: Record<WritingTask, WritingTemplate[]> = {
         '過去から現在までの変化は、現在完了の受け身(has been built など)で書く',
         '東西南北などの場所でエリアを2つに分け、➂➃で1つずつ説明する',
       ],
-      modelPresetId: 'task1-9',
+      modelPresetIds: ['task1-9', 'task1-10'],
     },
     {
       id: 'process',
@@ -169,7 +169,7 @@ export const TEMPLATES: Record<WritingTask, WritingTemplate[]> = {
         '人の手による工程は受け身(is delivered, are added)、自然の過程は能動態で書く',
         'After that / Next / Finally などで順番をはっきりさせる',
       ],
-      modelPresetId: 'task1-11',
+      modelPresetIds: ['task1-11', 'task1-12'],
     },
   ],
   task2: [
@@ -212,7 +212,7 @@ export const TEMPLATES: Record<WritingTask, WritingTemplate[]> = {
         '自分の意見は問われないので、メリットとデメリットをフラットに書く',
         'メリット・デメリットをそれぞれ2つずつ書き、そのうちそれぞれ1つに具体例を付ける',
       ],
-      modelPresetId: 'task2model-1',
+      modelPresetIds: ['task2model-1', 'task2model-6', 'task2model-7'],
     },
     {
       id: 'two-part',
@@ -241,7 +241,7 @@ export const TEMPLATES: Record<WritingTask, WritingTemplate[]> = {
         },
       ],
       notes: ['原因とそれが引き起こす問題を、それぞれ2つずつ書き、そのうちそれぞれ1つに具体例を付ける'],
-      modelPresetId: 'task2model-2',
+      modelPresetIds: ['task2model-2', 'task2model-8', 'task2model-9'],
     },
     {
       id: 'problem-solution',
@@ -276,7 +276,7 @@ export const TEMPLATES: Record<WritingTask, WritingTemplate[]> = {
         },
       ],
       notes: ['問題の原因と対処法を、それぞれ2つずつ書き、そのうちそれぞれ1つに具体例を付ける'],
-      modelPresetId: 'task2model-3',
+      modelPresetIds: ['task2model-3', 'task2model-10', 'task2model-11'],
     },
     {
       id: 'both-views',
@@ -319,7 +319,7 @@ export const TEMPLATES: Record<WritingTask, WritingTemplate[]> = {
         '両方の意見に理由を2つずつ書き、そのうちそれぞれ1つに具体例を付ける(➁➂ではどちらもフラットに)',
         '➃の結論で、自分がどちら側なのかを述べる',
       ],
-      modelPresetId: 'task2model-4',
+      modelPresetIds: ['task2model-4', 'task2model-12', 'task2model-13'],
     },
     {
       id: 'agree-disagree',
@@ -362,7 +362,7 @@ export const TEMPLATES: Record<WritingTask, WritingTemplate[]> = {
         '➁ではあえて譲歩の意見を書くが、自分の意見(➂)の方が大事なので比重を➂に寄せる',
         '➁は理由2つ・具体例1つ、➂は理由2つにそれぞれ具体例を付ける',
       ],
-      modelPresetId: 'task2model-5',
+      modelPresetIds: ['task2model-5', 'task2model-14', 'task2model-15'],
     },
   ],
 };
