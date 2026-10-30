@@ -3,7 +3,18 @@
  * 結果はこの端末に保存する(英文のデータとは別に持つ)
  */
 
-export type QuestionType = 'paragraph' | 'tfng' | 'ynng' | 'mcq' | 'matching' | 'completion';
+export type QuestionType =
+  | 'paragraph'
+  | 'tfng'
+  | 'ynng'
+  | 'mcq'
+  | 'mcq2'
+  | 'matching'
+  | 'headings'
+  | 'endings'
+  | 'wordlist'
+  | 'completion'
+  | 'short';
 
 export interface Choice {
   key: string;
@@ -12,12 +23,14 @@ export interface Choice {
 
 export interface ReadingQuestion {
   num: number;
+  /** 配点(Choose TWO の mcq2 は2問分。番号も2つ使う) */
+  count?: number;
   text: string;
-  /** 4択の選択肢(mcq だけ) */
+  /** 選択肢(mcq は A〜D、mcq2 は A〜E) */
   choices?: Choice[];
-  /** 正解(completion 以外) */
+  /** 正解(completion・short 以外)。mcq2 は2つの記号をカンマでつないだもの(B,D) */
   answer?: string;
-  /** 正解として認める語句(completion だけ。小文字) */
+  /** 正解として認める語句(completion・short だけ。小文字) */
   accept?: string[];
   /** 根拠のある段落 */
   evidence: string;
@@ -27,7 +40,7 @@ export interface ReadingQuestion {
 export interface QuestionGroup {
   type: QuestionType;
   instructions: string;
-  /** 組み合わせ問題の選択肢(matching だけ) */
+  /** 選択肢の一覧(matching・headings・endings・wordlist) */
   options?: Choice[];
   questions: ReadingQuestion[];
 }
@@ -58,9 +71,19 @@ export const TYPE_LABEL: Record<QuestionType, string> = {
   tfng: 'TRUE / FALSE / NOT GIVEN',
   ynng: 'YES / NO / NOT GIVEN',
   mcq: '4択',
+  mcq2: '2つ選ぶ',
   matching: '組み合わせ',
+  headings: '見出し選択',
+  endings: '文の後半選択',
+  wordlist: '語群から要約完成',
   completion: '空所補充',
+  short: '短答',
 };
+
+/** 自分で書いて答える設問 */
+export function isWritten(type: QuestionType): boolean {
+  return type === 'completion' || type === 'short';
+}
 
 /** ボタンで選ぶ設問の選択肢(completion は自分で書くので空) */
 export function answerOptions(passage: ReadingPassage, group: QuestionGroup, question: ReadingQuestion): string[] {
@@ -72,10 +95,15 @@ export function answerOptions(passage: ReadingPassage, group: QuestionGroup, que
     case 'paragraph':
       return passage.paragraphs.map((p) => p.label);
     case 'matching':
+    case 'headings':
+    case 'endings':
+    case 'wordlist':
       return (group.options ?? []).map((o) => o.key);
     case 'mcq':
+    case 'mcq2':
       return (question.choices ?? []).map((c) => c.key);
     case 'completion':
+    case 'short':
       return [];
   }
 }
@@ -91,18 +119,46 @@ export function normalizeAnswer(s: string): string {
     .trim();
 }
 
-export function isCorrect(question: ReadingQuestion, given: string | undefined): boolean {
-  if (!given) return false;
+/** mcq2 の答え(B,D)を記号の一覧にする */
+export function splitKeys(value: string | undefined): string[] {
+  return (value ?? '').split(',').filter(Boolean);
+}
+
+/** 1問の得点。mcq2 は選んだ記号のうち正しいものの数(2つまで) */
+export function marksFor(question: ReadingQuestion, given: string | undefined): number {
+  if (!given) return 0;
   if (question.accept) {
     const g = normalizeAnswer(given);
-    return question.accept.some((a) => normalizeAnswer(a) === g);
+    return question.accept.some((a) => normalizeAnswer(a) === g) ? 1 : 0;
   }
-  return given === question.answer;
+  if ((question.count ?? 1) > 1) {
+    const correct = splitKeys(question.answer);
+    return splitKeys(given)
+      .slice(0, correct.length)
+      .filter((k) => correct.includes(k)).length;
+  }
+  return given === question.answer ? 1 : 0;
+}
+
+/** 満点だったか(mcq2 は2つとも正しいときだけ) */
+export function isCorrect(question: ReadingQuestion, given: string | undefined): boolean {
+  return marksFor(question, given) === (question.count ?? 1);
+}
+
+/** 設問の番号の表示(mcq2 は 12–13 のように2つ) */
+export function questionLabel(question: ReadingQuestion): string {
+  const count = question.count ?? 1;
+  return count > 1 ? `${question.num}–${question.num + count - 1}` : String(question.num);
+}
+
+/** 満点(mcq2 は2点として数える) */
+export function totalMarks(passage: ReadingPassage): number {
+  return allQuestions(passage).reduce((sum, q) => sum + (q.count ?? 1), 0);
 }
 
 /** 正解として見せる文字列 */
 export function correctAnswerLabel(question: ReadingQuestion): string {
-  return question.accept ? question.accept.join(' / ') : (question.answer ?? '');
+  return question.accept ? question.accept.join(' / ') : splitKeys(question.answer).join(' と ');
 }
 
 export function allQuestions(passage: ReadingPassage): ReadingQuestion[] {
@@ -110,7 +166,7 @@ export function allQuestions(passage: ReadingPassage): ReadingQuestion[] {
 }
 
 export function score(passage: ReadingPassage, answers: Record<number, string>): number {
-  return allQuestions(passage).filter((q) => isCorrect(q, answers[q.num])).length;
+  return allQuestions(passage).reduce((sum, q) => sum + marksFor(q, answers[q.num]), 0);
 }
 
 /**

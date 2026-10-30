@@ -3,7 +3,7 @@ interface IconProps {
   color?: string;
 }
 
-export function BackIcon({ size = 20, color = '#1c2430' }: IconProps) {
+export function BackIcon({ size = 20, color = '#161b2e' }: IconProps) {
   return (
     <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke={color} strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
       <path d="M15 18l-6-6 6-6" />
@@ -11,7 +11,7 @@ export function BackIcon({ size = 20, color = '#1c2430' }: IconProps) {
   );
 }
 
-export function GearIcon({ size = 20, color = '#6b7686' }: IconProps) {
+export function GearIcon({ size = 20, color = '#67646b' }: IconProps) {
   return (
     <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke={color} strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
       <circle cx="12" cy="12" r="3" />
@@ -28,7 +28,7 @@ export function PlusIcon({ size = 24, color = '#ffffff' }: IconProps) {
   );
 }
 
-export function TrashIcon({ size = 18, color = '#b3432f' }: IconProps) {
+export function TrashIcon({ size = 18, color = '#a3172b' }: IconProps) {
   return (
     <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke={color} strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
       <path d="M3 6h18M8 6V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2m3 0-1 14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2L4 6" />
@@ -36,7 +36,7 @@ export function TrashIcon({ size = 18, color = '#b3432f' }: IconProps) {
   );
 }
 
-export function PencilIcon({ size = 16, color = '#6b7686' }: IconProps) {
+export function PencilIcon({ size = 16, color = '#67646b' }: IconProps) {
   return (
     <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke={color} strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
       <path d="M17 3a2.83 2.83 0 0 1 4 4L7 21l-4 1 1-4Z" />
@@ -44,7 +44,7 @@ export function PencilIcon({ size = 16, color = '#6b7686' }: IconProps) {
   );
 }
 
-export function CheckIcon({ size = 18, color = '#2f7d5e' }: IconProps) {
+export function CheckIcon({ size = 18, color = '#2c6b4f' }: IconProps) {
   return (
     <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke={color} strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round">
       <path d="M5 13l4 4L19 7" />
@@ -52,7 +52,7 @@ export function CheckIcon({ size = 18, color = '#2f7d5e' }: IconProps) {
   );
 }
 
-export function XIcon({ size = 18, color = '#b3432f' }: IconProps) {
+export function XIcon({ size = 18, color = '#a3172b' }: IconProps) {
   return (
     <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke={color} strokeWidth="2.4" strokeLinecap="round">
       <path d="M6 6l12 12M18 6L6 18" />

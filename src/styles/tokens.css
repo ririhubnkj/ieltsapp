@@ -1,19 +1,27 @@
+/*
+ * 英国風の配色。紺(ユニオンジャックの青)を基調に、IELTS を思わせる赤を差し色にし、
+ * 背景は少し黄みのある紙の色にする
+ */
 :root {
-  --bg: #f4f6f9;
-  --surface: #ffffff;
-  --border: #dde2ea;
-  --text: #1c2430;
-  --text-muted: #6b7686;
-  --accent: #3d5a80;
-  --accent-soft: #e4ebf5;
-  --success: #2f7d5e;
-  --success-soft: #e2efe8;
-  --danger: #b3432f;
-  --danger-soft: #f5e4e0;
-  --pin: #c27c1a;
-  --pin-soft: #fbf0dc;
-  --pin-text: #8a5510;
+  --bg: #f5f2ea;
+  --surface: #fffdf8;
+  --border: #ddd5c4;
+  --text: #161b2e;
+  --text-muted: #67646b;
+  --accent: #012169;
+  --accent-deep: #00164a;
+  --accent-soft: #e6eaf3;
+  --brand-red: #c8102e;
+  --brand-red-soft: #f8e3e6;
+  --success: #2c6b4f;
+  --success-soft: #e2eee6;
+  --danger: #a3172b;
+  --danger-soft: #f6e2e4;
+  --pin: #a77a12;
+  --pin-soft: #f6edd6;
+  --pin-text: #6f500a;
 
-  --font-ui: 'IBM Plex Sans', system-ui, sans-serif;
-  --font-serif: 'Literata', Georgia, serif;
+  /* 英語は Times New Roman(無い端末は同じ字幅の Tinos)、日本語は明朝 */
+  --font-serif: 'Times New Roman', Tinos, 'Hiragino Mincho ProN', 'Yu Mincho', YuMincho, 'Noto Serif JP', serif;
+  --font-ui: var(--font-serif);
 }

@@ -7,8 +7,13 @@ import {
   estimatedBand,
   getPassage,
   isCorrect,
+  isWritten,
+  marksFor,
+  questionLabel,
   saveResult,
   score,
+  splitKeys,
+  totalMarks,
   TYPE_LABEL,
   type QuestionGroup,
   type ReadingPassage,
@@ -45,8 +50,9 @@ function ReadingPractice({ passage }: { passage: ReadingPassage }) {
 
   const questions = allQuestions(passage);
   const answered = questions.filter((q) => answers[q.num]?.trim()).length;
+  const total = totalMarks(passage);
   const correct = score(passage, answers);
-  const band = estimatedBand(correct, questions.length);
+  const band = estimatedBand(correct, total);
   const limit = passage.minutes * 60;
 
   const setAnswer = (num: number, value: string) => setAnswers((a) => ({ ...a, [num]: value }));
@@ -57,7 +63,7 @@ function ReadingPractice({ passage }: { passage: ReadingPassage }) {
   };
 
   const submit = () => {
-    saveResult(passage.id, score(passage, answers), questions.length);
+    saveResult(passage.id, score(passage, answers), total);
     setSubmitted(true);
     setConfirming(false);
     switchView('questions');
@@ -120,7 +126,7 @@ function ReadingPractice({ passage }: { passage: ReadingPassage }) {
                 fontWeight: 600,
               }}
             >
-              {v === 'passage' ? '本文' : submitted ? `結果 ${correct}/${questions.length}` : `設問 ${answered}/${questions.length}`}
+              {v === 'passage' ? '本文' : submitted ? `結果 ${correct}/${total}` : `設問 ${answered}/${questions.length}`}
             </button>
           );
         })}
@@ -169,7 +175,7 @@ function ReadingPractice({ passage }: { passage: ReadingPassage }) {
               <div className="card" style={{ display: 'flex', alignItems: 'center', gap: 14 }}>
                 <div style={{ fontSize: 28, fontWeight: 700, color: 'var(--accent)', fontVariantNumeric: 'tabular-nums' }}>
                   {correct}
-                  <span style={{ fontSize: 15, color: 'var(--text-muted)' }}> / {questions.length}</span>
+                  <span style={{ fontSize: 15, color: 'var(--text-muted)' }}> / {total}</span>
                 </div>
                 <div style={{ flex: 1, fontSize: 12.5, color: 'var(--text-muted)', lineHeight: 1.6 }}>
                   {band !== null && (
@@ -248,7 +254,8 @@ function GroupBlock({
   onShowEvidence: (label: string) => void;
 }) {
   const first = group.questions[0]!.num;
-  const last = group.questions[group.questions.length - 1]!.num;
+  const lastQuestion = group.questions[group.questions.length - 1]!;
+  const last = lastQuestion.num + (lastQuestion.count ?? 1) - 1;
   return (
     <div style={{ display: 'flex', flexDirection: 'column', gap: 12 }}>
       <div>
@@ -257,14 +264,15 @@ function GroupBlock({
           <span style={{ marginLeft: 8, fontSize: 11.5, fontWeight: 600, color: 'var(--text-muted)' }}>{TYPE_LABEL[group.type]}</span>
         </div>
         <div style={{ fontSize: 13, color: 'var(--text-muted)', fontStyle: 'italic', lineHeight: 1.55, marginTop: 4 }}>
-          {group.instructions}
+          {/* 見出しに番号を出すので、指示文の頭の Questions 1–5. は省く */}
+          {group.instructions.replace(/^Questions\s+\d+\s*[–-]\s*\d+\.?\s*/, '')}
         </div>
       </div>
       {group.options && (
         <div className="card" style={{ padding: '10px 14px', fontSize: 13.5, lineHeight: 1.55 }}>
           {group.options.map((o) => (
             <div key={o.key} style={{ display: 'flex', gap: 8 }}>
-              <b style={{ width: 14, flexShrink: 0 }}>{o.key}</b>
+              <b style={{ minWidth: 14, flexShrink: 0 }}>{o.key}</b>
               <span>{o.text}</span>
             </div>
           ))}
@@ -305,11 +313,21 @@ function QuestionCard({
 }) {
   const options = answerOptions(passage, group, question);
   const ok = submitted && isCorrect(question, value);
-  const border = !submitted ? 'var(--border)' : ok ? 'var(--success)' : 'var(--danger)';
+  const count = question.count ?? 1;
+  const multi = count > 1;
+  const partial = submitted && !ok && marksFor(question, value) > 0;
+  const border = !submitted ? 'var(--border)' : ok ? 'var(--success)' : partial ? 'var(--pin)' : 'var(--danger)';
+  const selectedKeys = multi ? splitKeys(value) : [value];
+  // 2つ選ぶ問題は、選んだ記号を順に足し外しし、2つを超えたら古い方から外す
+  const choose = (o: string) => {
+    if (!multi) return onAnswer(value === o ? '' : o);
+    const next = selectedKeys.includes(o) ? selectedKeys.filter((k) => k !== o) : [...selectedKeys, o].slice(-count);
+    onAnswer(next.sort().join(','));
+  };
   return (
     <div className="card" style={{ borderColor: border, display: 'flex', flexDirection: 'column', gap: 10 }}>
       <div style={{ display: 'flex', gap: 8, fontSize: 14, lineHeight: 1.55 }}>
-        <b style={{ flexShrink: 0 }}>{question.num}</b>
+        <b style={{ flexShrink: 0 }}>{questionLabel(question)}</b>
         <span>{question.text}</span>
       </div>
       {question.choices && (
@@ -322,14 +340,14 @@ function QuestionCard({
           ))}
         </div>
       )}
-      {group.type === 'completion' ? (
+      {isWritten(group.type) ? (
         <input
           type="text"
           value={value}
           disabled={submitted}
           onChange={(e) => onAnswer(e.target.value)}
           placeholder="答えを入力"
-          aria-label={`${question.num}の答え`}
+          aria-label={`${questionLabel(question)}の答え`}
           autoCapitalize="none"
           autoCorrect="off"
           spellCheck={false}
@@ -343,17 +361,21 @@ function QuestionCard({
           }}
         />
       ) : (
-        <div role="radiogroup" aria-label={`${question.num}の答え`} style={{ display: 'flex', flexWrap: 'wrap', gap: 6 }}>
+        <div
+          role={multi ? 'group' : 'radiogroup'}
+          aria-label={`${questionLabel(question)}の答え`}
+          style={{ display: 'flex', flexWrap: 'wrap', gap: 6 }}
+        >
           {options.map((o) => {
-            const selected = value === o;
-            const isAnswer = submitted && o === question.answer;
+            const selected = selectedKeys.includes(o);
+            const isAnswer = submitted && splitKeys(question.answer).includes(o);
             return (
               <button
                 key={o}
-                role="radio"
+                role={multi ? 'checkbox' : 'radio'}
                 aria-checked={selected}
                 disabled={submitted}
-                onClick={() => onAnswer(selected ? '' : o)}
+                onClick={() => choose(o)}
                 style={{
                   minWidth: 40,
                   border: '1.5px solid ' + (isAnswer ? 'var(--success)' : selected ? 'var(--accent)' : 'var(--border)'),
@@ -383,7 +405,8 @@ function QuestionCard({
           }}
         >
           <div style={{ fontWeight: 600 }}>
-            {ok ? '正解' : `不正解(あなたの答え: ${value.trim() || '未回答'})`} ・ 正解 {correctAnswerLabel(question)}
+            {ok ? '正解' : `${partial ? '部分正解' : '不正解'}(あなたの答え: ${value.trim() || '未回答'})`} ・ 正解{' '}
+            {correctAnswerLabel(question)}
           </div>
           <div style={{ marginTop: 4 }}>{question.explanation}</div>
           <button

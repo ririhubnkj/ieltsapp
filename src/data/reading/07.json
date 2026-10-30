@@ -1,0 +1,283 @@
+{
+  "id": "r07",
+  "title": "The Hidden Cost of City Noise",
+  "titleJa": "都市の騒音と健康：見過ごされてきた代償",
+  "minutes": 20,
+  "paragraphs": [
+    {
+      "label": "A",
+      "text": "In discussions of urban health, air pollution tends to dominate the headlines, while noise receives far less attention. Yet for millions of city dwellers, unwanted sound is a constant companion. Road traffic is by far the largest source, followed by railways, aircraft, construction work and late-night entertainment. Part of the reason noise is overlooked lies in its nature. Unlike smoke or chemical waste, it leaves no visible residue and vanishes the moment its source stops. Because nothing appears to accumulate, it is tempting to treat noise as a mere annoyance rather than a genuine threat to health."
+    },
+    {
+      "label": "B",
+      "text": "Some of the clearest evidence of harm comes from research on sleep. The sleeping brain continues to monitor its surroundings, and sounds that are too quiet to wake a person can still trigger a brief rise in heart rate and push the sleeper from deep sleep into a lighter stage. In one study, the sleep scientist Ingrid Halvorsen recorded volunteers who lived beside a busy freight line. Most described their sleep as good, and none could recall being disturbed. Their recordings, however, showed dozens of short arousals every night, most coinciding with passing trains. Halvorsen concluded that people who say they have 'got used to' night-time noise have adapted only in their conscious awareness; their bodies go on reacting much as before."
+    },
+    {
+      "label": "C",
+      "text": "Repeated disturbance may have consequences well beyond tiredness. Each unexpected sound prompts the release of stress hormones, and when this happens night after night, it appears to damage the lining of the blood vessels. Large population studies have linked long-term exposure to road and aircraft noise with high blood pressure and an increased risk of heart disease. Establishing cause and effect is not straightforward, however, because the busy roads that generate noise also generate exhaust fumes. To separate the two, researchers have compared residents who breathe similarly polluted air but experience different levels of noise, for instance because their bedrooms face different sides of the same building. The association with heart disease remains in such comparisons, although it is somewhat weaker."
+    },
+    {
+      "label": "D",
+      "text": "Measuring noise is less simple than it might seem. Sound levels are expressed in decibels, a logarithmic scale on which an increase of ten decibels is heard as roughly a doubling of loudness. Most official noise maps report an average across the whole day, with sounds in the evening and at night given extra weight to reflect their greater capacity to disturb. Critics argue that such averages conceal what matters most. A street with a steady hum of traffic and a street that is usually silent but interrupted by a few very loud motorcycles may produce the same average figure, yet the second is likely to cause far more broken sleep. For this reason, some researchers now prefer to count the number of individual events that exceed a set level."
+    },
+    {
+      "label": "E",
+      "text": "Policy has begun to respond. In parts of Europe, cities are now obliged to produce noise maps and action plans and to identify 'quiet areas' that should be protected from further noise. What counts as quiet, however, is disputed. Some authorities use a fixed limit in decibels, while others judge an area by how it compares with its surroundings. Under the first approach, a small park beside a ring road might never qualify, even though residents of the nearby streets experience it as a welcome refuge. Access matters too: a tranquil space offers little benefit to people who cannot reach it easily on foot. Surveys also suggest that residents whose homes have a quieter side, such as a bedroom overlooking an inner courtyard, report less annoyance even when the street-facing side is very loud."
+    },
+    {
+      "label": "F",
+      "text": "A newer line of thinking, known as soundscape design, shifts attention from the quantity of sound to its quality. It asks which sounds people find pleasant and how these might be used. Birdsong and running water are consistently rated positively, and they can partly mask unwanted noise. When the acoustic consultant Tomas Brenner installed a fountain in a square next to a main road, the measured sound level actually rose slightly, yet visitors described the square as noticeably calmer. Brenner warns that the effect depends on careful choices: a low, rumbling flow of water can resemble traffic, and a fountain that splashes too loudly quickly becomes another irritation."
+    },
+    {
+      "label": "G",
+      "text": "None of this removes the need to cut noise at its source. Quieter road surfaces, lower night-time speed limits, better-insulated windows and stricter standards for tyres are all relatively inexpensive, yet noise is still rarely given the weight in planning decisions that air quality receives. The most effective strategy, it seems, is one that combines reducing noise wherever possible with creating places where people can recover from the noise that remains."
+    }
+  ],
+  "groups": [
+    {
+      "type": "paragraph",
+      "instructions": "Questions 1–6. The reading passage has seven paragraphs, A–G. Which paragraph contains the following information? Write the correct letter, A–G. NB You may use any letter more than once.",
+      "questions": [
+        {
+          "num": 1,
+          "text": "a criticism of a widely used method of presenting noise data",
+          "answer": "D",
+          "evidence": "D",
+          "explanation": "段落Dで公式の騒音地図が使う1日の平均値について \"Critics argue that such averages conceal what matters most\" と批判しています。広く使われるデータの示し方への批判なので D です。"
+        },
+        {
+          "num": 2,
+          "text": "a reason why the effects of noise are often not taken seriously",
+          "answer": "A",
+          "evidence": "A",
+          "explanation": "段落Aに \"it leaves no visible residue and vanishes the moment its source stops\" とあり、そのため \"it is tempting to treat noise as a mere annoyance rather than a genuine threat to health\" と続きます。騒音が軽く扱われやすい理由を説明しているので A です。"
+        },
+        {
+          "num": 3,
+          "text": "an example of an intervention that changed how a place was experienced without making it quieter",
+          "answer": "F",
+          "evidence": "F",
+          "explanation": "段落Fの噴水の例で \"the measured sound level actually rose slightly, yet visitors described the square as noticeably calmer\" とあります。音量は下がらなかったのに感じ方が変わった例なので F です。段落Eの公園は対策の例ではないので当てはまりません。"
+        },
+        {
+          "num": 4,
+          "text": "evidence that people may be disturbed by noise without realising it",
+          "answer": "B",
+          "evidence": "B",
+          "explanation": "段落Bの研究では \"none could recall being disturbed\" なのに、記録には \"dozens of short arousals every night\" が見られました。本人が気づかないまま睡眠を妨げられていた証拠なので B です。"
+        },
+        {
+          "num": 5,
+          "text": "a disagreement about how a certain type of area should be defined",
+          "answer": "E",
+          "evidence": "E",
+          "explanation": "段落Eに \"What counts as quiet, however, is disputed\" とあり、\"a fixed limit in decibels\" を使う当局と周囲との比較で判断する当局があると説明しています。quiet areas の定義をめぐる意見の違いなので E です。"
+        },
+        {
+          "num": 6,
+          "text": "an explanation of how researchers distinguished the effects of noise from those of another pollutant",
+          "answer": "C",
+          "evidence": "C",
+          "explanation": "段落Cに \"To separate the two, researchers have compared residents who breathe similarly polluted air but experience different levels of noise\" とあります。騒音と排ガス（another pollutant）の影響を切り分けた方法の説明なので C です。"
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "instructions": "Questions 7–9. Choose the correct letter, A, B, C or D.",
+      "questions": [
+        {
+          "num": 7,
+          "text": "What did Ingrid Halvorsen's study suggest about people who say they have got used to night-time noise?",
+          "choices": [
+            {
+              "key": "A",
+              "text": "They sleep more deeply than people in quiet areas."
+            },
+            {
+              "key": "B",
+              "text": "Their bodies continue to respond to the noise."
+            },
+            {
+              "key": "C",
+              "text": "They are fully woken by most passing trains."
+            },
+            {
+              "key": "D",
+              "text": "They have become less sensitive to all kinds of sound."
+            }
+          ],
+          "answer": "B",
+          "evidence": "B",
+          "explanation": "段落Bの結論 \"have adapted only in their conscious awareness; their bodies go on reacting much as before\" が根拠で、B が正解です。C は本文が \"short arousals\" と書き、本人は \"none could recall being disturbed\" なので完全に目覚めたとは言えません。A と D は本文にありません。"
+        },
+        {
+          "num": 8,
+          "text": "According to paragraph D, what is the main weakness of average noise levels?",
+          "choices": [
+            {
+              "key": "A",
+              "text": "They give too much weight to night-time sounds."
+            },
+            {
+              "key": "B",
+              "text": "They are based on a logarithmic scale."
+            },
+            {
+              "key": "C",
+              "text": "They can hide the impact of occasional loud events."
+            },
+            {
+              "key": "D",
+              "text": "They are measured at too few locations."
+            }
+          ],
+          "answer": "C",
+          "evidence": "D",
+          "explanation": "段落Dで、平均値が同じでも \"interrupted by a few very loud motorcycles\" の通りの方が \"far more broken sleep\" を生むと説明しているので C が正解です。夜間の音への重みづけ（A）や対数目盛（B）は事実として書かれているだけで、欠点とはされていません。D は本文にありません。"
+        },
+        {
+          "num": 9,
+          "text": "What does the writer conclude in paragraph G?",
+          "choices": [
+            {
+              "key": "A",
+              "text": "Soundscape design makes noise reduction unnecessary."
+            },
+            {
+              "key": "B",
+              "text": "Air quality now receives too much attention in planning."
+            },
+            {
+              "key": "C",
+              "text": "Reducing noise and providing places for recovery should go together."
+            },
+            {
+              "key": "D",
+              "text": "Quieter road surfaces are the cheapest solution available."
+            }
+          ],
+          "answer": "C",
+          "evidence": "G",
+          "explanation": "段落Gの \"combines reducing noise wherever possible with creating places where people can recover from the noise that remains\" が根拠で C が正解です。A は \"None of this removes the need to cut noise at its source\" と矛盾します。B のように大気への注目が過剰だとは述べておらず、D も複数の対策を \"relatively inexpensive\" とまとめているだけで最安とは言っていません。"
+        }
+      ]
+    },
+    {
+      "type": "mcq2",
+      "instructions": "Questions 10–13. Choose TWO letters, A–E, for each question.",
+      "questions": [
+        {
+          "num": 10,
+          "count": 2,
+          "text": "Which TWO effects of noise on sleeping people are mentioned in paragraph B?",
+          "choices": [
+            {
+              "key": "A",
+              "text": "a short increase in heart rate"
+            },
+            {
+              "key": "B",
+              "text": "a move from deep sleep into lighter sleep"
+            },
+            {
+              "key": "C",
+              "text": "vivid or unpleasant dreams"
+            },
+            {
+              "key": "D",
+              "text": "a fall in body temperature"
+            },
+            {
+              "key": "E",
+              "text": "difficulty falling asleep at the start of the night"
+            }
+          ],
+          "answer": "A,B",
+          "evidence": "B",
+          "explanation": "段落Bに \"trigger a brief rise in heart rate and push the sleeper from deep sleep into a lighter stage\" とあり、A と B が正解です。夢（C）、体温（D）、寝つきの悪さ（E）はどこにも書かれていません。"
+        },
+        {
+          "num": 12,
+          "count": 2,
+          "text": "Which TWO points does the writer make about quiet areas?",
+          "choices": [
+            {
+              "key": "A",
+              "text": "The same decibel limit is used to define them throughout Europe."
+            },
+            {
+              "key": "B",
+              "text": "An area may be valued because it is quieter than the streets around it."
+            },
+            {
+              "key": "C",
+              "text": "Their usefulness depends partly on whether people can walk to them."
+            },
+            {
+              "key": "D",
+              "text": "They are mostly found in newly built districts."
+            },
+            {
+              "key": "E",
+              "text": "They help to reduce air pollution as well as noise."
+            }
+          ],
+          "answer": "B,C",
+          "evidence": "E",
+          "explanation": "段落Eの、環状道路沿いの公園でも住民には \"a welcome refuge\" になるという記述が B に、\"a tranquil space offers little benefit to people who cannot reach it easily on foot\" が C に当たります。A は \"Some authorities use a fixed limit in decibels, while others judge an area by how it compares with its surroundings\" と矛盾し、D と E は本文にありません。"
+        }
+      ]
+    }
+  ],
+  "vocab": [
+    {
+      "en": "overlook",
+      "ja": "見過ごす"
+    },
+    {
+      "en": "residue",
+      "ja": "残留物、残りかす"
+    },
+    {
+      "en": "accumulate",
+      "ja": "蓄積する、たまる"
+    },
+    {
+      "en": "arousal",
+      "ja": "（睡眠中の）覚醒反応"
+    },
+    {
+      "en": "coincide with",
+      "ja": "〜と同時に起こる"
+    },
+    {
+      "en": "exhaust fumes",
+      "ja": "排気ガス"
+    },
+    {
+      "en": "logarithmic",
+      "ja": "対数の"
+    },
+    {
+      "en": "conceal",
+      "ja": "隠す"
+    },
+    {
+      "en": "be obliged to",
+      "ja": "〜する義務がある"
+    },
+    {
+      "en": "refuge",
+      "ja": "避難所、逃げ場"
+    },
+    {
+      "en": "tranquil",
+      "ja": "静かな、穏やかな"
+    },
+    {
+      "en": "mask",
+      "ja": "（音などを）覆い隠す"
+    }
+  ]
+}

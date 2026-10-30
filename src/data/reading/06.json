@@ -1,0 +1,182 @@
+{
+  "id": "r06",
+  "title": "From Clay Tokens to Alphabets",
+  "titleJa": "粘土のトークンからアルファベットへ：文字はどう生まれたか",
+  "minutes": 20,
+  "paragraphs": [
+    {
+      "label": "A",
+      "text": "It is tempting to picture the invention of writing as a single moment of genius, in which some unknown individual suddenly realised that marks could stand for speech. The evidence points to a very different story. Wherever its origins can be traced in any detail, writing seems to have grown slowly out of practical needs, through a series of small adjustments made by people who had no idea where those changes would lead."
+    },
+    {
+      "label": "B",
+      "text": "The best-documented case comes from Mesopotamia, in what is now Iraq. From around 8000 BCE, farming villages in the region used small clay tokens, each of which stood for a fixed quantity of a particular product, such as a measure of grain or a single sheep. By the fourth millennium BCE, sets of tokens were sometimes sealed inside hollow clay balls, apparently as a record of an agreement. Because the tokens could not be seen once the ball was closed, their shapes were pressed into its surface, so that the contents could be checked without breaking it open. According to one influential theory, it was a short step from there to realising that the marks on the surface were sufficient on their own. Not every specialist accepts this account, but it seems to me the most persuasive explanation yet offered, chiefly because it explains why the earliest texts deal almost entirely with numbers and goods."
+    },
+    {
+      "label": "C",
+      "text": "Those texts appear in the city of Uruk around 3300 BCE, and most were produced by officials who managed the stores of large temple complexes. They record rations of barley and beer, herds of animals and the labour owed by workers. Readers who come to them expecting poetry are invariably disappointed; literature was not written down for several more centuries. The crucial development was the rebus principle, by which a sign could stand for a sound rather than a thing. In Sumerian, the word for 'arrow' sounded the same as the word for 'life', so the arrow sign could also be used to write 'life'. Once signs could represent sounds as well as objects, writing could record names, grammar and, in time, almost anything that could be said. Meanwhile, the signs themselves evolved into the wedge-shaped marks known as cuneiform."
+    },
+    {
+      "label": "D",
+      "text": "Mesopotamia was not the only place where writing began. Egyptian hieroglyphs appeared only slightly later, and scholars still disagree about whether the Egyptians borrowed the idea from their neighbours or developed it on their own. There is far less doubt about China, where inscriptions on animal bones date from around 1200 BCE, or about Mesoamerica, where writing emerged in the first millennium BCE. Neither region had any known contact with Mesopotamia. That writing was invented independently at least three times is, I believe, one of the most revealing facts in human history: it suggests that once societies reached a certain size and complexity, with large populations, rulers and stored wealth, some form of writing was almost bound to follow."
+    },
+    {
+      "label": "E",
+      "text": "The alphabet, by contrast, seems to have been invented only once. Around 1800 BCE, workers who spoke a Semitic language and lived in or near Egypt borrowed a small number of hieroglyphs and used each one to represent a single consonant, the first sound of the word for the object it showed. Vowels were not written, and readers had to supply them from context. This script was later carried around the Mediterranean by Phoenician traders, and in about the eighth century BCE the Greeks adapted it, adding separate letters for vowels. Most alphabets in use today descend from that single invention."
+    },
+    {
+      "label": "F",
+      "text": "Why, then, did writing spread? It was certainly not because it was easy to learn. Cuneiform used several hundred signs, and Dr Miriam Calloway, who has studied thousands of exercise tablets from Mesopotamian schools, found that pupils spent years copying the same lists of signs and words before they were allowed to write documents of their own. Writing spread because it was useful to those in power: rulers who needed to collect taxes, record laws and send instructions across large territories. It is often claimed that the alphabet, with its two or three dozen letters, quickly brought reading to ordinary people. This seems to me a considerable exaggeration. For many centuries after the alphabet appeared, the great majority of people in every society that used it could neither read nor write."
+    },
+    {
+      "label": "G",
+      "text": "If there is a lesson in this history, it is that major technologies rarely arrive fully formed. The officials who pressed tokens into clay were solving an accounting problem, not trying to preserve their language for future generations. Yet the system they stumbled upon eventually carried human thought across thousands of years, and it is through their dull lists of sheep and barley that we can hear them at all."
+    }
+  ],
+  "groups": [
+    {
+      "type": "endings",
+      "instructions": "Questions 1–5. Complete each sentence with the correct ending, A–G, below. Write the correct letter, A–G. NB There are more endings than sentences, so you will not use all of them.",
+      "options": [
+        { "key": "A", "text": "recorded only consonants, leaving readers to supply the vowels." },
+        { "key": "B", "text": "represented sounds as well as objects." },
+        { "key": "C", "text": "reached China along trade routes from Mesopotamia." },
+        { "key": "D", "text": "showed what was inside without the container having to be broken." },
+        { "key": "E", "text": "stood for fixed amounts of particular goods." },
+        { "key": "F", "text": "added separate signs for vowels." },
+        { "key": "G", "text": "suggested that learning to write involved years of repetitive copying." }
+      ],
+      "questions": [
+        {
+          "num": 1,
+          "text": "The clay tokens used in early Mesopotamian villages",
+          "answer": "E",
+          "evidence": "B",
+          "explanation": "B段落に、トークンは \"each of which stood for a fixed quantity of a particular product, such as a measure of grain or a single sheep\" とあります。fixed quantity of a particular product が fixed amounts of particular goods に言い換えられているので E です。"
+        },
+        {
+          "num": 2,
+          "text": "The shapes pressed into the surface of hollow clay balls",
+          "answer": "D",
+          "evidence": "B",
+          "explanation": "B段落に \"their shapes were pressed into its surface, so that the contents could be checked without breaking it open\" とあります。割らずに中身を確かめられるようにするためだったので D です。"
+        },
+        {
+          "num": 3,
+          "text": "Under the rebus principle, some signs",
+          "answer": "B",
+          "evidence": "C",
+          "explanation": "C段落に \"the rebus principle, by which a sign could stand for a sound rather than a thing\" とあり、続けて \"Once signs could represent sounds as well as objects\" と述べています。矢の記号が「生命」という同じ音の語にも使われた例が挙げられているので B です。"
+        },
+        {
+          "num": 4,
+          "text": "The earliest alphabetic script",
+          "answer": "A",
+          "evidence": "E",
+          "explanation": "E段落に、最初のアルファベットは記号で \"a single consonant\" を表し、\"Vowels were not written, and readers had to supply them from context\" とあります。したがって A です。F の母音字を加えたのは \"the Greeks adapted it, adding separate letters for vowels\" とあるとおり後のギリシャ人で、最初の文字ではありません。"
+        },
+        {
+          "num": 5,
+          "text": "Dr Calloway's research on school exercise tablets",
+          "answer": "G",
+          "evidence": "F",
+          "explanation": "F段落に、Calloway 博士は \"pupils spent years copying the same lists of signs and words\" ことを見いだしたとあります。何年も同じ一覧を書き写していたので G です。C の中国への伝播は、D段落の \"Neither region had any known contact with Mesopotamia\" と合わず、どの文にも当てはまりません。"
+        }
+      ]
+    },
+    {
+      "type": "ynng",
+      "instructions": "Questions 6–10. Do the following statements agree with the claims of the writer in the reading passage? Write YES if the statement agrees with the claims of the writer, NO if the statement contradicts the claims of the writer, NOT GIVEN if it is impossible to say what the writer thinks about this.",
+      "questions": [
+        {
+          "num": 6,
+          "text": "Writing was probably invented by a single exceptionally talented individual.",
+          "answer": "NO",
+          "evidence": "A",
+          "explanation": "筆者は \"It is tempting to picture the invention of writing as a single moment of genius\" と一般的なイメージを紹介したうえで、\"The evidence points to a very different story\" と否定しています。文字は小さな調整の積み重ねで生まれたという立場なので NO です。"
+        },
+        {
+          "num": 7,
+          "text": "The token theory offers the most convincing account so far of how writing developed in Mesopotamia.",
+          "answer": "YES",
+          "evidence": "B",
+          "explanation": "B段落で筆者はトークン説について \"it seems to me the most persuasive explanation yet offered\" と述べています。\"Not every specialist accepts this account\" と専門家の異論にも触れていますが、筆者自身の見解は肯定的なので YES です。"
+        },
+        {
+          "num": 8,
+          "text": "Egyptian hieroglyphs were harder to learn than Mesopotamian cuneiform.",
+          "answer": "NOT GIVEN",
+          "evidence": "D",
+          "explanation": "D段落はエジプトの文字について \"scholars still disagree about whether the Egyptians borrowed the idea\" と起源の議論に触れるだけです。F段落の \"Cuneiform used several hundred signs\" は楔形文字の話で、ヒエログリフとの習得の難しさの比較はどこにもないので NOT GIVEN です。"
+        },
+        {
+          "num": 9,
+          "text": "The separate invention of writing in different regions suggests that it tends to appear in large and complex societies.",
+          "answer": "YES",
+          "evidence": "D",
+          "explanation": "D段落で筆者は \"That writing was invented independently at least three times is, I believe, one of the most revealing facts\" と述べ、\"once societies reached a certain size and complexity ... some form of writing was almost bound to follow\" と続けています。設問文と一致するので YES です。"
+        },
+        {
+          "num": 10,
+          "text": "The alphabet rapidly made reading a common skill among ordinary people.",
+          "answer": "NO",
+          "evidence": "F",
+          "explanation": "F段落で筆者は、アルファベットが \"quickly brought reading to ordinary people\" という主張を紹介したうえで \"This seems to me a considerable exaggeration\" と退けています。さらに \"the great majority of people ... could neither read nor write\" と述べているので NO です。"
+        }
+      ]
+    },
+    {
+      "type": "wordlist",
+      "instructions": "Questions 11–13. Complete the summary using the list of words, A–J, below. Write the correct letter, A–J.",
+      "options": [
+        { "key": "A", "text": "merchants" },
+        { "key": "B", "text": "priests" },
+        { "key": "C", "text": "consonant" },
+        { "key": "D", "text": "vowel" },
+        { "key": "E", "text": "syllable" },
+        { "key": "F", "text": "rulers" },
+        { "key": "G", "text": "pupils" },
+        { "key": "H", "text": "farmers" },
+        { "key": "I", "text": "word" },
+        { "key": "J", "text": "soldiers" }
+      ],
+      "questions": [
+        {
+          "num": 11,
+          "text": "Around 1800 BCE, a group of workers took a few Egyptian hieroglyphs and used each of them to represent one ____.",
+          "answer": "C",
+          "evidence": "E",
+          "explanation": "E段落に \"used each one to represent a single consonant\" とあるので C の consonant です。D の vowel は \"Vowels were not written\" とあるとおり、最初のアルファベットでは書かれませんでした。"
+        },
+        {
+          "num": 12,
+          "text": "This script was later carried around the Mediterranean by ____.",
+          "answer": "A",
+          "evidence": "E",
+          "explanation": "E段落の \"This script was later carried around the Mediterranean by Phoenician traders\" が根拠です。traders（交易者）の言い換えとして merchants（商人）を選ぶので A です。"
+        },
+        {
+          "num": 13,
+          "text": "However, writing in general spread mainly because it met the needs of ____.",
+          "answer": "F",
+          "evidence": "F",
+          "explanation": "F段落の \"Writing spread because it was useful to those in power: rulers who needed to collect taxes\" が根拠なので F です。C段落の神殿の役人（\"officials who managed the stores of large temple complexes\"）から B の priests を選ぶのは誤りで、文字が広まった理由としては述べられていません。"
+        }
+      ]
+    }
+  ],
+  "vocab": [
+    { "en": "tempting", "ja": "（〜したく）なりがちな、魅力的な" },
+    { "en": "adjustment", "ja": "調整、手直し" },
+    { "en": "millennium", "ja": "千年紀（複数形 millennia）" },
+    { "en": "sufficient", "ja": "十分な" },
+    { "en": "persuasive", "ja": "説得力のある" },
+    { "en": "ration", "ja": "配給（量）、割り当て" },
+    { "en": "invariably", "ja": "必ず、決まって" },
+    { "en": "crucial", "ja": "決定的に重要な" },
+    { "en": "inscription", "ja": "（刻まれた）銘文、碑文" },
+    { "en": "be bound to do", "ja": "きっと〜する、〜するのは避けられない" },
+    { "en": "exaggeration", "ja": "誇張、大げさな言い方" },
+    { "en": "stumble upon", "ja": "偶然見つける" }
+  ]
+}

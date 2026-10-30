@@ -23,18 +23,24 @@ describe('writing templates', () => {
   });
 
   it('links every type to a bundled model essay that follows its opening lines', () => {
-    for (const t of [...TEMPLATES.task1, ...TEMPLATES.task2]) {
-      const topic = [...task1, ...task2].find((x) => x.presetId === t.modelPresetId);
-      expect(topic, t.name).toBeDefined();
-      const essay = parseMarkedText(topic!.text).tokens.join(' ');
-      // 各段落の最初の行の決まった言い回し(埋める部分の手前まで)がエッセイに出てくる
-      for (const p of t.paragraphs) {
-        const fixed = splitTemplateLine(p.lines[0]!)[0]!;
-        if (fixed.slot) continue;
-        const words = fixed.text.replace(/[^A-Za-z ]/g, ' ').trim().split(/\s+/).slice(0, 3).join(' ');
-        if (words) expect(essay.replace(/ , /g, ' ').replace(/ ,/g, ''), `${t.name} ${p.label}`).toContain(words);
+    for (const t of [...TEMPLATES.task1, ...TEMPLATES.task2])
+      for (const id of t.modelPresetIds) {
+        const topic = [...task1, ...task2].find((x) => x.presetId === id);
+        expect(topic, `${t.name} ${id}`).toBeDefined();
+        const essay = parseMarkedText(topic!.text).tokens.join(' ');
+        // 各段落の最初の行の決まった言い回しの最初の2語がエッセイに出てくる(The diagram と The diagrams の違いは許す)
+        for (const p of t.paragraphs) {
+          const fixed = splitTemplateLine(p.lines[0]!)[0]!;
+          if (fixed.slot) continue;
+          const words = fixed.text.replace(/[^A-Za-z ]/g, ' ').trim().split(/\s+/).slice(0, 2).join(' ');
+          if (words) expect(essay.replace(/ , /g, ' ').replace(/ ,/g, ''), `${t.name} ${id} ${p.label}`).toContain(words);
+        }
       }
-    }
+  });
+
+  it('files every Task 1 model essay under exactly one type', () => {
+    const ids = TEMPLATES.task1.flatMap((t) => t.modelPresetIds);
+    expect([...ids].sort()).toEqual(task1.map((t) => t.presetId).sort());
   });
 
   it('marks the parts to fill in', () => {
@@ -58,9 +64,9 @@ describe('writing templates', () => {
 });
 
 describe('collocations', () => {
-  it('bundles 12 topics of 10 marked sentences', () => {
+  it('bundles 20 topics of 10 marked sentences', () => {
     const topics = parsePresetTopics(collocationRaw, 'colloc-');
-    expect(topics).toHaveLength(12);
+    expect(topics).toHaveLength(20);
     for (const t of topics) {
       expect(paragraphs(t.text), t.title).toHaveLength(10);
       for (const p of paragraphs(t.text)) expect(parseMarkedText(p).ranges.length, p).toBeGreaterThan(0);
@@ -72,8 +78,11 @@ describe('speaking', () => {
   const topics = parsePresetTopics(speakingRaw, SPEAKING_PREFIX);
   const prompts = parseTaskPrompts(speakingPromptsRaw, SPEAKING_PREFIX);
 
-  it('bundles four sets each of Part 1, 2 and 3 with their questions', () => {
+  it('bundles eight sets each of Part 1, 2 and 3 with their questions', () => {
     expect(topics.map((t) => t.title.split('｜')[0]!.replace(/^\d+\. /, ''))).toEqual([
+      ...Array(4).fill('Part 1'),
+      ...Array(4).fill('Part 2'),
+      ...Array(4).fill('Part 3'),
       ...Array(4).fill('Part 1'),
       ...Array(4).fill('Part 2'),
       ...Array(4).fill('Part 3'),

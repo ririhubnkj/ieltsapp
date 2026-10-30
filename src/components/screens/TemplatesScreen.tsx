@@ -20,13 +20,13 @@ export function TemplatesScreen() {
   const { dispatch } = useAppData();
 
   // 型のエッセイ例を穴埋めで練習する。まだ追加していなければ、その題材だけを追加してから開く
-  const practise = (template: WritingTemplate) => {
-    const existing = entries.find((e) => e.presetId === template.modelPresetId);
+  const practise = (presetId: string) => {
+    const existing = entries.find((e) => e.presetId === presetId);
     if (existing) {
       navigate(`/entries/${existing.id}`);
       return;
     }
-    const topic = getAllPresetTopics().find((t) => t.presetId === template.modelPresetId);
+    const topic = getAllPresetTopics().find((t) => t.presetId === presetId);
     if (!topic) return;
     const added = presetEntriesToAdd([topic], entries, new Date(), task === 'task1' ? TASK1_DECK_ID : TASK2_DECK_ID);
     dispatch({ type: 'ADD_ENTRIES', ...added });
@@ -100,8 +100,8 @@ export function TemplatesScreen() {
             template={template}
             open={open === template.id}
             onToggle={() => setOpen(open === template.id ? null : template.id)}
-            added={entries.some((e) => e.presetId === template.modelPresetId)}
-            onPractise={() => practise(template)}
+            addedIds={new Set(entries.map((e) => e.presetId).filter((id): id is string => !!id))}
+            onPractise={practise}
           />
         ))}
       </div>
@@ -114,16 +114,17 @@ function TemplateCard({
   template,
   open,
   onToggle,
-  added,
+  addedIds,
   onPractise,
 }: {
   index: number;
   template: WritingTemplate;
   open: boolean;
   onToggle: () => void;
-  added: boolean;
-  onPractise: () => void;
+  addedIds: Set<string>;
+  onPractise: (presetId: string) => void;
 }) {
+  const topics = getAllPresetTopics();
   return (
     <div className="card" style={{ display: 'flex', flexDirection: 'column', gap: 12 }}>
       <button
@@ -192,9 +193,27 @@ function TemplateCard({
               <li key={n}>{n}</li>
             ))}
           </ul>
-          <button className="primary-btn" style={{ padding: 12, fontSize: 14 }} onClick={onPractise}>
-            {added ? 'エッセイ例を穴埋めで練習する' : 'エッセイ例を追加して練習する'}
-          </button>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: 6 }}>
+            <div className="section-label" style={{ marginBottom: 0 }}>
+              この型のエッセイ例({template.modelPresetIds.length}本・穴埋めで練習)
+            </div>
+            {template.modelPresetIds.map((id) => {
+              const title = topics.find((t) => t.presetId === id)?.title ?? id;
+              return (
+                <button
+                  key={id}
+                  className="secondary-btn"
+                  onClick={() => onPractise(id)}
+                  style={{ display: 'flex', alignItems: 'center', gap: 8, padding: '10px 12px', fontSize: 13.5, textAlign: 'left' }}
+                >
+                  <span style={{ flex: 1 }}>{title.replace(/^\d+\.\s*/, '')}</span>
+                  <span style={{ fontSize: 12, color: 'var(--text-muted)', fontWeight: 500 }}>
+                    {addedIds.has(id) ? '練習する →' : '追加して練習 →'}
+                  </span>
+                </button>
+              );
+            })}
+          </div>
         </>
       )}
     </div>

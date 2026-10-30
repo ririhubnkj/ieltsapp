@@ -4,16 +4,28 @@ import {
   answerOptions,
   estimatedBand,
   isCorrect,
+  isWritten,
   loadResults,
+  marksFor,
   normalizeAnswer,
   PASSAGES,
   saveResult,
   score,
+  splitKeys,
+  totalMarks,
+  type ReadingQuestion,
 } from './reading';
 
 describe('reading passages', () => {
-  it('bundles the passages in file order', () => {
-    expect(PASSAGES.map((p) => p.id)).toEqual(['r01', 'r02', 'r03', 'r04']);
+  it('bundles ten passages in file order', () => {
+    expect(PASSAGES.map((p) => p.id)).toEqual([...Array(10).keys()].map((i) => `r${String(i + 1).padStart(2, '0')}`));
+  });
+
+  it('covers every question type', () => {
+    const types = new Set(PASSAGES.flatMap((p) => p.groups.map((g) => g.type)));
+    expect([...types].sort()).toEqual(
+      ['completion', 'endings', 'headings', 'matching', 'mcq', 'mcq2', 'paragraph', 'short', 'tfng', 'wordlist', 'ynng'].sort(),
+    );
   });
 
   for (const p of PASSAGES) {
@@ -21,8 +33,13 @@ describe('reading passages', () => {
       const labels = p.paragraphs.map((x) => x.label);
       const text = p.paragraphs.map((x) => x.text).join(' ').toLowerCase();
 
-      it('numbers the questions from 1 without gaps', () => {
-        expect(allQuestions(p).map((q) => q.num)).toEqual(allQuestions(p).map((_, i) => i + 1));
+      it('numbers the questions from 1 without gaps and is worth 13 marks', () => {
+        let next = 1;
+        for (const q of allQuestions(p)) {
+          expect(q.num).toBe(next);
+          next += q.count ?? 1;
+        }
+        expect(totalMarks(p)).toBe(13);
       });
 
       it('has an answer among the options and evidence in a real paragraph', () => {
@@ -30,11 +47,13 @@ describe('reading passages', () => {
           for (const q of g.questions) {
             expect(labels, `${q.num}`).toContain(q.evidence);
             expect(q.explanation.length, `${q.num}`).toBeGreaterThan(10);
-            if (g.type === 'completion') {
+            if (isWritten(g.type)) {
               expect(q.accept?.length, `${q.num}`).toBeGreaterThan(0);
               for (const a of q.accept!) expect(text, `${q.num}: ${a}`).toContain(a.toLowerCase());
             } else {
-              expect(answerOptions(p, g, q), `${q.num}`).toContain(q.answer);
+              const keys = splitKeys(q.answer);
+              expect(keys, `${q.num}`).toHaveLength(q.count ?? 1);
+              for (const k of keys) expect(answerOptions(p, g, q), `${q.num}`).toContain(k);
             }
           }
       });
@@ -56,6 +75,14 @@ describe('grading', () => {
   it('counts blank answers as wrong', () => {
     expect(isCorrect(allQuestions(passage)[0]!, undefined)).toBe(false);
     expect(score(passage, {})).toBe(0);
+  });
+
+  it('gives one mark per correct letter in a choose-two question', () => {
+    const q: ReadingQuestion = { num: 1, count: 2, text: '', answer: 'B,D', evidence: 'A', explanation: '' };
+    expect(marksFor(q, 'B,D')).toBe(2);
+    expect(marksFor(q, 'A,D')).toBe(1);
+    expect(isCorrect(q, 'A,D')).toBe(false);
+    expect(marksFor(q, undefined)).toBe(0);
   });
 
   it('converts the score to an approximate band out of 40 questions', () => {
