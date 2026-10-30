@@ -1,0 +1,119 @@
+**1. 表｜医療センターの評価**
+
+The table illustrates how patients rated five different services at three health centres on a scale of 1 to 10.
+
+Overall, it is clear that while the Peveril Centre {{outperformed}} the other two centres in every category, the Longston Centre {{received the lowest ratings}} overall. Meanwhile, {{the most striking difference}} was seen in response to concerns, whereas doctors' service was rated {{fairly consistently}} at all three centres.
+
+Looking first at the Peveril Centre, it {{stood at}} 8.3 on average, which was {{the highest figure in this comparison}}. In particular, response to concerns and booking appointments {{received the highest scores}} of 9.6 and 9.2 {{+respectively}}. By contrast, the Longston Centre {{recorded}} an overall average of just 5.7, and its score for response to concerns was {{a mere}} 4.1, {{less than half}} that of Peveril.
+
+Turning to doctors' service, the figures {{remained relatively stable}} across the three centres, {{ranging from}} 8 {{+to}} 8.7. Similarly, care of children was rated moderately at Longston, Peveril and Marchbank, at 6.3, 7.5 and 7.3 {{respectively}}. On the other hand, pharmacy {{received the poorest ratings}} at every centre, {{standing at}} 5.1, 6.3 and 5.8 {{+respectively}}. Meanwhile, the Marchbank Centre {{fell between}} the other two, with an overall average of 7.2.
+
+**2. 表｜カナダの世帯構成**
+
+The table illustrates the changes in the proportions of people living in five types of households in Canada between 1984 and 2020.
+
+Overall, it is clear that while couples with dependent children {{experienced the most significant decline}}, one-person and lone-parent households {{saw a considerable increase}}. Meanwhile, the figure for couples with non-dependent children {{remained relatively stable over the period}}.
+
+Looking first at couples with dependent children, this category {{accounted for the largest proportion}} in 1984, {{standing at}} 52%. After that, however, it {{fell steadily}}, {{eventually reaching}} 36% in 2020. Nevertheless, it {{still constituted the largest share}} of all household types. By contrast, {{a dramatic increase was seen}} in lone-parent households, which {{tripled}} from 4% to 12%. Similarly, the share of people living alone {{more than doubled}} from 5% to 12%, {{levelling off}} after 2014.
+
+Turning to couples without children, {{there was a modest increase}} in this group, {{rising from}} 19% {{+to}} 25% over the period. On the other hand, couples with non-dependent children {{stayed consistent}} at around 10%, {{dropping marginally}} to 9% in 2014 and {{remaining unchanged}} until 2020.
+
+**3. 折れ線｜金属価格の月ごとの変化**
+
+The line graph illustrates the average monthly change in the prices of copper, nickel and zinc compared with the previous month in 2014.
+
+Overall, it is clear that while nickel {{experienced by far the most dramatic fluctuations}}, copper {{showed the smallest changes}} throughout the year. Meanwhile, all three metals {{followed a similar pattern}}, with prices falling in the middle of the year and rising again towards the end.
+
+Looking first at nickel, its price {{rose sharply}} by 5.5% in January, which was {{the highest figure in this comparison}}. After that, however, the rate of increase {{dropped rapidly}} to just 1% in March. In June, {{a sudden fall was seen}}, with the price decreasing by 3%, and it continued to fall until October. Subsequently, it {{rebounded to}} 1% in November.
+
+Turning to copper and zinc, the figures for both metals {{fluctuated slightly}} between minus 1% and 3%. Copper {{remained relatively stable}}, {{dipping marginally}} below zero only in May and June, before {{levelling off}} at 1% from July to September. Zinc, meanwhile, {{peaked at}} 3% in February and {{ended the year at}} 2%, slightly higher than copper at 1.5%.
+
+**4. 折れ線｜3つのベーカリーの年間収入**
+
+The line graph illustrates the annual income of three bakeries in Calgary from 2000 to 2010.
+
+Overall, it is clear that while the earnings of Amandine Bakery and Bolo Cakery {{saw an upward trend}}, those of Mari Bakeshop {{experienced a significant decrease}} over the period. Meanwhile, the income of Amandine Bakery {{remained unchanged}} for the first half of the decade.
+
+Looking first at Amandine Bakery and Bolo Cakery, the former {{stood at}} 55,000 dollars between 2000 and 2005. Since then, however, it {{rose dramatically}}, {{surpassing}} Mari Bakeshop in 2006 and {{reaching the peak of}} 108,000 dollars in 2010. Similarly, Bolo Cakery {{started at}} a mere 20,000 dollars, which was {{the lowest figure in this comparison}}, but its income {{more than tripled}} to 65,000 dollars by the end of the period.
+
+Turning to Mari Bakeshop, it {{recorded the highest income}} at the beginning of the period, {{fluctuating between}} 80,000 {{+and}} 93,000 dollars until 2004. After that, {{there was a sharp decline}} to 63,000 dollars in 2005, and the figure continued to fall, {{levelling off at}} 40,000 dollars in 2009 and 2010. Consequently, it {{fell to the lowest position}} among the three bakeries.
+
+**5. 棒｜旅行者の余暇の過ごし方**
+
+The bar chart illustrates the average number of hours per day that tourists from four countries spent on three leisure activities while on holiday in Greece in August 2019.
+
+Overall, it is clear that while Chinese tourists {{spent by far the most time}} reading books, visiting places {{was the least popular activity}} among all four nationalities. Meanwhile, the time spent at the beach {{varied considerably}} by nationality.
+
+Looking first at Chinese tourists, they spent 8 hours a day reading books, which was {{the highest figure in this comparison}}. By contrast, they spent only 3 hours at the beach and {{a mere}} 1 hour visiting places. Brazilian tourists, on the other hand, {{preferred}} the beach, {{spending}} 7 hours there, {{followed by}} Turkish and American tourists at 5 and 4 hours {{+respectively}}.
+
+Turning to the other activities, the figures for reading books among the remaining nationalities {{were relatively similar}}, {{standing at}} 5 hours for Americans and 4 hours for both Turkish and Brazilian tourists. Meanwhile, visiting places {{received the least attention}} from all groups, {{ranging from}} 1 {{+to}} 3 hours. In particular, American and Turkish tourists {{spent the same amount of time}} on this activity, at 3 hours each.
+
+**6. 棒｜カナダの産業別労働人口**
+
+The bar chart illustrates the proportion of the Canadian workforce employed in five major industries in 1850 and 2020.
+
+Overall, it is clear that while the services sector {{experienced by far the most dramatic growth}}, manufacturing and agriculture {{saw a substantial decline}}. Meanwhile, construction and energy {{showed only minor changes over the period}}.
+
+Looking first at services, this sector {{represented}} 33% of the workforce in 1850, slightly lower than manufacturing. However, it {{rose significantly}} to 79% in 2020, {{more than doubling}} and {{accounting for the largest proportion}} by far. By contrast, manufacturing {{fell markedly}} from 36% to just 9%. Similarly, agriculture and fishing, which {{constituted}} 22% in 1850, {{plummeted to}} a mere 1%.
+
+Turning to construction and energy, both sectors {{accounted for a small share}} in both years. {{A modest increase was seen}} in construction, which {{grew from}} 5% {{+to}} 8%. On the other hand, the figure for energy and water {{dropped marginally}} from 3% to 1%, {{remaining the lowest}} along with agriculture in 2020.
+
+**7. 円｜エネルギー容量の内訳**
+
+The pie charts illustrate the proportion of energy capacity by source in 2015 and the predictions for 2040.
+
+Overall, it is clear that while fossil fuels {{are expected to see the most significant decline}}, solar power {{is projected to experience by far the most dramatic growth}}. Meanwhile, the shares of nuclear power and other renewables {{will remain relatively stable}}.
+
+Looking first at fossil fuels, they {{accounted for the largest proportion}} in 2015, {{standing at}} 64%. This figure is predicted to {{fall considerably}} to 43% in 2040, although it {{will still constitute the largest share}}. By contrast, solar power {{represented a mere}} 2% in 2015, but it is expected to {{rise sharply}} to 19%. Similarly, wind power {{is likely to more than double}}, {{increasing from}} 5% {{+to}} 12%.
+
+Turning to nuclear power and other renewables, they {{followed a similar pattern}}, with {{only a slight decrease}} expected. The share of other renewables {{is projected to drop marginally}} from 23% to 21%, while that of nuclear power {{will fall from}} 6% {{+to}} 5%. Notably, total capacity {{is expected to grow}} from 6,688 GW to 11,678 GW, {{almost double}} the 2015 figure.
+
+**8. 円｜イギリスの雇用形態**
+
+The pie charts illustrate the proportion of full-time and part-time workers by gender in the UK in 1988 and 2012.
+
+Overall, it is clear that while the share of women in full-time employment {{rose the most significantly}}, that of men in full-time work {{saw a noticeable decrease}}. Meanwhile, the proportions of part-time workers {{remained relatively stable}} for both genders.
+
+Looking first at full-time workers, men {{accounted for the largest proportion}} in 1988 at 53%, which {{amounted to}} 12,539 thousand people. Although this figure {{fell to}} 47% in 2012, it {{still represented the largest share}}. By contrast, {{a significant increase was seen}} in women working full-time, whose share {{grew from}} 19% {{+to}} 26%. In particular, their number {{rose sharply}} from 4,482 thousand to 7,712 thousand.
+
+Turning to part-time workers, women {{made up}} 22% of the workforce in 1988, {{dropping marginally}} to 20% in 2012. Similarly, men in part-time work {{stayed consistent}}, {{rising slightly}} from 6% to 7%. Notably, the total number of workers {{increased from}} 23,839 thousand {{+to}} 29,616 thousand over the period.
+
+**9. 地図｜パシフィック鉄道駅の変化**
+
+The maps illustrate the changes that have taken place at Pacific Railway Station between 1998 and the present day.
+
+Overall, it is clear that while the station {{has been significantly expanded}} with new platforms and shopping facilities, the original platforms {{have remained unchanged}}. Meanwhile, the toilets {{have been removed}} to make way for the new platforms.
+
+Looking first at the western side of the station, the toilets which used to stand there {{have been demolished}} and {{replaced by}} two new platforms. In addition, a new row of facilities {{has been constructed}} between the old and new platforms, {{consisting of}} a restaurant and two shops. Furthermore, a supermarket {{has been built}} in the south-west corner, which {{was previously an empty space}}.
+
+Turning to the eastern side, the existing platforms {{have stayed the same}}. The cafe and ticket office in the south-east corner {{have also remained in the same location}}, although the ticket office {{has been enlarged}}. On the other hand, the shop which {{was located}} between them {{has been relocated}} to the centre of the station.
+
+**10. 地図｜ネルソン市の変化**
+
+The maps illustrate the changes that have taken place in the city of Nelson between 2000 and the present day.
+
+Overall, it is clear that while the city {{has undergone a dramatic transformation}} with improved transport and shopping facilities, the university, the city centre and the port {{have remained in the same location}}. Meanwhile, the area {{has become much more pedestrian-friendly}}.
+
+Looking first at transport, the old train station in the west {{has been demolished}} and a new one {{has been built}} just north of the city centre, {{connected}} to the university {{+by}} a tramline. In addition, the road that ran across the south of the city {{has been converted into}} a pedestrian-only street, and a bike rental scheme {{has been introduced}} in the city centre. Furthermore, the trees to the east of the university {{have been cleared}} {{+to make way for}} a new shopping centre, while a hall of residence {{has been constructed}} to the west.
+
+Turning to the other areas, the old market in the west {{has been replaced by}} a new shop, and a new covered market {{has opened}} on the eastern side of the city centre. On the other hand, the port {{remains unchanged}}, although a restaurant and bars and clubs {{have been added}} {{+on either side of}} it.
+
+**11. 図解｜ハチミツができるまで**
+
+The diagram illustrates the process by which bees produce honey.
+
+Overall, it is clear that there are seven main stages in this natural process, {{beginning with}} bees leaving the hive and {{ending with}} the production of honey. Meanwhile, the process {{takes place}} both outside and inside the hive.
+
+Looking first at the initial stages, bees {{fly out of}} the hive {{in search of}} flowers. Once they {{have located}} the flowers, they {{collect}} nectar from them. After that, the bees {{return to}} the hive and {{deposit}} the nectar {{+into}} the honeycomb cells.
+
+Turning to the final stages, the bees {{fan their wings}} to circulate air over the cells. Subsequently, this air flow {{causes}} the water in the nectar {{+to evaporate}}. As a result, the nectar gradually {{thickens}} and {{is eventually turned into}} honey, which {{completes}} the process.
+
+**12. 図解｜冷凍フィッシュパイの製造**
+
+The diagrams illustrate the ingredients of a frozen fish pie and how it is manufactured.
+
+Overall, it is clear that the pie {{consists of}} potatoes, fish, peas and sauce in a microwaveable container, and its production {{involves two separate lines}} which {{merge}} before the final stages. Meanwhile, the potatoes {{can be kept for much longer than}} the salmon before processing.
+
+Looking first at the potatoes, they {{are delivered}} to the factory and {{can be stored for up to}} one month. They {{are then cleaned}}, peeled and sliced, before {{being boiled}} and chilled. After that, they {{are kept in storage}} until they are needed.
+
+Turning to the salmon, it {{is delivered}} fresh in 10 hours or less. Lemon juice and salt {{are added}} before it {{is cooked}} in a steam oven. Subsequently, the skins and bones {{are removed}} by hand, and the fish {{is inspected}}. Once prepared peas and sauce {{have been added}}, the sliced potatoes {{are placed on top}}. Finally, the pies {{are wrapped}}, frozen and {{stored}} {{+before being dispatched}}.
