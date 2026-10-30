@@ -28,11 +28,11 @@ describe('writing templates', () => {
         const topic = [...task1, ...task2].find((x) => x.presetId === id);
         expect(topic, `${t.name} ${id}`).toBeDefined();
         const essay = parseMarkedText(topic!.text).tokens.join(' ');
-        // 各段落の最初の行の決まった言い回し(埋める部分の手前まで)がエッセイに出てくる
+        // 各段落の最初の行の決まった言い回しの最初の2語がエッセイに出てくる(The diagram と The diagrams の違いは許す)
         for (const p of t.paragraphs) {
           const fixed = splitTemplateLine(p.lines[0]!)[0]!;
           if (fixed.slot) continue;
-          const words = fixed.text.replace(/[^A-Za-z ]/g, ' ').trim().split(/\s+/).slice(0, 3).join(' ');
+          const words = fixed.text.replace(/[^A-Za-z ]/g, ' ').trim().split(/\s+/).slice(0, 2).join(' ');
           if (words) expect(essay.replace(/ , /g, ' ').replace(/ ,/g, ''), `${t.name} ${id} ${p.label}`).toContain(words);
         }
       }
