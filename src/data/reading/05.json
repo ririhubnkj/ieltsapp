@@ -1,0 +1,172 @@
+{
+  "id": "r05",
+  "title": "Rebuilding the Reef",
+  "titleJa": "サンゴ礁を再生する：減少の原因と修復の試み",
+  "minutes": 20,
+  "paragraphs": [
+    {
+      "label": "A",
+      "text": "Coral reefs occupy less than one per cent of the ocean floor, yet they are home to roughly a quarter of all known marine species. They also protect coastlines by breaking the force of waves, and they supply food and income to hundreds of millions of people. Over the past four decades, however, many reefs have deteriorated dramatically, and in some regions more than half of the living coral has disappeared. Faced with these losses, scientists, conservation groups and even tourist businesses have begun to ask whether damaged reefs can be actively rebuilt rather than simply left to recover on their own."
+    },
+    {
+      "label": "B",
+      "text": "The causes of decline are varied. The most serious is the warming of the oceans. Reef-building corals depend on microscopic algae that live inside their tissues and provide them with most of their food. When the water stays too warm for several weeks, this partnership breaks down: the corals expel the algae and turn white, a process known as bleaching. Bleached corals are not dead, but if temperatures stay high they gradually starve. Local pressures add to the damage. Overfishing removes the plant-eating fish that keep seaweed under control, while soil and fertiliser washed from farms cloud the water and encourage the growth of algae that smother young corals."
+    },
+    {
+      "label": "C",
+      "text": "The most widely used restoration method is known as coral gardening. Divers collect small fragments from healthy colonies, which does little harm to the parent coral, and attach them to frames in underwater nurseries. Some nurseries consist of tree-like structures made of plastic pipe, from which the fragments hang on fishing line, moving freely with the current. Protected from sediment and predators, the fragments grow quickly and are usually transplanted onto the damaged reef after six to twelve months. A related technique, microfragmentation, involves cutting slow-growing corals into pieces only a centimetre across. For reasons that are not fully understood, these tiny pieces grow far faster than larger ones, and when placed close together they eventually fuse into a single colony."
+    },
+    {
+      "label": "D",
+      "text": "Gardening, however, does nothing to address the underlying threat of rising temperatures; a reef replanted with ordinary corals may simply bleach again during the next heatwave. Researchers have therefore begun to look for corals that cope better with heat. At a marine research centre in the Pacific, a team led by Dr Ana Ruiz identified colonies that had survived a severe bleaching event and bred them with one another in large tanks. Some of the offspring tolerated temperatures about one degree higher than average. Dr Ruiz stresses that the approach involves no genetic modification, only the selection of traits already present in wild populations. She also admits that heat tolerance may come at a price, since some of the hardiest corals in her trials grew more slowly than their neighbours."
+    },
+    {
+      "label": "E",
+      "text": "Restoration also depends on people. Because many reefs are far from research institutions, projects increasingly train local residents to do the practical work. In one programme on a group of islands in South-East Asia, former fishermen who had once used explosives to catch fish were employed to build nursery frames and replant corals. According to the organisers, the scheme gave participants a regular income and a personal interest in protecting the reef, and illegal fishing in the area fell sharply within three years. Dive resorts have also joined in, inviting guests to help with planting. Critics say such activities are sometimes more about marketing than ecology, but they acknowledge that they raise public awareness."
+    },
+    {
+      "label": "F",
+      "text": "Judging whether restoration actually works is surprisingly difficult. A review of more than 300 projects by the marine ecologist Dr Peter Lindqvist found that most reported the number of fragments planted rather than how many survived. Fewer than one in five had monitored their sites for longer than eighteen months, even though corals can take many years to become established. Lindqvist also noted that few projects measured whether fish and other animals had returned to the restored areas, which he regards as the real test of a healthy reef. Without such long-term data, he argues, it is impossible to say which methods offer the best value."
+    },
+    {
+      "label": "G",
+      "text": "Even its strongest supporters admit that restoration has clear limits. The largest projects have replanted a few hectares, while bleaching can damage thousands of square kilometres in a single summer. Costs are also high, ranging from tens of thousands to more than a million dollars per hectare. Most scientists therefore describe restoration as a way of buying time: it can help keep particular reefs alive and preserve their genetic variety, but it cannot replace action to reduce greenhouse gas emissions. Without such action, they warn, even the most heat-tolerant corals will eventually be overwhelmed."
+    }
+  ],
+  "groups": [
+    {
+      "type": "headings",
+      "instructions": "Questions 1–6. The reading passage has seven paragraphs, A–G. Choose the correct heading for paragraphs B–G from the list of headings below. Write the correct number, i–ix. NB There are more headings than paragraphs, so you will not use all of them.",
+      "options": [
+        { "key": "i", "text": "The economic value of healthy reefs" },
+        { "key": "ii", "text": "Breeding corals to survive warmer water" },
+        { "key": "iii", "text": "Clear limits on what restoration can achieve" },
+        { "key": "iv", "text": "A combination of global and local threats" },
+        { "key": "v", "text": "New technology for mapping reef damage" },
+        { "key": "vi", "text": "Turning local residents into reef workers" },
+        { "key": "vii", "text": "Raising young corals in underwater nurseries" },
+        { "key": "viii", "text": "Why some coral species recover faster than others" },
+        { "key": "ix", "text": "Weaknesses in the way projects are evaluated" }
+      ],
+      "questions": [
+        {
+          "num": 1,
+          "text": "Paragraph B",
+          "answer": "iv",
+          "evidence": "B",
+          "explanation": "B段落は \"The causes of decline are varied\" で始まり、海水温の上昇（\"the warming of the oceans\"）という地球規模の原因と、\"Local pressures add to the damage\" に続く乱獲や農地からの流出という地域的な原因の両方を挙げています。したがって「地球規模と地域的な脅威の組み合わせ」の iv です。"
+        },
+        {
+          "num": 2,
+          "text": "Paragraph C",
+          "answer": "vii",
+          "evidence": "C",
+          "explanation": "C段落は coral gardening の説明で、サンゴの断片を \"attach them to frames in underwater nurseries\" し、育ってから移植すると述べています。\"these tiny pieces grow far faster\" から viii を選びたくなりますが、これは同じサンゴの断片の大きさによる違いで、種による回復の速さの違いではありません。"
+        },
+        {
+          "num": 3,
+          "text": "Paragraph D",
+          "answer": "ii",
+          "evidence": "D",
+          "explanation": "D段落では、白化を生き延びた群体を \"bred them with one another in large tanks\" し、その子孫が \"tolerated temperatures about one degree higher than average\" とあります。暑さに強いサンゴを交配で作る話なので ii です。"
+        },
+        {
+          "num": 4,
+          "text": "Paragraph E",
+          "answer": "vi",
+          "evidence": "E",
+          "explanation": "E段落は \"projects increasingly train local residents to do the practical work\" と述べ、かつての漁師が \"were employed to build nursery frames and replant corals\" した例を挙げています。地元の住民がサンゴ礁の作業員になる話なので vi です。収入の話は出ますが、サンゴ礁そのものの経済的価値（i）がテーマではありません。"
+        },
+        {
+          "num": 5,
+          "text": "Paragraph F",
+          "answer": "ix",
+          "evidence": "F",
+          "explanation": "F段落は \"Judging whether restoration actually works is surprisingly difficult\" で始まり、多くの事業が \"reported the number of fragments planted rather than how many survived\" と指摘しています。成果の評価方法の弱点がテーマなので ix です。監視（monitored）の話は出ますが、新しい地図化の技術（v）には触れていません。"
+        },
+        {
+          "num": 6,
+          "text": "Paragraph G",
+          "answer": "iii",
+          "evidence": "G",
+          "explanation": "G段落は \"restoration has clear limits\" と述べ、規模の小ささと費用の高さを挙げたうえで、修復は \"cannot replace action to reduce greenhouse gas emissions\" と結んでいます。修復でできることの限界がテーマなので iii です。"
+        }
+      ]
+    },
+    {
+      "type": "tfng",
+      "instructions": "Questions 7–10. Do the following statements agree with the information given in the reading passage? Write TRUE if the statement agrees with the information, FALSE if the statement contradicts the information, NOT GIVEN if there is no information on this.",
+      "questions": [
+        {
+          "num": 7,
+          "text": "Corals that have bleached are already dead.",
+          "answer": "FALSE",
+          "evidence": "B",
+          "explanation": "B段落に \"Bleached corals are not dead, but if temperatures stay high they gradually starve\" とあります。白化したサンゴは死んではおらず、高温が続くと徐々に飢えていくので、「すでに死んでいる」は本文と矛盾し FALSE です。"
+        },
+        {
+          "num": 8,
+          "text": "In tree-like nurseries, coral fragments are able to move as the water moves.",
+          "answer": "TRUE",
+          "evidence": "C",
+          "explanation": "C段落に \"the fragments hang on fishing line, moving freely with the current\" とあります。断片は釣り糸に吊るされ、水の流れに合わせて自由に動くので TRUE です。"
+        },
+        {
+          "num": 9,
+          "text": "Dr Ruiz's team used genetic modification to produce corals that tolerate heat.",
+          "answer": "FALSE",
+          "evidence": "D",
+          "explanation": "D段落に \"the approach involves no genetic modification, only the selection of traits already present in wild populations\" とあります。遺伝子組み換えは使わず、野生の集団にすでにある性質を選んでいるだけなので FALSE です。"
+        },
+        {
+          "num": 10,
+          "text": "Most of the fragments planted in the projects reviewed by Dr Lindqvist died within eighteen months.",
+          "answer": "NOT GIVEN",
+          "evidence": "F",
+          "explanation": "F段落には、多くの事業が \"reported the number of fragments planted rather than how many survived\" とあり、生存数そのものは報告されていません。\"eighteen months\" は監視期間の話で、断片の大半が枯れたかどうかの情報はないので NOT GIVEN です。"
+        }
+      ]
+    },
+    {
+      "type": "short",
+      "instructions": "Questions 11–13. Answer the questions below. Choose NO MORE THAN THREE WORDS AND/OR A NUMBER from the passage for each answer.",
+      "questions": [
+        {
+          "num": 11,
+          "text": "Which type of fish, removed by overfishing, normally stops seaweed from spreading on reefs?",
+          "accept": ["plant-eating fish", "plant-eating"],
+          "evidence": "B",
+          "explanation": "B段落の \"Overfishing removes the plant-eating fish that keep seaweed under control\" が根拠です。keep seaweed under control が「海藻が広がるのを防ぐ」の言い換えになっています。"
+        },
+        {
+          "num": 12,
+          "text": "What did some of the former fishermen in the South-East Asian programme once use to catch fish?",
+          "accept": ["explosives"],
+          "evidence": "E",
+          "explanation": "E段落の \"former fishermen who had once used explosives to catch fish\" が根拠です。答えは explosives の1語です。"
+        },
+        {
+          "num": 13,
+          "text": "According to most scientists, restoration is mainly a way of doing what?",
+          "accept": ["buying time"],
+          "evidence": "G",
+          "explanation": "G段落の \"Most scientists therefore describe restoration as a way of buying time\" が根拠です。修復は時間を稼ぐ手段にすぎず、温室効果ガスの削減の代わりにはならないという文脈です。"
+        }
+      ]
+    }
+  ],
+  "vocab": [
+    { "en": "deteriorate", "ja": "悪化する、劣化する" },
+    { "en": "expel", "ja": "追い出す、排出する" },
+    { "en": "starve", "ja": "飢える、餓死する" },
+    { "en": "smother", "ja": "覆って窒息させる" },
+    { "en": "fragment", "ja": "断片、かけら" },
+    { "en": "sediment", "ja": "堆積物、沈殿物" },
+    { "en": "transplant", "ja": "移植する" },
+    { "en": "fuse", "ja": "融合する、一体になる" },
+    { "en": "tolerate", "ja": "耐える、許容する" },
+    { "en": "offspring", "ja": "子孫、子" },
+    { "en": "acknowledge", "ja": "認める" },
+    { "en": "overwhelm", "ja": "圧倒する、打ちのめす" }
+  ]
+}

@@ -1,0 +1,179 @@
+{
+  "id": "r08",
+  "title": "Reading the Little Ice Age",
+  "titleJa": "小氷期を読み解く：寒冷化の証拠と社会への影響",
+  "minutes": 20,
+  "paragraphs": [
+    {
+      "label": "A",
+      "text": "Between roughly the fourteenth and the mid-nineteenth centuries, much of the Northern Hemisphere experienced a run of cooler conditions. Alpine glaciers crept down their valleys, burying pastures and threatening villages, and in London the River Thames froze hard enough in some winters for 'frost fairs' to be held on the ice. The period is widely known as the Little Ice Age, but the name is something of an exaggeration. It was not an ice age in the geological sense, and average temperatures fell by probably less than one degree Celsius. Nor was it uniformly cold: harsh decades alternated with mild ones, and the timing of the coldest spells differed from one region to another."
+    },
+    {
+      "label": "B",
+      "text": "Much of what is known about the period comes from natural archives. Trees in cool climates grow a new ring each year, and the ring tends to be wider after a warm summer and narrower after a cold one. By overlapping samples from living trees, old building timbers and wood preserved in bogs, scientists have assembled continuous chronologies stretching back thousands of years. The dendrochronologist Maren Solberg, who sampled beams from mountain farmhouses, found that the narrowest rings were concentrated in the years immediately after major volcanic eruptions. Tree rings have the great advantage of being precisely dated to the year, but they mainly reflect conditions during the growing season and reveal little about winters."
+    },
+    {
+      "label": "C",
+      "text": "A second archive lies in the ice sheets of Greenland and Antarctica. Snow that falls there is compressed into ice, layer upon layer, trapping bubbles of air and preserving a chemical record of the atmosphere at the time. Large volcanic eruptions leave a distinctive signature in the form of sulphate deposits, which allow eruptions to be dated even when no one wrote about them. The glaciologist Aldo Ferrante identified a large sulphate layer from the mid-thirteenth century in cores from both polar regions. Because material had reached both ends of the planet, he argued, the eruption must have occurred somewhere near the equator, although the volcano itself was not located until many years later."
+    },
+    {
+      "label": "D",
+      "text": "These archives point strongly to volcanoes as one cause of the cooling. A large eruption injects sulphur gases high into the stratosphere, where they form tiny droplets that reflect sunlight back into space. On its own, a single eruption cools the climate for only two or three years. A cluster of eruptions, however, can have far longer-lasting effects. As temperatures fall, sea ice expands, and because ice reflects more sunlight than dark ocean water, the cooling reinforces itself. Computer simulations suggest that such feedbacks could have sustained cold conditions for decades after the eruptions themselves had ended."
+    },
+    {
+      "label": "E",
+      "text": "A second suspect is the Sun. Between 1645 and 1715, astronomers noted that sunspots, which are associated with higher solar activity, had almost disappeared. This coincided with some of the coldest decades in Europe, and for a long time reduced solar output was regarded as the main explanation for the Little Ice Age. More recent measurements, however, indicate that variations in the Sun's energy are too small to account for much of the cooling, and most climate scientists now treat solar activity as a secondary factor. Changes in ocean circulation may also have played a part, although their causes remain poorly understood."
+    },
+    {
+      "label": "F",
+      "text": "Whatever its causes, the cooling had serious consequences for societies that depended on farming. Shorter growing seasons and wet summers led to failed harvests, rising grain prices and, in the worst years, famine. The historian Ruth Okafor has reconstructed harvests in individual districts using grain price lists, farmers' diaries and parish records of births and burials. She has also shown that the dates of grape harvests, carefully recorded in wine-growing regions, can serve as a guide to summer temperatures. Communities were not simply passive victims, however. Some farmers switched to hardier crops such as rye and potatoes, while fishing communities followed shoals of fish as they moved to new waters."
+    },
+    {
+      "label": "G",
+      "text": "How far the climate shaped human history remains contested. Some historians argue that the cold contributed directly to the wars and rebellions that troubled much of the world in the seventeenth century. Others are more cautious. Pieter Vandermeer points out that the Dutch Republic prospered during some of the coldest decades, while neighbouring regions suffered. In his view, the climate was a background pressure, and whether a society coped depended mainly on its government, its trade networks and how fairly food was distributed. This debate suggests that the most important lesson of the Little Ice Age may concern not temperature itself but the vulnerability of the societies that experienced it."
+    }
+  ],
+  "groups": [
+    {
+      "type": "headings",
+      "instructions": "Questions 1–5. The reading passage has seven paragraphs, A–G. Choose the correct heading for paragraphs B–F from the list of headings below. Write the correct number, i–viii.",
+      "options": [
+        { "key": "i", "text": "Hunger, high prices and local adaptation" },
+        { "key": "ii", "text": "A name that overstates a real event" },
+        { "key": "iii", "text": "Records of distant events stored in polar ice" },
+        { "key": "iv", "text": "A suspect whose importance has been downgraded" },
+        { "key": "v", "text": "Using yearly growth to reconstruct past summers" },
+        { "key": "vi", "text": "Predicting when the next cold period will begin" },
+        { "key": "vii", "text": "How short-lived cooling could become prolonged" },
+        { "key": "viii", "text": "Was the climate really to blame for social crisis?" }
+      ],
+      "questions": [
+        {
+          "num": 1,
+          "text": "Paragraph B",
+          "answer": "v",
+          "evidence": "B",
+          "explanation": "段落Bは \"Trees in cool climates grow a new ring each year, and the ring tends to be wider after a warm summer and narrower after a cold one\" と、年輪から過去の夏の気温を復元する方法を説明しています。年ごとの成長（yearly growth）を使う v が合います。"
+        },
+        {
+          "num": 2,
+          "text": "Paragraph C",
+          "answer": "iii",
+          "evidence": "C",
+          "explanation": "段落Cはグリーンランドと南極の氷床について \"Large volcanic eruptions leave a distinctive signature in the form of sulphate deposits\" と説明し、赤道付近の噴火の痕跡が両極で見つかった例を挙げています。遠く離れた出来事の記録が極地の氷に残るという iii が合います。"
+        },
+        {
+          "num": 3,
+          "text": "Paragraph D",
+          "answer": "vii",
+          "evidence": "D",
+          "explanation": "段落Dは \"a single eruption cools the climate for only two or three years\" と述べたうえで、海氷の拡大による \"feedbacks could have sustained cold conditions for decades\" を説明しています。短期の冷却が長期化する仕組みなので vii です。"
+        },
+        {
+          "num": 4,
+          "text": "Paragraph E",
+          "answer": "iv",
+          "evidence": "E",
+          "explanation": "段落Eでは太陽活動の低下がかつて \"the main explanation\" とされていたが、今は \"most climate scientists now treat solar activity as a secondary factor\" と書かれています。重要度が引き下げられた「容疑者」なので iv です。"
+        },
+        {
+          "num": 5,
+          "text": "Paragraph F",
+          "answer": "i",
+          "evidence": "F",
+          "explanation": "段落Fは \"failed harvests, rising grain prices and, in the worst years, famine\" という影響と、\"Some farmers switched to hardier crops\" という人々の適応を述べています。飢え・物価高・地域の適応をまとめた i が合います。気候が社会危機の原因かという議論（viii）は段落Gの内容です。"
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "instructions": "Questions 6–9. Look at the following researchers (Questions 6–9) and the list of findings below. Match each researcher with the correct finding, A–F. NB There are more findings than researchers, so you will not use all of them.",
+      "options": [
+        { "key": "A", "text": "Unusually poor tree growth often followed large volcanic eruptions." },
+        { "key": "B", "text": "Where an eruption's deposits are found can reveal roughly where it took place." },
+        { "key": "C", "text": "Records kept in wine-producing areas can indicate how warm past summers were." },
+        { "key": "D", "text": "How well a society coped with the cold depended mainly on its institutions and economy." },
+        { "key": "E", "text": "Reduced solar activity was the principal cause of the Little Ice Age." },
+        { "key": "F", "text": "The coldest periods occurred at the same time in every region." }
+      ],
+      "questions": [
+        {
+          "num": 6,
+          "text": "Maren Solberg",
+          "answer": "A",
+          "evidence": "B",
+          "explanation": "段落Bに \"the narrowest rings were concentrated in the years immediately after major volcanic eruptions\" とあります。年輪が最も細い＝木の成長が悪い年が大噴火の直後に集中していたという発見なので A です。"
+        },
+        {
+          "num": 7,
+          "text": "Aldo Ferrante",
+          "answer": "B",
+          "evidence": "C",
+          "explanation": "段落Cに \"Because material had reached both ends of the planet, he argued, the eruption must have occurred somewhere near the equator\" とあります。堆積物が見つかった場所（両極）から噴火のおおよその位置を推定したので B です。"
+        },
+        {
+          "num": 8,
+          "text": "Ruth Okafor",
+          "answer": "C",
+          "evidence": "F",
+          "explanation": "段落Fに \"the dates of grape harvests, carefully recorded in wine-growing regions, can serve as a guide to summer temperatures\" とあります。ワイン産地の記録から過去の夏の暖かさがわかるという内容なので C です。"
+        },
+        {
+          "num": 9,
+          "text": "Pieter Vandermeer",
+          "answer": "D",
+          "evidence": "G",
+          "explanation": "段落Gに \"whether a society coped depended mainly on its government, its trade networks and how fairly food was distributed\" とあります。政府や交易網（institutions and economy）が対処の成否を決めたという見方なので D です。E は段落Eで \"for a long time\" 支持された古い説で、特定の研究者の発見ではありません。F は段落Aの記述と矛盾します。"
+        }
+      ]
+    },
+    {
+      "type": "completion",
+      "instructions": "Questions 10–13. Complete the sentences below. Choose NO MORE THAN TWO WORDS from the passage for each answer.",
+      "questions": [
+        {
+          "num": 10,
+          "text": "Sulphur gases from a major eruption form tiny ____ in the stratosphere, which reflect sunlight back into space.",
+          "accept": ["droplets"],
+          "evidence": "D",
+          "explanation": "段落Dの \"where they form tiny droplets that reflect sunlight back into space\" が根拠です。tiny の後に入る名詞なので droplets（小さな液滴）が正解です。"
+        },
+        {
+          "num": 11,
+          "text": "Cooling can reinforce itself because expanding ____ reflects more sunlight than dark ocean water.",
+          "accept": ["sea ice"],
+          "evidence": "D",
+          "explanation": "段落Dに \"As temperatures fall, sea ice expands, and because ice reflects more sunlight than dark ocean water, the cooling reinforces itself\" とあります。広がるのは sea ice なので、2語の sea ice が正解です。"
+        },
+        {
+          "num": 12,
+          "text": "Between 1645 and 1715, astronomers recorded the near disappearance of ____.",
+          "accept": ["sunspots"],
+          "evidence": "E",
+          "explanation": "段落Eに \"Between 1645 and 1715, astronomers noted that sunspots ... had almost disappeared\" とあります。had almost disappeared が near disappearance に言い換えられており、消えかけたのは sunspots（太陽黒点）です。"
+        },
+        {
+          "num": 13,
+          "text": "Ruth Okafor used grain price lists, farmers' diaries and ____ to reconstruct harvests in individual districts.",
+          "accept": ["parish records"],
+          "evidence": "F",
+          "explanation": "段落Fに \"using grain price lists, farmers' diaries and parish records of births and burials\" とあります。2語以内なので parish records（教区の記録）が正解です。of births and burials まで書くと語数を超えます。"
+        }
+      ]
+    }
+  ],
+  "vocab": [
+    { "en": "exaggeration", "ja": "誇張" },
+    { "en": "alternate with", "ja": "〜と交互に起こる" },
+    { "en": "archive", "ja": "記録の保管庫、アーカイブ" },
+    { "en": "chronology", "ja": "年代記、年表" },
+    { "en": "distinctive", "ja": "特徴的な、独特の" },
+    { "en": "inject", "ja": "注入する、送り込む" },
+    { "en": "reinforce", "ja": "強化する" },
+    { "en": "sustain", "ja": "持続させる" },
+    { "en": "account for", "ja": "〜を説明する、〜の原因となる" },
+    { "en": "hardy", "ja": "（植物が）寒さに強い、丈夫な" },
+    { "en": "contested", "ja": "議論の分かれる" },
+    { "en": "vulnerability", "ja": "脆弱性、もろさ" }
+  ]
+}

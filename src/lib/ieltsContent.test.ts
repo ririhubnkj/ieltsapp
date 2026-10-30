@@ -64,9 +64,9 @@ describe('writing templates', () => {
 });
 
 describe('collocations', () => {
-  it('bundles 12 topics of 10 marked sentences', () => {
+  it('bundles 20 topics of 10 marked sentences', () => {
     const topics = parsePresetTopics(collocationRaw, 'colloc-');
-    expect(topics).toHaveLength(12);
+    expect(topics).toHaveLength(20);
     for (const t of topics) {
       expect(paragraphs(t.text), t.title).toHaveLength(10);
       for (const p of paragraphs(t.text)) expect(parseMarkedText(p).ranges.length, p).toBeGreaterThan(0);
