@@ -13,6 +13,7 @@ import { TopBar } from '../common/TopBar';
 import { BackButton } from '../common/BackButton';
 import { EmptyState } from '../common/EmptyState';
 import { GroupBlock } from '../reading/QuestionBlocks';
+import { logActivity } from '../../lib/activity';
 
 type View = 'passage' | 'questions';
 
@@ -54,7 +55,16 @@ function ReadingPractice({ passage }: { passage: ReadingPassage }) {
   };
 
   const submit = () => {
-    saveResult(passage.id, score(passage, answers), total);
+    const correctNow = score(passage, answers);
+    saveResult(passage.id, correctNow, total);
+    logActivity({
+      kind: 'reading',
+      title: passage.title,
+      score: correctNow,
+      total,
+      band: estimatedBand(correctNow, total) ?? undefined,
+      seconds: elapsed,
+    });
     setSubmitted(true);
     setConfirming(false);
     switchView('questions');
