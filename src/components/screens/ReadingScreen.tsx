@@ -264,7 +264,8 @@ function GroupBlock({
           <span style={{ marginLeft: 8, fontSize: 11.5, fontWeight: 600, color: 'var(--text-muted)' }}>{TYPE_LABEL[group.type]}</span>
         </div>
         <div style={{ fontSize: 13, color: 'var(--text-muted)', fontStyle: 'italic', lineHeight: 1.55, marginTop: 4 }}>
-          {group.instructions}
+          {/* 見出しに番号を出すので、指示文の頭の Questions 1–5. は省く */}
+          {group.instructions.replace(/^Questions\s+\d+\s*[–-]\s*\d+\.?\s*/, '')}
         </div>
       </div>
       {group.options && (
