@@ -9,6 +9,9 @@ import { QuizScreen } from './components/screens/QuizScreen';
 import { SettingsScreen } from './components/screens/SettingsScreen';
 import { ReadingScreen } from './components/screens/ReadingScreen';
 import { TemplatesScreen } from './components/screens/TemplatesScreen';
+import { WritingExamScreen } from './components/screens/WritingExamScreen';
+import { SpeakingExamScreen } from './components/screens/SpeakingExamScreen';
+import { ReadingMockScreen } from './components/screens/ReadingMockScreen';
 import { IS_PERSONAL } from './lib/target';
 
 // アーティファクトの枠内ではURLのハッシュを使わず、画面の移動をメモリ上で持つ
@@ -28,6 +31,10 @@ export function App() {
           <Route path="/settings" element={<SettingsScreen />} />
           <Route path="/reading/:id" element={<ReadingScreen />} />
           <Route path="/templates/:task" element={<TemplatesScreen />} />
+          <Route path="/writing-exam" element={<WritingExamScreen />} />
+          <Route path="/speaking-exam" element={<SpeakingExamScreen />} />
+          <Route path="/speaking-exam/:presetId" element={<SpeakingExamScreen />} />
+          <Route path="/reading-mock" element={<ReadingMockScreen />} />
         </Routes>
       </Router>
     </AppDataProvider>

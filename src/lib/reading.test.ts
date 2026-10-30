@@ -17,8 +17,10 @@ import {
 } from './reading';
 
 describe('reading passages', () => {
-  it('bundles ten passages in file order', () => {
-    expect(PASSAGES.map((p) => p.id)).toEqual([...Array(10).keys()].map((i) => `r${String(i + 1).padStart(2, '0')}`));
+  it('gives every passage a unique id', () => {
+    const ids = PASSAGES.map((p) => p.id);
+    expect(new Set(ids).size).toBe(ids.length);
+    for (const i of [...Array(10).keys()]) expect(ids).toContain(`r${String(i + 1).padStart(2, '0')}`);
   });
 
   it('covers every question type', () => {

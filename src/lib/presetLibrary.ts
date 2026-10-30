@@ -63,6 +63,10 @@ let chunkTopics: PresetTopic[] | null = null;
 let chunkTranslations: Map<string, string[]> | null = null;
 let idiomaticTopics: PresetTopic[] | null = null;
 let task2ModelTopics: PresetTopic[] | null = null;
+let levelTopicCache: Map<string, PresetTopic[]> | null = null;
+let levelTranslationCache: Map<string, string[]> | null = null;
+let levelTask2Prompts: Map<string, TaskPrompt> | null = null;
+let allTranslationCache: Map<string, string[]> | null = null;
 let task2ModelPrompts: Map<string, TaskPrompt> | null = null;
 let collocationTopics: PresetTopic[] | null = null;
 let speakingTopics: PresetTopic[] | null = null;
@@ -137,9 +141,61 @@ export function getSpeakingTopics(): PresetTopic[] {
   return speakingTopics;
 }
 
-/** 内蔵の題材すべて(IELTS Task 2・Task 1・TOEFL・チャンク大全・Idiomatic 300・語彙・Speaking)と和訳 */
+/**
+ * レベル別の題材(src/data/levels/<level>/*.txt)。presetId は種類の接頭辞のあとにレベルを入れる
+ * (task2model-l1-3・task1-l4-5・colloc-l2-1・speaking-l5-9)。みんな向けの IELTS 版だけ
+ */
+const levelRaw = BAND6
+  ? import.meta.glob<string>('../data/levels/*/*.txt', { query: '?raw', import: 'default', eager: true })
+  : {};
+
+/** レベル別の題材のファイル名 → 接頭辞と和訳のファイル名 */
+const LEVEL_FILES: { name: string; prefix: string; translations: string }[] = [
+  { name: 'task2Models', prefix: TASK2_MODEL_PREFIX, translations: 'task2ModelTranslations' },
+  { name: 'task1Topics', prefix: TASK1_PREFIX, translations: 'task1Translations' },
+  { name: 'collocationTopics', prefix: COLLOCATION_PREFIX, translations: 'collocationTranslations' },
+  { name: 'speakingTopics', prefix: SPEAKING_PREFIX, translations: 'speakingTranslations' },
+];
+
+function levelFile(level: string, name: string): string | undefined {
+  return levelRaw[`../data/levels/${level}/${name}.txt`];
+}
+
+function loadLevelContent() {
+  if (levelTopicCache) return;
+  levelTopicCache = new Map();
+  levelTranslationCache = new Map();
+  levelTask2Prompts = new Map();
+  const levels = new Set(Object.keys(levelRaw).map((k) => k.split('/')[3]!));
+  for (const level of levels) {
+    for (const f of LEVEL_FILES) {
+      const text = levelFile(level, f.name);
+      if (!text) continue;
+      const prefix = `${f.prefix}${level}-`;
+      levelTopicCache.set(`${level}/${f.name}`, parsePresetTopics(text, prefix));
+      const tr = levelFile(level, f.translations);
+      if (tr) for (const [k, v] of parseTranslations(tr, prefix)) levelTranslationCache.set(k, v);
+    }
+    const prompts = levelFile(level, 'task2ModelPrompts');
+    if (prompts) for (const [k, v] of parseTaskPrompts(prompts, `${TASK2_MODEL_PREFIX}${level}-`)) levelTask2Prompts.set(k, v);
+  }
+}
+
+/** あるレベルの、ある種類の題材(レベル別のファイルに書いたもの) */
+export function getLevelFileTopics(level: string, name: 'task2Models' | 'task1Topics' | 'collocationTopics' | 'speakingTopics'): PresetTopic[] {
+  loadLevelContent();
+  return levelTopicCache!.get(`${level}/${name}`) ?? [];
+}
+
+function allLevelTopics(): PresetTopic[] {
+  loadLevelContent();
+  return [...levelTopicCache!.values()].flat();
+}
+
+/** 内蔵の題材すべて(IELTS Task 2・Task 1・TOEFL・チャンク大全・Idiomatic 300・語彙・Speaking・レベル別)と和訳 */
 export function getAllPresetTopics(): PresetTopic[] {
   return [
+    ...allLevelTopics(),
     ...getPresetTopics(),
     ...getTask2ModelTopics(),
     ...getTask1Topics(),
@@ -152,7 +208,9 @@ export function getAllPresetTopics(): PresetTopic[] {
 }
 
 export function getAllPresetTranslations(): Map<string, string[]> {
-  return new Map([
+  loadLevelContent();
+  allTranslationCache ??= new Map([
+    ...levelTranslationCache!,
     ...getPresetTranslations(),
     ...getTask1Translations(),
     ...getToeflTranslations(),
@@ -165,6 +223,7 @@ export function getAllPresetTranslations(): Map<string, string[]> {
         ]
       : []),
   ]);
+  return allTranslationCache;
 }
 
 /**
@@ -178,7 +237,9 @@ export function skipsTemplates(entry: Entry): boolean {
 /** Task 1 の題材の図(SVG のソース)。図の無い題材なら null */
 export function getTask1Figure(presetId: string | undefined): string | null {
   if (!presetId?.startsWith(TASK1_PREFIX)) return null;
-  return task1Figures[`${TASK1_FIGURE_DIR}/${presetId.slice(TASK1_PREFIX.length)}.svg`] ?? null;
+  // レベル別の Task 1(task1-l2-4)も、同じ番号の図を使う
+  const num = /(\d+)$/.exec(presetId)?.[1];
+  return num ? (task1Figures[`${TASK1_FIGURE_DIR}/${num}.svg`] ?? null) : null;
 }
 
 /** 題材の上部に固定する図。自分で添付した図を優先し、無ければ内蔵の Task 1 の図(自分専用版・みんな向け版のみ) */
@@ -281,14 +342,16 @@ export function getTask2Prompt(presetId: string | undefined): TaskPrompt | null 
 export function getTask2ModelPrompt(presetId: string | undefined): TaskPrompt | null {
   if (!presetId?.startsWith(TASK2_MODEL_PREFIX)) return null;
   task2ModelPrompts ??= BAND6 ? parseTaskPrompts(task2ModelPromptsRaw, TASK2_MODEL_PREFIX) : new Map();
-  return task2ModelPrompts.get(presetId) ?? null;
+  loadLevelContent();
+  return task2ModelPrompts.get(presetId) ?? levelTask2Prompts!.get(presetId) ?? null;
 }
 
 /** Speaking の質問(Part 1・3 は質問の一覧、Part 2 はトピックカード) */
 export function getSpeakingPrompt(presetId: string | undefined): TaskPrompt | null {
   if (!presetId?.startsWith(SPEAKING_PREFIX)) return null;
   speakingPrompts ??= BAND6 ? parseTaskPrompts(speakingPromptsRaw, SPEAKING_PREFIX) : new Map();
-  return speakingPrompts.get(presetId) ?? null;
+  // レベル別の答え(speaking-l1-5)も、質問は共通の speaking-5 を使う
+  return speakingPrompts.get(presetId.replace(/-l\d-/, '-')) ?? null;
 }
 
 /** 題材の上部に固定する問題文。自分で選んだ問題を優先し、無ければ内蔵の TOEFL・IELTS Task 2・Speaking の題材の問題文 */

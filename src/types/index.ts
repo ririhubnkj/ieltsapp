@@ -57,6 +57,12 @@ export interface Settings {
   decks?: Deck[];
   /** タブを保存した時点で知っていた既定のタブ。後から増えた既定のタブだけを足すのに使う */
   knownDeckIds?: string[];
+  /** 選んでいるレベル(l1〜l5。IELTS 版) */
+  level?: string;
+  /** 読み上げの速さ(1が標準) */
+  speechRate?: number;
+  /** 1日の目標(学習する題材の数) */
+  dailyGoal?: number;
 }
 
 export interface AppData {

@@ -2,6 +2,7 @@
  * IELTS Reading の演習(本文・設問・解説は src/data/reading/*.json)。
  * 結果はこの端末に保存する(英文のデータとは別に持つ)
  */
+import { levelOfPassageId, type LevelId } from './levels';
 
 export type QuestionType =
   | 'paragraph'
@@ -55,12 +56,20 @@ export interface ReadingPassage {
   vocab: { en: string; ja: string }[];
 }
 
-const files = import.meta.glob<ReadingPassage>('../data/reading/*.json', { import: 'default', eager: true });
+const files = import.meta.glob<ReadingPassage>(['../data/reading/*.json', '../data/levels/*/reading/*.json'], {
+  import: 'default',
+  eager: true,
+});
 
-/** 演習の一覧(ファイル名の順) */
+/** 演習の一覧(レベル別のファイルが先、その中はファイル名の順) */
 export const PASSAGES: ReadingPassage[] = Object.keys(files)
   .sort()
   .map((k) => files[k]!);
+
+/** あるレベルの演習 */
+export function passagesForLevel(level: LevelId): ReadingPassage[] {
+  return PASSAGES.filter((p) => levelOfPassageId(p.id) === level);
+}
 
 export function getPassage(id: string | undefined): ReadingPassage | null {
   return PASSAGES.find((p) => p.id === id) ?? null;
